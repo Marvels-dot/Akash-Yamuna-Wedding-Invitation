@@ -1,0 +1,3560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#fff6ee">
+<title>Akash <span class="heartbeat-heart pink-heart" aria-label="love">♥</span> Yamuna — Wedding Invitation</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Playfair+Display:wght@500;600&family=Noto+Serif+Telugu:wght@400;500;600&display=swap');
+
+:root{
+  --ivory:#fff9f1;
+  --cream:#f8e5d5;
+  --peach:#f0cfc0;
+  --purple:#4b1d67;
+  --purple2:#6d2b7d;
+  --pink:#d92e68;
+  --gold:#c99742;
+  --gold2:#e4bd76;
+  --green:#70804b;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --display:"Playfair Display",Georgia,serif;
+  --telugu:"Noto Serif Telugu",serif;
+}
+
+*{box-sizing:border-box}
+
+html,body{
+  margin:0;
+  width:100%;
+  min-height:100%;
+  overflow-x:hidden;
+}
+
+body{
+  background:var(--ivory);
+  color:var(--purple);
+  font-family:var(--serif);
+}
+
+/* =========================================================
+   APPROVED FRONT PAGE
+   ========================================================= */
+.cover{
+  position:relative;
+  min-height:100svh;
+  width:100%;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  isolation:isolate;
+  background:
+    radial-gradient(ellipse at 50% 36%,
+      #ffffff 0%,
+      #fff9f1 32%,
+      #f8e7db 68%,
+      #efcdbd 100%);
+}
+
+.cover::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-10;
+  background:
+    radial-gradient(circle at 50% 42%,rgba(255,255,255,.9),transparent 34%),
+    radial-gradient(circle at 12% 18%,rgba(255,218,204,.7),transparent 28%),
+    radial-gradient(circle at 88% 18%,rgba(245,205,216,.7),transparent 28%),
+    linear-gradient(180deg,rgba(255,255,255,.25),rgba(219,166,151,.18));
+}
+
+.cover::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:30;
+  pointer-events:none;
+  opacity:.13;
+  background-image:
+    radial-gradient(rgba(80,55,60,.2) .55px,transparent .7px);
+  background-size:8px 8px;
+}
+
+/* =========================================================
+   SIDE ARCHITECTURE
+   ========================================================= */
+.arch{
+  position:absolute;
+  inset:0;
+  z-index:1;
+  pointer-events:none;
+}
+
+.arch-door{
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:22%;
+  min-width:145px;
+  background:
+    linear-gradient(90deg,
+      rgba(116,67,52,.22),
+      rgba(255,235,218,.35) 18%,
+      rgba(210,161,138,.28) 80%,
+      rgba(112,62,49,.22)),
+    linear-gradient(180deg,#f0d3c1,#d9ad96 55%,#bd876f);
+  box-shadow:
+    inset 0 0 0 2px rgba(194,143,80,.42),
+    inset 0 0 30px rgba(105,57,45,.18);
+}
+
+.arch-door.left{
+  left:0;
+  clip-path:polygon(0 0,100% 0,88% 8%,83% 92%,100% 100%,0 100%);
+  border-right:3px solid rgba(183,130,70,.5);
+}
+
+.arch-door.right{
+  right:0;
+  clip-path:polygon(0 8%,100% 0,100% 100%,0 100%,17% 92%);
+  border-left:3px solid rgba(183,130,70,.5);
+}
+
+.arch-door::before{
+  content:"";
+  position:absolute;
+  inset:5% 9%;
+  border:3px solid rgba(184,133,72,.52);
+  background:
+    linear-gradient(90deg,
+      transparent 0 18%,
+      rgba(255,245,225,.14) 19% 20%,
+      transparent 21% 79%,
+      rgba(255,245,225,.14) 80% 81%,
+      transparent 82%),
+    linear-gradient(180deg,rgba(255,255,255,.12),rgba(88,45,38,.13));
+}
+
+.arch-door::after{
+  content:"❧";
+  position:absolute;
+  top:11%;
+  left:50%;
+  transform:translateX(-50%);
+  color:rgba(181,130,69,.82);
+  font-size:40px;
+}
+
+/* =========================================================
+   FLOWER CORNERS — CSS ONLY
+   ========================================================= */
+.branch{
+  position:absolute;
+  z-index:3;
+  width:43%;
+  height:31%;
+  pointer-events:none;
+}
+
+.branch.tl{left:-2%;top:-2%}
+.branch.tr{right:-2%;top:-2%;transform:scaleX(-1)}
+.branch.bl{left:-2%;bottom:-3%;transform:scaleY(-1)}
+.branch.br{right:-2%;bottom:-3%;transform:scale(-1,-1)}
+
+.stem{
+  position:absolute;
+  left:5%;
+  top:27%;
+  width:88%;
+  height:5px;
+  border-radius:100%;
+  background:linear-gradient(90deg,transparent,#607844,#8a985d,transparent);
+  transform:rotate(17deg);
+}
+
+.leaf{
+  position:absolute;
+  width:70px;
+  height:30px;
+  border-radius:100% 0 100% 0;
+  background:linear-gradient(135deg,#4c703a,#a0ad72);
+  box-shadow:inset 7px 4px 0 rgba(255,255,255,.13);
+}
+
+.leaf.l1{left:8%;top:36%;transform:rotate(28deg)}
+.leaf.l2{left:20%;top:19%;transform:rotate(-18deg) scale(.78)}
+.leaf.l3{left:34%;top:37%;transform:rotate(38deg) scale(.85)}
+.leaf.l4{left:50%;top:20%;transform:rotate(-20deg) scale(.72)}
+.leaf.l5{left:65%;top:40%;transform:rotate(34deg) scale(.75)}
+.leaf.l6{left:77%;top:26%;transform:rotate(-15deg) scale(.62)}
+
+.flower{
+  position:absolute;
+  width:105px;
+  height:105px;
+  border-radius:50%;
+  background:
+    radial-gradient(circle at center,#963a60 0 8%,#f5d29a 9% 16%,transparent 17%),
+    repeating-conic-gradient(#fff1e5 0 18deg,#e9a5b5 18deg 36deg);
+  filter:drop-shadow(0 7px 8px rgba(90,48,53,.18));
+}
+
+.flower::after{
+  content:"";
+  position:absolute;
+  inset:30px;
+  border-radius:50%;
+  background:radial-gradient(circle,#c9903e 0 18%,#8e3b5d 20% 34%,#f5cda4 36% 100%);
+}
+
+.flower.purple{
+  background:
+    radial-gradient(circle at center,#743e78 0 8%,#e8c08d 9% 16%,transparent 17%),
+    repeating-conic-gradient(#f8eaf1 0 18deg,#a987b7 18deg 36deg);
+}
+
+.flower.f1{left:-22px;top:-22px}
+.flower.f2{left:14%;top:-20px;transform:scale(.62) rotate(13deg)}
+.flower.f3{left:34%;top:-27px;transform:scale(.47)}
+.flower.f4{right:-20px;top:-20px;transform:scale(.95) rotate(-12deg)}
+.flower.f5{right:15%;top:-15px;transform:scale(.58)}
+.flower.f6{left:-22px;bottom:-23px;transform:scale(.92)}
+.flower.f7{left:15%;bottom:-18px;transform:scale(.58)}
+.flower.f8{right:-22px;bottom:-24px;transform:scale(.96)}
+.flower.f9{right:15%;bottom:-18px;transform:scale(.58)}
+
+.flower.small{transform:scale(.5)}
+
+.flower-dot{
+  position:absolute;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  background:radial-gradient(circle,#d58c42 0 18%,#bd5273 20% 42%,#f5cbd2 44% 100%);
+}
+
+.flower-dot.d1{left:31%;top:6%}
+.flower-dot.d2{right:32%;top:6%}
+.flower-dot.d3{left:29%;bottom:7%}
+.flower-dot.d4{right:29%;bottom:7%}
+
+/* =========================================================
+   FALLING PETALS
+   ========================================================= */
+.petal{
+  position:absolute;
+  z-index:4;
+  width:16px;
+  height:29px;
+  border-radius:100% 0 100% 0;
+  background:linear-gradient(135deg,#ed4f80,#f6b3c1);
+  opacity:.82;
+  animation:petalFloat 7s ease-in-out infinite;
+}
+
+.petal.p1{left:29%;top:14%;animation-delay:-1s}
+.petal.p2{left:69%;top:18%;animation-delay:-4s}
+.petal.p3{left:43%;top:8%;animation-delay:-2s}
+.petal.p4{right:19%;top:43%;animation-delay:-5s}
+.petal.p5{left:21%;top:50%;animation-delay:-3s}
+.petal.p6{right:33%;bottom:12%;animation-delay:-1.5s}
+.petal.p7{left:31%;bottom:18%;animation-delay:-4.5s}
+.petal.p8{right:24%;bottom:29%;animation-delay:-2.5s}
+
+@keyframes petalFloat{
+  0%,100%{transform:translate(0,0) rotate(35deg)}
+  50%{transform:translate(12px,24px) rotate(70deg)}
+}
+
+/* =========================================================
+   LANGUAGE CARD
+   ========================================================= */
+.language-card{
+  position:absolute;
+  z-index:15;
+  top:4.5%;
+  left:5.5%;
+  width:245px;
+  padding:18px;
+  text-align:center;
+  background:rgba(255,250,241,.94);
+  border:2px solid #d7a45d;
+  border-radius:10px;
+  box-shadow:0 14px 32px rgba(80,45,50,.18);
+}
+
+.language-card::before{
+  content:"";
+  position:absolute;
+  inset:7px;
+  border:1px solid rgba(200,148,66,.65);
+  border-radius:6px;
+  pointer-events:none;
+}
+
+.globe{
+  position:relative;
+  color:#8d3769;
+  font:30px Arial,sans-serif;
+}
+
+.language-title{
+  position:relative;
+  margin:5px 0 1px;
+  color:#69305d;
+  font-family:var(--telugu);
+  font-size:17px;
+}
+
+.language-subtitle{
+  position:relative;
+  margin:0 0 14px;
+  color:#654653;
+  font-size:16px;
+}
+
+.language-btn{
+  position:relative;
+  width:100%;
+  min-height:50px;
+  margin-top:10px;
+  border:1px solid #d6a25c;
+  border-radius:9px;
+  background:#fffaf3;
+  color:#5b296a;
+  cursor:pointer;
+  font-size:19px;
+  transition:.22s ease;
+}
+
+.language-btn.te{font-family:var(--telugu)}
+
+.language-btn::before,
+.language-btn::after{
+  content:"✧";
+  color:#d4a04f;
+  margin:0 12px;
+}
+
+.language-btn:hover,
+.language-btn.active{
+  background:linear-gradient(135deg,#54206e,#712f82);
+  color:white;
+  transform:translateY(-1px);
+}
+
+/* =========================================================
+   TOP RIGHT SWITCH
+   ========================================================= */
+.top-switch{
+  position:absolute;
+  z-index:16;
+  top:3.3%;
+  right:5%;
+  display:flex;
+  overflow:hidden;
+  border:2px solid #d8a55e;
+  border-radius:11px;
+  background:rgba(255,250,241,.94);
+  box-shadow:0 8px 20px rgba(80,43,49,.12);
+}
+
+.top-switch button{
+  border:0;
+  background:transparent;
+  color:#5c3b48;
+  padding:9px 16px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.top-switch button.active{
+  color:#c21f5b;
+  font-weight:600;
+}
+
+/* =========================================================
+   MAIN TYPOGRAPHY
+   ========================================================= */
+.center{
+  position:relative;
+  z-index:10;
+  width:min(850px,74vw);
+  text-align:center;
+  margin-top:2vh;
+}
+
+.ornament{
+  color:var(--gold);
+  font-size:25px;
+}
+
+.om{
+  color:var(--gold);
+  font-size:58px;
+  line-height:.85;
+  margin:2px 0 10px;
+}
+
+.invited{
+  color:#8a5e22;
+  font-family:var(--display);
+  font-size:clamp(14px,1.45vw,21px);
+  letter-spacing:.22em;
+  text-transform:uppercase;
+}
+
+.heart{
+  color:var(--pink);
+  font-size:21px;
+  margin:5px 0;
+}
+
+.names{
+  margin:10px 0 4px;
+  color:var(--purple);
+  font-family:var(--serif);
+  font-size:clamp(74px,9.3vw,138px);
+  font-weight:500;
+  line-height:.82;
+  letter-spacing:-.045em;
+  text-shadow:0 2px 0 rgba(255,255,255,.65);
+}
+
+.names .amp{
+  color:var(--pink);
+  font-size:.48em;
+  vertical-align:.08em;
+  margin:0 .04em;
+}
+
+.married{
+  margin:27px 0 15px;
+  color:var(--pink);
+  font-family:var(--display);
+  font-size:clamp(17px,1.9vw,28px);
+  font-weight:600;
+  letter-spacing:.16em;
+}
+
+.married::before,
+.married::after{
+  content:"❧";
+  color:var(--gold);
+  margin:0 18px;
+}
+
+.date{
+  color:#c5285b;
+  font-family:var(--display);
+  font-size:clamp(15px,1.7vw,24px);
+  font-weight:600;
+  letter-spacing:.05em;
+}
+
+.place{
+  margin-top:9px;
+  color:#8a5e22;
+  font-family:var(--display);
+  font-size:clamp(13px,1.3vw,19px);
+  letter-spacing:.18em;
+}
+
+.open-btn{
+  display:block;
+  width:min(440px,58vw);
+  min-height:70px;
+  margin:42px auto 24px;
+  border:3px solid var(--gold);
+  border-radius:28px;
+  background:linear-gradient(135deg,#4a1764,#702b80);
+  color:#fff4e3;
+  box-shadow:
+    0 8px 0 rgba(104,45,76,.18),
+    0 18px 35px rgba(86,36,70,.25),
+    inset 0 1px 0 rgba(255,255,255,.28);
+  font-family:var(--display);
+  font-size:clamp(19px,1.9vw,27px);
+  letter-spacing:.08em;
+  cursor:pointer;
+  transition:.25s ease;
+}
+
+.open-btn::before,
+.open-btn::after{
+  content:"✧";
+  color:var(--gold2);
+  margin:0 20px;
+}
+
+.open-btn:hover{
+  transform:translateY(-3px);
+}
+
+.blessing{
+  color:#8a4b71;
+  font-family:var(--telugu);
+  font-size:15px;
+}
+
+/* language text */
+.lang-te{display:none}
+html[data-lang="te"] .lang-en{display:none!important}
+html[data-lang="te"] .lang-te{display:inline!important}
+
+/* =========================================================
+   OPEN TRANSITION
+   ========================================================= */
+.cover.open .arch-door.left{
+  transform:perspective(1400px) rotateY(-92deg);
+  transform-origin:left center;
+  transition:transform 1.5s cubic-bezier(.7,0,.2,1);
+}
+
+.cover.open .arch-door.right{
+  transform:perspective(1400px) rotateY(92deg);
+  transform-origin:right center;
+  transition:transform 1.5s cubic-bezier(.7,0,.2,1);
+}
+
+.cover.open .center,
+.cover.open .language-card,
+.cover.open .top-switch,
+.cover.open .branch,
+.cover.open .flower,
+.cover.open .petal{
+  opacity:0;
+  transform:scale(.98);
+  transition:opacity .7s ease,transform .7s ease;
+}
+
+.cover.closed{
+  display:none;
+}
+
+
+/* =========================================================
+   FULL INVITATION CONTENT — SECOND SCREEN
+   ========================================================= */
+.invitation-page{
+  display:none;
+  min-height:100svh;
+  width:100%;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,255,255,.98),transparent 42%),
+    linear-gradient(180deg,#fffaf5 0%,#f9e8df 48%,#fffaf5 100%);
+  color:#4b2b50;
+  padding:70px 18px 90px;
+}
+
+.invitation-page.visible{
+  display:block;
+  animation:invitationReveal .9s ease both;
+}
+
+@keyframes invitationReveal{
+  from{opacity:0;transform:translateY(24px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+.invitation-inner{
+  width:min(980px,100%);
+  margin:auto;
+}
+
+.invitation-heading{
+  text-align:center;
+  margin-bottom:34px;
+}
+
+.invitation-heading .mini{
+  color:#b78338;
+  font-size:18px;
+  letter-spacing:.2em;
+}
+
+.invitation-heading h2{
+  margin:10px 0 4px;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(42px,6vw,70px);
+  font-weight:500;
+}
+
+.invitation-heading p{
+  margin:0;
+  color:#9b496b;
+  font-family:var(--telugu);
+  font-size:16px;
+}
+
+.invitation-card{
+  background:rgba(255,255,255,.88);
+  border:1px solid rgba(199,151,66,.5);
+  border-radius:24px;
+  padding:clamp(22px,4vw,48px);
+  box-shadow:0 18px 55px rgba(85,48,62,.13);
+  position:relative;
+  overflow:hidden;
+}
+
+.invitation-card::before,
+.invitation-card::after{
+  content:"";
+  position:absolute;
+  width:120px;
+  height:120px;
+  border:1px solid rgba(199,151,66,.38);
+  border-radius:50%;
+}
+
+.invitation-card::before{left:-70px;top:-70px}
+.invitation-card::after{right:-70px;bottom:-70px}
+
+.sample-card{
+  min-height:440px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  border:2px solid rgba(117,74,137,.22);
+  border-radius:16px;
+  background:
+    radial-gradient(circle at 50% 35%,#ffffff 0 20%,transparent 45%),
+    linear-gradient(135deg,#fffdf9,#f7e9f1);
+  padding:30px;
+}
+
+.sample-card .card-content{
+  max-width:650px;
+}
+
+.sample-card .om-small{
+  color:#c99742;
+  font-size:42px;
+}
+
+.sample-card .names-small{
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(42px,7vw,76px);
+  line-height:.9;
+  margin:12px 0 18px;
+}
+
+.sample-card .details-small{
+  color:#7b5260;
+  font-family:var(--telugu);
+  font-size:17px;
+  line-height:1.8;
+}
+
+.asset-note{
+  margin:20px auto 0;
+  max-width:650px;
+  text-align:center;
+  color:#866675;
+  font-size:14px;
+  line-height:1.6;
+}
+
+.action-row{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+  margin-top:25px;
+}
+
+.invite-action{
+  min-height:48px;
+  padding:0 22px;
+  border-radius:24px;
+  border:1px solid #c99742;
+  background:#fffaf3;
+  color:#5b296a;
+  font-family:var(--display);
+  font-size:16px;
+  cursor:pointer;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.invite-action.primary{
+  background:linear-gradient(135deg,#4a1764,#702b80);
+  color:#fff5e7;
+}
+
+.info-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  margin-top:22px;
+}
+
+.info-box{
+  background:rgba(255,255,255,.78);
+  border:1px solid rgba(199,151,66,.38);
+  border-radius:18px;
+  padding:24px;
+  text-align:center;
+}
+
+.info-box .icon{
+  font-size:25px;
+  color:#c99742;
+}
+
+.info-box h3{
+  margin:8px 0 6px;
+  color:#4b1d67;
+  font-family:var(--display);
+  font-size:21px;
+}
+
+.info-box p{
+  margin:4px 0;
+  color:#684b59;
+  line-height:1.55;
+}
+
+.video-section{
+  margin-top:22px;
+}
+
+.video-placeholder{
+  border-radius:18px;
+  min-height:260px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:30px;
+  background:linear-gradient(135deg,#4b1d67,#8a3b78);
+  color:#fff8ee;
+  box-shadow:0 14px 35px rgba(73,28,86,.2);
+}
+
+.video-placeholder strong{
+  display:block;
+  font-family:var(--display);
+  font-size:28px;
+  margin-bottom:8px;
+}
+
+.back-top{
+  display:block;
+  margin:35px auto 0;
+  border:0;
+  background:none;
+  color:#7b4266;
+  font-family:var(--display);
+  cursor:pointer;
+  font-size:16px;
+}
+
+@media(max-width:760px){
+  .invitation-page{padding:45px 13px 70px}
+  .invitation-card{padding:16px}
+  .sample-card{min-height:380px;padding:20px}
+  .sample-card .details-small{font-size:14px}
+  .info-grid{grid-template-columns:1fr}
+  .video-placeholder{min-height:220px}
+}
+
+
+
+/* =========================================================
+   STEP 2 — PREMIUM CARD / VIDEO / MUSIC / COUNTDOWN
+   ========================================================= */
+.media-card{
+  margin-top:22px;
+}
+
+.media-title{
+  text-align:center;
+  color:#4b1d67;
+  font-family:var(--display);
+  font-size:clamp(25px,3vw,36px);
+  margin:0 0 8px;
+}
+
+.media-subtitle{
+  text-align:center;
+  color:#866675;
+  margin:0 auto 22px;
+  max-width:650px;
+  line-height:1.55;
+}
+
+.card-viewer{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  padding:12px;
+  border-radius:20px;
+  background:
+    linear-gradient(135deg,rgba(255,255,255,.95),rgba(248,231,223,.92));
+  border:1px solid rgba(199,151,66,.45);
+  box-shadow:0 15px 45px rgba(82,46,60,.12);
+}
+
+.card-viewer img{
+  display:block;
+  width:min(100%,720px);
+  max-height:900px;
+  object-fit:contain;
+  border-radius:12px;
+  background:#fff;
+  box-shadow:0 8px 30px rgba(60,35,45,.14);
+}
+
+.card-fallback{
+  width:100%;
+  min-height:380px;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:35px;
+  border-radius:14px;
+  background:
+    radial-gradient(circle at center,#fff 0,#fffaf6 45%,#f6e3dc 100%);
+  color:#6d5260;
+}
+
+.card-fallback strong{
+  display:block;
+  color:#4b1d67;
+  font-family:var(--display);
+  font-size:27px;
+  margin-bottom:9px;
+}
+
+.video-box{
+  overflow:hidden;
+  border-radius:20px;
+  background:#1f1027;
+  box-shadow:0 15px 45px rgba(66,30,74,.18);
+}
+
+.video-box video{
+  display:block;
+  width:100%;
+  max-height:720px;
+  background:#1b0d22;
+}
+
+.audio-control{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  z-index:9000;
+  width:54px;
+  height:54px;
+  border:2px solid #d5a455;
+  border-radius:50%;
+  background:linear-gradient(135deg,#4b1764,#722e80);
+  color:#fff6e9;
+  box-shadow:0 8px 25px rgba(71,29,82,.25);
+  cursor:pointer;
+  font-size:20px;
+}
+
+.audio-control.playing{
+  animation:musicPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes musicPulse{
+  0%,100%{box-shadow:0 8px 25px rgba(71,29,82,.25)}
+  50%{box-shadow:0 8px 30px rgba(213,164,85,.55)}
+}
+
+.countdown{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  margin-top:22px;
+}
+
+.time-unit{
+  padding:18px 8px;
+  border-radius:16px;
+  background:rgba(255,255,255,.82);
+  border:1px solid rgba(199,151,66,.35);
+  text-align:center;
+}
+
+.time-unit strong{
+  display:block;
+  color:#4b1d67;
+  font-family:var(--display);
+  font-size:clamp(25px,4vw,42px);
+  font-weight:600;
+}
+
+.time-unit span{
+  color:#8d6673;
+  font-size:12px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.calendar-box{
+  margin-top:22px;
+  text-align:center;
+}
+
+.calendar-box h3{
+  margin:0 0 10px;
+  color:#4b1d67;
+  font-family:var(--display);
+  font-size:25px;
+}
+
+.calendar-note{
+  margin:0 0 16px;
+  color:#826371;
+  line-height:1.5;
+}
+
+.map-box{
+  margin-top:22px;
+  text-align:center;
+}
+
+.map-box h3{
+  margin:0 0 10px;
+  color:#4b1d67;
+  font-family:var(--display);
+  font-size:25px;
+}
+
+.reception-map-btn{
+  margin-top:10px;
+}
+
+@media(max-width:760px){
+  .countdown{grid-template-columns:repeat(2,1fr)}
+  .audio-control{right:14px;bottom:14px}
+  .card-viewer{padding:7px}
+}
+
+
+/* STEP 3 GUEST ACTIONS */
+.quick-nav{position:sticky;top:0;z-index:800;display:flex;justify-content:center;gap:6px;padding:9px 10px;background:rgba(255,250,245,.92);border-bottom:1px solid rgba(199,151,66,.25);backdrop-filter:blur(14px)}
+.quick-nav a{color:#5b296a;text-decoration:none;font-size:13px;padding:7px 12px;border-radius:999px;white-space:nowrap}
+.quick-nav a:hover{background:#f2e2ed}
+.share-box{margin-top:22px;text-align:center}
+.share-box h3{margin:0 0 8px;color:#4b1d67;font-family:var(--display);font-size:25px}
+.share-box p{margin:0 auto 16px;max-width:650px;color:#806170;line-height:1.55}
+.share-actions,.location-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.calendar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.calendar-event{border:1px solid rgba(199,151,66,.35);border-radius:15px;padding:18px;background:rgba(255,255,255,.7);text-align:center}
+.calendar-event h4{margin:0 0 7px;color:#4b1d67;font-family:var(--display);font-size:20px}
+.calendar-event p{margin:4px 0;color:#735765;line-height:1.45}
+.reception-details{margin-top:14px;padding:18px;border-radius:16px;background:linear-gradient(135deg,#fffaf4,#f6e7ef);border:1px solid rgba(199,151,66,.3);text-align:center}
+.reception-details h4{margin:0 0 8px;color:#4b1d67;font-family:var(--display);font-size:22px}
+.reception-details p{margin:4px 0;color:#735765;line-height:1.5}
+@media(max-width:760px){.quick-nav{justify-content:flex-start;overflow-x:auto}.calendar-grid{grid-template-columns:1fr}.share-actions,.location-actions{flex-direction:column;align-items:stretch}.share-actions .invite-action,.location-actions .invite-action{width:100%}}
+
+
+/* =========================================================
+   SECOND PAGE — PREMIUM COUPLE TYPOGRAPHY
+   ========================================================= */
+.invitation-page{
+  background:
+    radial-gradient(circle at 50% 8%, rgba(246,226,238,.72), transparent 38%),
+    linear-gradient(180deg,#fffdfb 0%,#fff9f5 52%,#fffdfb 100%);
+}
+
+.invitation-page .page-header{
+  text-align:center;
+  margin-bottom:28px;
+}
+
+.couple-name-lockup{
+  position:relative;
+  display:inline-block;
+  margin:4px auto 18px;
+  padding:18px 34px 20px;
+  color:#4b1d67;
+  font-family:"Cormorant Garamond", Georgia, serif;
+  font-size:clamp(54px,8vw,104px);
+  font-weight:600;
+  line-height:.92;
+  letter-spacing:-.025em;
+  text-align:center;
+}
+
+.couple-name-lockup::before,
+.couple-name-lockup::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  width:48px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#c89b4a);
+}
+
+.couple-name-lockup::before{right:100%}
+.couple-name-lockup::after{
+  left:100%;
+  background:linear-gradient(90deg,#c89b4a,transparent);
+}
+
+.couple-name-lockup .name{
+  display:inline-block;
+  position:relative;
+  text-shadow:0 2px 0 rgba(255,255,255,.9),0 8px 24px rgba(75,29,103,.10);
+}
+
+.couple-name-lockup .name:first-child{
+  color:#542276;
+}
+
+.couple-name-lockup .name:last-child{
+  color:#8e2f57;
+}
+
+.couple-name-lockup .amp{
+  display:inline-block;
+  margin:0 .16em;
+  color:#c68e36;
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-size:.68em;
+  font-style:italic;
+  vertical-align:.12em;
+}
+
+.couple-name-lockup .name::after{
+  content:"";
+  display:block;
+  width:58%;
+  height:2px;
+  margin:12px auto 0;
+  border-radius:999px;
+  background:linear-gradient(90deg,transparent,#d5a454,transparent);
+}
+
+.page-subtitle-premium{
+  margin:0 auto;
+  color:#8e5368;
+  font-family:"Noto Serif Telugu","Noto Serif",Georgia,serif;
+  font-size:clamp(17px,2.2vw,23px);
+  line-height:1.65;
+  letter-spacing:.01em;
+}
+
+.section-heading-premium{
+  color:#4b1d67 !important;
+  font-family:"Noto Serif Telugu","Cormorant Garamond",Georgia,serif !important;
+  font-weight:700 !important;
+  font-size:clamp(30px,4vw,48px) !important;
+  letter-spacing:-.015em;
+}
+
+.invitation-page .invitation-card{
+  border-color:rgba(199,151,66,.38);
+  box-shadow:0 18px 55px rgba(75,29,103,.08);
+}
+
+@media(max-width:760px){
+  .couple-name-lockup{
+    padding:14px 16px 17px;
+    font-size:clamp(43px,13vw,72px);
+  }
+
+  .couple-name-lockup::before,
+  .couple-name-lockup::after{
+    width:22px;
+  }
+
+  .page-subtitle-premium{
+    font-size:17px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+@media(max-width:760px){
+  .arch-door{width:19%;min-width:85px}
+
+  .language-card{
+    top:2.5%;
+    left:3%;
+    width:174px;
+    padding:12px;
+    transform:scale(.84);
+    transform-origin:top left;
+  }
+
+  .top-switch{
+    top:2.5%;
+    right:3%;
+  }
+
+  .top-switch button{
+    padding:7px 10px;
+    font-size:13px;
+  }
+
+  .center{
+    width:92vw;
+    margin-top:8vh;
+  }
+
+  .om{font-size:42px}
+
+  .invited{
+    font-size:10px;
+    letter-spacing:.13em;
+  }
+
+  .names{
+    font-size:clamp(53px,15.8vw,91px);
+  }
+
+  .married{
+    font-size:14px;
+    letter-spacing:.09em;
+  }
+
+  .married::before,
+  .married::after{
+    margin:0 8px;
+  }
+
+  .date{font-size:14px}
+  .place{font-size:11px}
+
+  .open-btn{
+    width:76vw;
+    min-height:58px;
+    margin-top:31px;
+    border-radius:22px;
+    font-size:17px;
+  }
+
+  .open-btn::before,
+  .open-btn::after{
+    margin:0 8px;
+  }
+
+  .blessing{font-size:11px}
+}
+
+@media(max-width:430px){
+  .language-card{
+    width:155px;
+    transform:scale(.73);
+  }
+
+  .center{margin-top:10vh}
+  .om{font-size:35px}
+  .invited{font-size:9px}
+  .names{font-size:clamp(48px,15.5vw,73px)}
+  .married{font-size:11px}
+  .date{font-size:11px}
+  .place{font-size:9px}
+
+  .open-btn{
+    width:78vw;
+    min-height:54px;
+    font-size:15px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .petal{animation:none}
+  .open-btn{transition:none}
+}
+
+/* =========================================================
+   MEDIA RELIABILITY — keeps existing design, improves playback
+   ========================================================= */
+#weddingMusic{display:none}
+
+.video-player-wrap{
+  position:relative;
+  width:100%;
+  overflow:hidden;
+  border-radius:18px;
+  background:#120c14;
+}
+
+.video-player-wrap video{
+  display:block;
+  width:100%;
+  max-width:100%;
+  height:auto;
+  aspect-ratio:16/9;
+  object-fit:contain;
+  background:#120c14;
+}
+
+.media-status{
+  margin:10px 0 0;
+  text-align:center;
+  font-size:13px;
+  color:#8a6877;
+}
+
+.media-status.error{
+  color:#9a3c50;
+}
+
+@media(max-width:760px){
+  .video-player-wrap{border-radius:14px}
+  .video-player-wrap video{aspect-ratio:16/9}
+}
+
+
+/* =========================================================
+   STEP 5 — PREMIUM SECOND-PAGE TYPOGRAPHY & HIERARCHY
+   Existing layout preserved; visual polish only.
+   ========================================================= */
+
+.invitation-page{
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,255,255,.98) 0%,rgba(255,248,244,.82) 35%,transparent 58%),
+    radial-gradient(circle at 8% 28%,rgba(226,193,214,.18),transparent 28%),
+    radial-gradient(circle at 92% 58%,rgba(237,205,183,.16),transparent 30%),
+    linear-gradient(180deg,#fffdf9 0%,#fff7f2 48%,#fffdf9 100%);
+}
+
+.invitation-page .invitation-inner{
+  width:min(1040px,100%);
+}
+
+.invitation-page .invitation-heading{
+  position:relative;
+  padding:18px 12px 34px;
+}
+
+.invitation-page .invitation-heading::before{
+  content:"";
+  display:block;
+  width:92px;
+  height:1px;
+  margin:0 auto 18px;
+  background:linear-gradient(90deg,transparent,#c99742,transparent);
+}
+
+.invitation-page .invitation-heading .mini{
+  color:#b37c2e;
+  font-family:var(--display);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.30em;
+}
+
+.invitation-page .invitation-heading h2{
+  margin:12px 0 8px;
+  color:#4a1b66;
+  font-family:var(--serif);
+  font-size:clamp(42px,6vw,68px);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:.95;
+}
+
+.invitation-page .invitation-heading p{
+  color:#8b526b;
+  font-family:var(--telugu);
+  font-size:clamp(15px,1.8vw,19px);
+  line-height:1.75;
+}
+
+/* Couple names: strong visual anchor */
+.invitation-page .couple-name,
+.invitation-page .couple-names,
+.invitation-page .names-small{
+  font-family:var(--serif);
+  color:#4b1d67;
+  font-weight:600;
+  letter-spacing:-.025em;
+  text-shadow:0 2px 0 rgba(255,255,255,.85);
+}
+
+.invitation-page .couple-name{
+  font-size:clamp(52px,8vw,96px);
+  line-height:.9;
+}
+
+.invitation-page .couple-name .amp,
+.invitation-page .couple-names .amp{
+  color:#c99742;
+  font-style:italic;
+  font-size:.68em;
+  padding:0 .12em;
+}
+
+.invitation-page .sample-card .names-small{
+  font-size:clamp(50px,7vw,82px);
+  line-height:.88;
+}
+
+.invitation-page .sample-card .details-small{
+  font-family:var(--telugu);
+  color:#6d4b5a;
+  font-size:clamp(15px,1.8vw,19px);
+  line-height:2;
+}
+
+.invitation-page .media-card,
+.invitation-page .info-box,
+.invitation-page .calendar-box,
+.invitation-page .map-box,
+.invitation-page .share-box{
+  border:1px solid rgba(192,145,67,.34);
+  box-shadow:0 18px 48px rgba(70,37,62,.075);
+}
+
+.invitation-page .media-title,
+.invitation-page .calendar-box h3,
+.invitation-page .map-box h3,
+.invitation-page .share-box h3{
+  font-family:var(--serif);
+  font-size:clamp(28px,3.4vw,40px);
+  font-weight:600;
+  color:#4a1b66;
+  letter-spacing:-.02em;
+}
+
+.invitation-page .media-subtitle,
+.invitation-page .calendar-note,
+.invitation-page .share-box p{
+  font-family:var(--telugu);
+  color:#775b67;
+  font-size:15px;
+  line-height:1.8;
+}
+
+.invitation-page .info-grid{
+  gap:20px;
+}
+
+.invitation-page .info-box{
+  position:relative;
+  padding:30px 24px;
+  overflow:hidden;
+}
+
+.invitation-page .info-box::before{
+  content:"✦";
+  position:absolute;
+  top:14px;
+  right:18px;
+  color:rgba(201,151,66,.42);
+  font-size:18px;
+}
+
+.invitation-page .info-box .icon{
+  font-size:27px;
+  margin-bottom:6px;
+}
+
+.invitation-page .info-box h3{
+  font-family:var(--serif);
+  font-size:29px;
+  font-weight:600;
+  color:#4a1b66;
+}
+
+.invitation-page .info-box p{
+  font-family:var(--telugu);
+  font-size:15px;
+  line-height:1.8;
+  color:#705360;
+}
+
+.invitation-page .invite-action{
+  min-height:50px;
+  border-color:rgba(191,143,62,.55);
+  font-family:var(--display);
+  font-weight:600;
+  letter-spacing:.025em;
+  transition:transform .2s ease,box-shadow .2s ease,background .2s ease;
+}
+
+.invitation-page .invite-action:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 20px rgba(75,29,103,.12);
+}
+
+.invitation-page .invite-action.primary{
+  background:linear-gradient(135deg,#481663,#712b7f);
+  box-shadow:0 8px 22px rgba(75,29,103,.18);
+}
+
+.invitation-page .reception-details{
+  border-color:rgba(191,143,62,.3);
+}
+
+.invitation-page .reception-details h4{
+  font-family:var(--serif);
+  font-size:29px;
+  font-weight:600;
+}
+
+.invitation-page .reception-details p{
+  font-family:var(--telugu);
+  line-height:1.8;
+}
+
+.invitation-page .calendar-event h4{
+  font-family:var(--serif);
+  font-size:25px;
+  font-weight:600;
+}
+
+.invitation-page .calendar-event p{
+  font-family:var(--telugu);
+  line-height:1.8;
+}
+
+.invitation-page .time-unit strong{
+  font-family:var(--serif);
+  font-weight:600;
+}
+
+.invitation-page .time-unit span{
+  font-family:var(--display);
+  font-size:10px;
+  letter-spacing:.15em;
+}
+
+.invitation-page .back-top{
+  font-family:var(--display);
+  font-weight:600;
+}
+
+/* Make Telugu names/details breathe on small screens */
+@media(max-width:760px){
+  .invitation-page{
+    padding:42px 12px 75px;
+  }
+
+  .invitation-page .invitation-heading{
+    padding-bottom:24px;
+  }
+
+  .invitation-page .invitation-heading h2{
+    font-size:clamp(38px,10vw,52px);
+  }
+
+  .invitation-page .invitation-heading p{
+    font-size:15px;
+  }
+
+  .invitation-page .sample-card .names-small{
+    font-size:clamp(42px,12vw,64px);
+  }
+
+  .invitation-page .sample-card .details-small{
+    font-size:14px;
+    line-height:1.9;
+  }
+
+  .invitation-page .info-box{
+    padding:24px 18px;
+  }
+
+  .invitation-page .info-box h3,
+  .invitation-page .reception-details h4{
+    font-size:25px;
+  }
+
+  .invitation-page .media-title,
+  .invitation-page .calendar-box h3,
+  .invitation-page .map-box h3,
+  .invitation-page .share-box h3{
+    font-size:30px;
+  }
+}
+
+
+.invitation-page .section-divider{
+  width:86px;
+  height:1px;
+  margin:28px auto;
+  background:linear-gradient(90deg,transparent,#c99742,transparent);
+}
+
+
+/* =========================================================
+   STEP 6 — FULLSCREEN INVITATION CARD VIEWER
+   ========================================================= */
+.card-lightbox{
+  position:fixed;
+  inset:0;
+  z-index:12000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+  background:rgba(26,9,31,.92);
+  backdrop-filter:blur(10px);
+  opacity:0;
+  transition:opacity .25s ease;
+}
+
+.card-lightbox.open{
+  display:flex;
+  opacity:1;
+}
+
+.card-lightbox img{
+  max-width:min(94vw,1100px);
+  max-height:90svh;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+  border-radius:10px;
+  box-shadow:0 20px 70px rgba(0,0,0,.45);
+  background:#fff;
+  transform:scale(.96);
+  transition:transform .28s ease;
+}
+
+.card-lightbox.open img{
+  transform:scale(1);
+}
+
+.card-lightbox-close{
+  position:absolute;
+  top:18px;
+  right:18px;
+  width:48px;
+  height:48px;
+  border:1px solid rgba(255,255,255,.4);
+  border-radius:50%;
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  font-size:27px;
+  line-height:1;
+  cursor:pointer;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.card-lightbox-hint{
+  position:absolute;
+  left:50%;
+  bottom:18px;
+  transform:translateX(-50%);
+  color:rgba(255,255,255,.8);
+  font-size:12px;
+  letter-spacing:.04em;
+  text-align:center;
+}
+
+.card-viewer{
+  cursor:zoom-in;
+}
+
+.card-viewer img{
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+
+.card-viewer:hover img{
+  transform:scale(1.008);
+  box-shadow:0 12px 38px rgba(60,35,45,.18);
+}
+
+@media(max-width:760px){
+  .card-lightbox{
+    padding:10px;
+  }
+
+  .card-lightbox img{
+    max-width:96vw;
+    max-height:88svh;
+  }
+
+  .card-lightbox-close{
+    top:12px;
+    right:12px;
+    width:44px;
+    height:44px;
+  }
+
+  .card-lightbox-hint{
+    bottom:10px;
+    width:90%;
+  }
+}
+
+
+/* =========================================================
+   STEP 7 — WEDDING & RECEPTION LIVE STREAM
+   ========================================================= */
+.live-section{
+  margin-top:22px;
+  position:relative;
+  overflow:hidden;
+}
+
+.live-section::before{
+  content:"";
+  position:absolute;
+  width:180px;
+  height:180px;
+  top:-100px;
+  right:-80px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(201,151,66,.12),transparent 70%);
+  pointer-events:none;
+}
+
+.live-title{
+  text-align:center;
+  margin:0;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(30px,4vw,46px);
+  font-weight:600;
+}
+
+.live-subtitle{
+  text-align:center;
+  max-width:650px;
+  margin:8px auto 22px;
+  color:#806170;
+  font-family:var(--telugu);
+  font-size:15px;
+  line-height:1.8;
+}
+
+.live-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+
+.live-card{
+  position:relative;
+  padding:25px 20px;
+  border-radius:20px;
+  background:linear-gradient(145deg,rgba(255,255,255,.92),rgba(250,237,233,.82));
+  border:1px solid rgba(199,151,66,.36);
+  text-align:center;
+  box-shadow:0 12px 34px rgba(70,37,62,.07);
+}
+
+.live-icon{
+  font-size:28px;
+  margin-bottom:7px;
+}
+
+.live-card h4{
+  margin:0 0 8px;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:28px;
+  font-weight:600;
+}
+
+.live-card p{
+  margin:4px 0;
+  color:#725461;
+  font-family:var(--telugu);
+  line-height:1.7;
+  font-size:14px;
+}
+
+.live-status{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  margin:14px 0 15px;
+  padding:6px 12px;
+  border-radius:999px;
+  background:#f4e7e8;
+  color:#8b6672;
+  font-family:var(--display);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.04em;
+}
+
+.live-status .dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:#aaa;
+}
+
+.live-status.ready{
+  background:#f9e1e2;
+  color:#a1283b;
+}
+
+.live-status.ready .dot{
+  background:#d3213a;
+  box-shadow:0 0 0 4px rgba(211,33,58,.10);
+  animation:livePulse 1.5s infinite;
+}
+
+@keyframes livePulse{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.55;transform:scale(.82)}
+}
+
+.live-button{
+  width:100%;
+  min-height:50px;
+  border-radius:26px;
+  border:1px solid rgba(199,151,66,.45);
+  background:#eee7e9;
+  color:#8a6b75;
+  font-family:var(--display);
+  font-weight:600;
+  cursor:not-allowed;
+  opacity:.88;
+}
+
+.live-button.ready{
+  cursor:pointer;
+  opacity:1;
+  color:#fff;
+  border-color:#b9283c;
+  background:linear-gradient(135deg,#a81e34,#c6344b);
+  box-shadow:0 8px 22px rgba(169,30,52,.18);
+}
+
+.live-button.ready:hover{
+  transform:translateY(-2px);
+}
+
+.live-note{
+  text-align:center;
+  margin:18px auto 0;
+  max-width:700px;
+  color:#92717d;
+  font-size:12px;
+  line-height:1.6;
+}
+
+@media(max-width:760px){
+  .live-grid{
+    grid-template-columns:1fr;
+  }
+
+  .live-card{
+    padding:22px 17px;
+  }
+
+  .live-card h4{
+    font-size:25px;
+  }
+}
+
+
+/* =========================================================
+   SECOND PAGE REDESIGN — CLEAN PREMIUM WEDDING EDITORIAL
+   Front cover remains untouched.
+   ========================================================= */
+.invitation-page{
+  position:relative;
+  overflow:hidden;
+  min-height:100svh;
+  padding:0 0 90px;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,255,255,.98) 0 17%,transparent 45%),
+    radial-gradient(circle at 0% 25%,rgba(232,205,219,.22),transparent 28%),
+    radial-gradient(circle at 100% 65%,rgba(231,204,183,.18),transparent 30%),
+    linear-gradient(180deg,#fffdf9 0%,#fbf1eb 50%,#fffdf9 100%);
+}
+
+.premium-page-bg{
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  overflow:hidden;
+}
+
+.premium-petal{
+  position:absolute;
+  color:rgba(201,151,66,.32);
+  font-size:24px;
+}
+
+.pp1{left:7%;top:14%}
+.pp2{right:8%;top:32%}
+.pp3{left:10%;bottom:28%}
+.pp4{right:7%;bottom:12%}
+
+.premium-inner{
+  position:relative;
+  z-index:2;
+  width:min(1000px,100%);
+  margin:auto;
+  padding:62px 18px 0;
+}
+
+.quick-nav{
+  position:sticky;
+  top:0;
+  z-index:100;
+  justify-content:center;
+  gap:4px;
+  padding:11px 12px;
+  background:rgba(255,252,247,.90);
+  border-bottom:1px solid rgba(190,145,68,.22);
+  backdrop-filter:blur(16px);
+}
+
+.quick-nav a{
+  color:#5a3268;
+  font-family:var(--display);
+  font-size:12px;
+  letter-spacing:.04em;
+  text-decoration:none;
+  padding:8px 13px;
+  border-radius:20px;
+}
+
+.quick-nav a:hover{
+  background:#f3e7ed;
+}
+
+.premium-header{
+  text-align:center;
+  padding:15px 8px 42px;
+}
+
+.premium-om{
+  color:#c99742;
+  font-size:42px;
+  line-height:1;
+  margin-bottom:10px;
+}
+
+.premium-kicker{
+  color:#a67a3d;
+  font-family:var(--display);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.28em;
+}
+
+.premium-names{
+  margin:18px 0 10px;
+  font-family:var(--serif);
+  font-size:clamp(64px,10vw,112px);
+  font-weight:500;
+  letter-spacing:-.045em;
+  line-height:.82;
+  color:#4b1d67;
+}
+
+.premium-names span:first-child{color:#4b1d67}
+.premium-names span:last-child{color:#8d3159}
+
+.premium-names i{
+  display:inline-block;
+  color:#c99742;
+  font-size:.52em;
+  font-style:italic;
+  vertical-align:.10em;
+  margin:0 .08em;
+}
+
+.gold-rule{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  color:#c99742;
+  margin:18px auto 12px;
+}
+
+.gold-rule::before,
+.gold-rule::after{
+  content:"";
+  width:80px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#c99742);
+}
+
+.gold-rule::after{
+  background:linear-gradient(90deg,#c99742,transparent);
+}
+
+.premium-intro{
+  max-width:680px;
+  margin:auto;
+  color:#795666;
+  font-family:var(--telugu);
+  font-size:16px;
+  line-height:1.9;
+}
+
+.premium-section{
+  margin-top:28px;
+}
+
+.section-label{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  margin-bottom:16px;
+  color:#9b7035;
+  font-family:var(--display);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.22em;
+}
+
+.section-number{
+  color:#c99742;
+  letter-spacing:.05em;
+}
+
+.premium-card-frame{
+  position:relative;
+  max-width:760px;
+  margin:auto;
+  padding:16px;
+  border:1px solid rgba(194,145,68,.42);
+  border-radius:22px;
+  background:rgba(255,255,255,.76);
+  box-shadow:0 20px 55px rgba(74,40,60,.10);
+}
+
+.card-frame-inner{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  padding:8px;
+  border:1px solid rgba(194,145,68,.25);
+  border-radius:14px;
+  background:#fff;
+}
+
+.premium-card-frame img{
+  display:block;
+  width:100%;
+  max-height:900px;
+  object-fit:contain;
+  border-radius:8px;
+}
+
+.premium-caption{
+  margin:12px auto 0;
+  max-width:680px;
+  text-align:center;
+  color:#886a77;
+  font-family:var(--telugu);
+  font-size:13px;
+  line-height:1.8;
+}
+
+.premium-actions{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin-top:16px;
+}
+
+.premium-btn{
+  min-height:46px;
+  padding:0 20px;
+  border:1px solid rgba(190,143,63,.48);
+  border-radius:25px;
+  background:rgba(255,255,255,.80);
+  color:#5b2e6b;
+  font-family:var(--display);
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:.04em;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  transition:.22s ease;
+}
+
+.premium-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 22px rgba(73,34,88,.10);
+}
+
+.premium-btn.primary{
+  color:#fff7ec;
+  border-color:#5b256f;
+  background:linear-gradient(135deg,#4b1764,#702a80);
+  box-shadow:0 7px 18px rgba(76,28,99,.16);
+}
+
+.details-section{
+  padding-top:12px;
+}
+
+.event-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+
+.event-card{
+  position:relative;
+  padding:34px 26px 30px;
+  text-align:center;
+  border:1px solid rgba(194,145,68,.34);
+  border-radius:22px;
+  background:rgba(255,255,255,.72);
+  box-shadow:0 14px 40px rgba(74,40,60,.065);
+}
+
+.event-card::before{
+  content:"";
+  position:absolute;
+  inset:8px;
+  border:1px solid rgba(194,145,68,.13);
+  border-radius:17px;
+  pointer-events:none;
+}
+
+.event-symbol{
+  position:relative;
+  color:#c99742;
+  font-size:23px;
+  margin-bottom:12px;
+}
+
+.event-type{
+  position:relative;
+  color:#a0753b;
+  font-family:var(--display);
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.22em;
+}
+
+.event-card h2{
+  position:relative;
+  margin:13px 0 18px;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(28px,3.4vw,42px);
+  font-weight:600;
+  line-height:1;
+}
+
+.event-date{
+  position:relative;
+  color:#8c3158;
+  font-family:var(--display);
+  font-size:15px;
+  font-weight:600;
+  letter-spacing:.07em;
+}
+
+.event-time{
+  position:relative;
+  margin:7px 0 17px;
+  color:#c99742;
+  font-family:var(--serif);
+  font-size:29px;
+  font-weight:600;
+}
+
+.event-venue{
+  position:relative;
+  max-width:360px;
+  margin:auto;
+  color:#705461;
+  font-family:var(--telugu);
+  font-size:14px;
+  line-height:1.8;
+}
+
+.event-city{
+  position:relative;
+  margin-top:5px;
+  color:#9a7280;
+  font-family:var(--display);
+  font-size:12px;
+  letter-spacing:.12em;
+}
+
+.premium-video{
+  overflow:hidden;
+  max-width:860px;
+  margin:auto;
+  border-radius:20px;
+  background:#160e1a;
+  box-shadow:0 18px 50px rgba(55,27,64,.16);
+}
+
+.premium-video video{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:contain;
+  background:#160e1a;
+}
+
+.live-intro{
+  max-width:650px;
+  margin:0 auto 18px;
+  text-align:center;
+  color:#7d5c6a;
+  font-family:var(--telugu);
+  font-size:15px;
+  line-height:1.8;
+}
+
+.live-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+
+.live-card{
+  padding:28px 22px;
+  border-radius:22px;
+  border:1px solid rgba(194,145,68,.34);
+  background:rgba(255,255,255,.74);
+  text-align:center;
+  box-shadow:0 14px 40px rgba(74,40,60,.065);
+}
+
+.live-icon{
+  font-size:26px;
+  margin-bottom:7px;
+}
+
+.live-card h3{
+  margin:0 0 8px;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:31px;
+  font-weight:600;
+}
+
+.live-card p{
+  margin:4px 0;
+  color:#745666;
+  font-family:var(--telugu);
+  font-size:14px;
+  line-height:1.7;
+}
+
+.live-status{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  margin:14px 0;
+  padding:6px 12px;
+  border-radius:20px;
+  background:#f0e9e9;
+  color:#8b7079;
+  font-family:var(--display);
+  font-size:10px;
+  letter-spacing:.06em;
+}
+
+.live-status .dot{
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#aaa;
+}
+
+.live-status.ready{
+  color:#a3283d;
+  background:#f8e1e4;
+}
+
+.live-status.ready .dot{
+  background:#d5223c;
+  box-shadow:0 0 0 4px rgba(213,34,60,.10);
+}
+
+.live-button{
+  width:100%;
+  min-height:48px;
+  border:1px solid rgba(190,143,63,.35);
+  border-radius:25px;
+  background:#eee8e9;
+  color:#8a7078;
+  font-family:var(--display);
+  font-size:12px;
+  font-weight:600;
+  cursor:not-allowed;
+}
+
+.live-button.ready{
+  color:#fff;
+  border-color:#a8233b;
+  background:linear-gradient(135deg,#a92138,#c5364d);
+  cursor:pointer;
+}
+
+.premium-countdown{
+  max-width:720px;
+  margin:0 auto;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+}
+
+.premium-countdown .time-unit{
+  border-radius:16px;
+  border:1px solid rgba(194,145,68,.30);
+  background:rgba(255,255,255,.72);
+  padding:18px 8px;
+}
+
+.premium-countdown .time-unit strong{
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(31px,5vw,48px);
+}
+
+.premium-countdown .time-unit span{
+  color:#927481;
+  font-family:var(--display);
+  font-size:9px;
+  letter-spacing:.14em;
+}
+
+.venue-card{
+  max-width:760px;
+  margin:auto;
+  padding:40px 25px;
+  text-align:center;
+  border:1px solid rgba(194,145,68,.36);
+  border-radius:22px;
+  background:linear-gradient(145deg,rgba(255,255,255,.84),rgba(249,236,231,.72));
+}
+
+.venue-ornament{
+  color:#c99742;
+  font-size:23px;
+}
+
+.venue-card h2{
+  max-width:650px;
+  margin:13px auto 7px;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(30px,4vw,45px);
+  line-height:1;
+}
+
+.venue-card p{
+  color:#806170;
+  font-family:var(--telugu);
+  font-size:16px;
+  margin:8px 0 20px;
+}
+
+.final-message{
+  text-align:center;
+  padding:25px 12px 12px;
+}
+
+.final-symbol{
+  color:#d92e68;
+  font-size:22px;
+}
+
+.final-message h2{
+  max-width:700px;
+  margin:10px auto;
+  color:#4b1d67;
+  font-family:var(--serif);
+  font-size:clamp(32px,5vw,54px);
+  font-weight:600;
+  line-height:1;
+}
+
+.final-message p{
+  color:#8a6270;
+  font-family:var(--telugu);
+  font-size:15px;
+}
+
+.back-top{
+  display:block;
+  margin:38px auto 0;
+  border:0;
+  background:none;
+  color:#795066;
+  font-family:var(--display);
+  font-size:13px;
+  cursor:pointer;
+}
+
+@media(max-width:760px){
+  .premium-inner{
+    padding:38px 13px 0;
+  }
+
+  .quick-nav{
+    justify-content:flex-start;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .quick-nav a{
+    flex:0 0 auto;
+    font-size:11px;
+    padding:8px 11px;
+  }
+
+  .premium-header{
+    padding-top:12px;
+    padding-bottom:30px;
+  }
+
+  .premium-kicker{
+    font-size:8px;
+    letter-spacing:.18em;
+  }
+
+  .premium-names{
+    font-size:clamp(54px,16vw,78px);
+  }
+
+  .gold-rule::before,
+  .gold-rule::after{
+    width:45px;
+  }
+
+  .premium-intro{
+    font-size:15px;
+  }
+
+  .premium-section{
+    margin-top:24px;
+  }
+
+  .section-label{
+    font-size:9px;
+    letter-spacing:.16em;
+  }
+
+  .premium-card-frame{
+    padding:8px;
+    border-radius:16px;
+  }
+
+  .event-grid,
+  .live-grid{
+    grid-template-columns:1fr;
+  }
+
+  .event-card{
+    padding:28px 18px;
+  }
+
+  .event-card h2{
+    font-size:31px;
+  }
+
+  .event-venue{
+    font-size:13px;
+  }
+
+  .premium-actions{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .premium-btn{
+    width:100%;
+  }
+
+  .premium-countdown{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .venue-card{
+    padding:32px 18px;
+  }
+
+  .venue-card h2{
+    font-size:32px;
+  }
+
+  .final-message h2{
+    font-size:36px;
+  }
+}
+
+@media(max-width:430px){
+  .premium-inner{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .premium-names{
+    font-size:clamp(48px,15.5vw,67px);
+  }
+
+  .premium-kicker{
+    font-size:7px;
+  }
+
+  .premium-caption{
+    font-size:12px;
+  }
+}
+
+
+/* =========================================================
+   VENUE STEP — WEDDING + RECEPTION LOCATIONS
+   ========================================================= */
+.locations-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+}
+
+.venue-card{
+  height:100%;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.venue-card .venue-type{
+  margin-top:4px;
+  color:#a0753b;
+  font-family:var(--display);
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.20em;
+}
+
+.venue-card h2{
+  max-width:560px;
+}
+
+.venue-card .venue-date{
+  margin:4px 0 20px;
+  color:#8b3158;
+  font-family:var(--display);
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:.06em;
+}
+
+.reception-venue{
+  background:linear-gradient(145deg,rgba(255,255,255,.88),rgba(250,238,231,.78));
+}
+
+@media(max-width:760px){
+  .locations-grid{
+    grid-template-columns:1fr;
+  }
+
+  .venue-card{
+    padding:32px 18px;
+  }
+
+  .venue-card h2{
+    font-size:31px;
+  }
+}
+
+
+/* =========================================================
+   COUPLE HEART — SUBTLE ROMANTIC HEARTBEAT
+   ========================================================= */
+.heartbeat-heart{
+  display:inline-block;
+  position:relative;
+  color:#c99742;
+  font-family:Georgia,"Times New Roman",serif;
+  font-style:normal;
+  font-size:.58em;
+  line-height:1;
+  margin:0 .10em;
+  vertical-align:.08em;
+  transform-origin:center;
+  text-shadow:0 0 0 rgba(201,151,66,0);
+  animation:coupleHeartbeat 1.55s ease-in-out infinite;
+}
+
+.heartbeat-heart::after{
+  content:"";
+  position:absolute;
+  inset:-7px;
+  border-radius:50%;
+  background:rgba(201,151,66,0);
+  transform:scale(.72);
+  animation:heartGlow 1.55s ease-in-out infinite;
+  pointer-events:none;
+  z-index:-1;
+}
+
+@keyframes coupleHeartbeat{
+  0%, 55%, 100%{
+    transform:scale(1);
+  }
+  10%{
+    transform:scale(1.16);
+  }
+  18%{
+    transform:scale(1);
+  }
+  27%{
+    transform:scale(1.10);
+  }
+  36%{
+    transform:scale(1);
+  }
+}
+
+@keyframes heartGlow{
+  0%, 55%, 100%{
+    opacity:0;
+    transform:scale(.72);
+  }
+  10%{
+    opacity:.22;
+    transform:scale(1.18);
+  }
+  27%{
+    opacity:.14;
+    transform:scale(1.08);
+  }
+  40%{
+    opacity:0;
+    transform:scale(1.28);
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  .heartbeat-heart,
+  .heartbeat-heart::after{
+    animation:none;
+  }
+}
+
+
+/* Final heart color */
+.heartbeat-heart.pink-heart{
+  color:#f06292;
+  text-shadow:0 0 10px rgba(240,98,146,.16);
+}
+
+.heartbeat-heart.pink-heart::after{
+  background:rgba(240,98,146,0);
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="cover" id="cover">
+
+  <!-- Architectural doors -->
+  <div class="arch" aria-hidden="true">
+    <div class="arch-door left"></div>
+    <div class="arch-door right"></div>
+  </div>
+
+  <!-- Floral corners -->
+  <div class="branch tl" aria-hidden="true">
+    <div class="stem"></div>
+    <span class="leaf l1"></span><span class="leaf l2"></span>
+    <span class="leaf l3"></span><span class="leaf l4"></span>
+    <span class="leaf l5"></span><span class="leaf l6"></span>
+    <span class="flower f1"></span><span class="flower purple f2"></span>
+    <span class="flower small f3"></span>
+  </div>
+
+  <div class="branch tr" aria-hidden="true">
+    <div class="stem"></div>
+    <span class="leaf l1"></span><span class="leaf l2"></span>
+    <span class="leaf l3"></span><span class="leaf l4"></span>
+    <span class="leaf l5"></span><span class="leaf l6"></span>
+    <span class="flower f4"></span><span class="flower purple f5"></span>
+    <span class="flower small f2"></span>
+  </div>
+
+  <div class="branch bl" aria-hidden="true">
+    <div class="stem"></div>
+    <span class="leaf l1"></span><span class="leaf l2"></span>
+    <span class="leaf l3"></span><span class="leaf l4"></span>
+    <span class="leaf l5"></span><span class="leaf l6"></span>
+    <span class="flower f6"></span><span class="flower purple f7"></span>
+  </div>
+
+  <div class="branch br" aria-hidden="true">
+    <div class="stem"></div>
+    <span class="leaf l1"></span><span class="leaf l2"></span>
+    <span class="leaf l3"></span><span class="leaf l4"></span>
+    <span class="leaf l5"></span><span class="leaf l6"></span>
+    <span class="flower f8"></span><span class="flower purple f9"></span>
+  </div>
+
+  <!-- Petals -->
+  <i class="petal p1"></i><i class="petal p2"></i>
+  <i class="petal p3"></i><i class="petal p4"></i>
+  <i class="petal p5"></i><i class="petal p6"></i>
+  <i class="petal p7"></i><i class="petal p8"></i>
+
+  <!-- Language selection -->
+  <section class="language-card">
+    <div class="globe">◎</div>
+
+    <div class="language-title">
+      మీ భాషను ఎంచుకోండి
+    </div>
+
+    <div class="language-subtitle">
+      Choose your language
+    </div>
+
+    <button class="language-btn te" data-language="te">
+      తెలుగు
+    </button>
+
+    <button class="language-btn" data-language="en">
+      English
+    </button>
+  </section>
+
+  <!-- Top-right language switch -->
+  <div class="top-switch">
+    <button data-language="te">తెలుగు</button>
+    <button data-language="en">English</button>
+  </div>
+
+  <!-- Main invitation -->
+  <div class="center">
+
+    <div class="ornament">✦</div>
+
+    <div class="om">ॐ</div>
+
+    <div class="invited">
+      <span class="lang-en">YOU ARE CORDIALLY INVITED</span>
+      <span class="lang-te">మీ అందరికీ సాదర ఆహ్వానం</span>
+    </div>
+
+    <div class="heart">• ♥ •</div>
+
+    <h1 class="names">
+      Akash <span class="heartbeat-heart pink-heart" aria-label="love">♥</span> Yamuna
+    </h1>
+
+    <div class="married">
+      <span class="lang-en">ARE GETTING MARRIED</span>
+      <span class="lang-te">వివాహం</span>
+    </div>
+
+    <div class="heart">♥</div>
+
+    <div class="date">
+      <span class="lang-en">26 AUGUST 2026 &nbsp; | &nbsp; 10:16 PM</span>
+      <span class="lang-te">26 ఆగస్టు 2026 &nbsp; | &nbsp; రాత్రి 10:16</span>
+    </div>
+
+    <div class="place">
+      <span class="lang-en">| &nbsp; VIJAYAWADA &nbsp; |</span>
+      <span class="lang-te">| &nbsp; విజయవాడ &nbsp; |</span>
+    </div>
+
+    <button class="open-btn" id="openInvitation">
+      <span class="lang-en">OPEN INVITATION</span>
+      <span class="lang-te">ఆహ్వానం తెరవండి</span>
+    </button>
+
+    <div class="heart">• ♥ •</div>
+
+    <div class="blessing">
+      <span class="lang-en">
+        With the blessings of Sri Venkateswara Swami
+      </span>
+      <span class="lang-te">
+        || శ్రీ వెంకటేశ్వర స్వామి వారి దివ్య ఆశీర్వాదాలతో ||
+      </span>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="invitation-page" id="invitationPage">
+
+  <div class="premium-page-bg" aria-hidden="true">
+    <span class="premium-petal pp1">✦</span>
+    <span class="premium-petal pp2">✧</span>
+    <span class="premium-petal pp3">✦</span>
+    <span class="premium-petal pp4">✧</span>
+  </div>
+
+  <nav class="quick-nav" aria-label="Invitation navigation">
+    <a href="#weddingCardSection"><span class="lang-en">Invitation</span><span class="lang-te">పత్రిక</span></a>
+    <a href="#videoSection"><span class="lang-en">Video</span><span class="lang-te">వీడియో</span></a>
+    <a href="#weddingDetails"><span class="lang-en">Details</span><span class="lang-te">వివరాలు</span></a>
+    <a href="#liveSection"><span class="lang-en">Live</span><span class="lang-te">లైవ్</span></a>
+    <a href="#locationSection"><span class="lang-en">Venue</span><span class="lang-te">వేదిక</span></a>
+  </nav>
+
+  <div class="premium-inner">
+
+    <!-- Elegant second-page header -->
+    <header class="premium-header">
+      <div class="premium-om">ॐ</div>
+      <div class="premium-kicker">
+        <span class="lang-en">WITH THE BLESSINGS OF OUR FAMILIES</span>
+        <span class="lang-te">మా కుటుంబ సభ్యుల ఆశీర్వాదాలతో</span>
+      </div>
+
+      <h1 class="premium-names">
+        <span>Akash</span>
+        <i class="heartbeat-heart pink-heart" aria-label="love">♥</i>
+        <span>Yamuna</span>
+      </h1>
+
+      <div class="gold-rule"><span>✦</span></div>
+
+      <p class="premium-intro">
+        <span class="lang-en">We invite you to celebrate the beginning of our forever.</span>
+        <span class="lang-te">మా జీవితంలో కొత్త అధ్యాయానికి మీ ఆశీస్సులతో స్వాగతం పలుకుతున్నాము.</span>
+      </p>
+    </header>
+
+    <!-- Invitation card -->
+    <section class="premium-section" id="weddingCardSection">
+      <div class="section-label">
+        <span class="section-number">01</span>
+        <span class="lang-en">THE INVITATION</span>
+        <span class="lang-te">వివాహ ఆహ్వానం</span>
+      </div>
+
+      <div class="premium-card-frame card-viewer">
+        <div class="card-frame-inner">
+          <img
+            id="weddingCardImage"
+            src="assets/wedding-card-english.jpg"
+            alt="Akash and Yamuna wedding invitation"
+          >
+          <div class="card-fallback" id="cardFallback">
+            <div>
+              <strong>
+                <span class="lang-en">Wedding Invitation</span>
+                <span class="lang-te">వివాహ ఆహ్వాన పత్రిక</span>
+              </strong>
+              <span class="lang-en">Please add the wedding card image inside the assets folder.</span>
+              <span class="lang-te">వివాహ ఆహ్వాన పత్రికను assets ఫోల్డర్‌లో జోడించండి.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="premium-caption">
+        <span class="lang-en">Tap the invitation to view it beautifully in full screen.</span>
+        <span class="lang-te">ఆహ్వాన పత్రికను పూర్తి స్క్రీన్‌లో చూడటానికి ట్యాప్ చేయండి.</span>
+      </p>
+
+      <div class="premium-actions">
+        <a class="premium-btn primary" id="downloadCard"
+           href="assets/wedding-card-english.jpg" download>
+          <span class="lang-en">DOWNLOAD CARD</span>
+          <span class="lang-te">కార్డు డౌన్‌లోడ్</span>
+        </a>
+        <a class="premium-btn" id="openCard"
+           href="assets/wedding-card-english.jpg" target="_blank" rel="noopener">
+          <span class="lang-en">VIEW FULL CARD</span>
+          <span class="lang-te">పూర్తి కార్డు చూడండి</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Wedding / reception details -->
+    <section class="premium-section details-section" id="weddingDetails">
+      <div class="section-label">
+        <span class="section-number">02</span>
+        <span class="lang-en">THE CELEBRATION</span>
+        <span class="lang-te">వేడుకల వివరాలు</span>
+      </div>
+
+      <div class="event-grid">
+
+        <article class="event-card wedding-event">
+          <div class="event-symbol">◈</div>
+          <div class="event-type">
+            <span class="lang-en">WEDDING CEREMONY</span>
+            <span class="lang-te">వివాహ మహోత్సవం</span>
+          </div>
+          <h2>
+            <span class="lang-en">Akash <span class="heartbeat-heart pink-heart" aria-label="love">♥</span> Yamuna</span>
+            <span class="lang-te">ఆకాశ్ <span class="heartbeat-heart pink-heart" aria-label="love">♥</span> యమున</span>
+          </h2>
+          <div class="event-date">
+            <span class="lang-en">26 AUGUST 2026</span>
+            <span class="lang-te">26 ఆగస్టు 2026</span>
+          </div>
+          <div class="event-time">
+            <span class="lang-en">10:16 PM</span>
+            <span class="lang-te">రాత్రి 10:16</span>
+          </div>
+          <div class="event-venue">
+            <span class="lang-en">Sri Durga Malleswara Swamy Varla Devasthanam</span>
+            <span class="lang-te">శ్రీ దుర్గా మల్లేశ్వర స్వామి వార్ల దేవస్థానం</span>
+          </div>
+          <div class="event-city">
+            <span class="lang-en">Vijayawada</span>
+            <span class="lang-te">విజయవాడ</span>
+          </div>
+        </article>
+
+        <article class="event-card reception-event">
+          <div class="event-symbol">✦</div>
+          <div class="event-type">
+            <span class="lang-en">RECEPTION</span>
+            <span class="lang-te">రిసెప్షన్</span>
+          </div>
+          <h2>
+            <span class="lang-en">A Celebration of Love</span>
+            <span class="lang-te">ప్రేమను పంచుకునే వేడుక</span>
+          </h2>
+          <div class="event-date">
+            <span class="lang-en">29 AUGUST 2026</span>
+            <span class="lang-te">29 ఆగస్టు 2026</span>
+          </div>
+          <div class="event-time">
+            <span class="lang-en">7:00 PM</span>
+            <span class="lang-te">సాయంత్రం 7:00</span>
+          </div>
+          <div class="event-venue">
+            <span class="lang-en">Vasavi Grand, Modern Complex</span>
+            <span class="lang-te">వాసవి గ్రాండ్, మోడ్రన్ కాంప్లెక్స్</span>
+          </div>
+          <div class="event-city">
+            <span class="lang-en">Chilakaluripet</span>
+            <span class="lang-te">చిలకలూరిపేట</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="premium-section" id="videoSection">
+      <div class="section-label">
+        <span class="section-number">03</span>
+        <span class="lang-en">OUR INVITATION VIDEO</span>
+        <span class="lang-te">మా వివాహ వీడియో</span>
+      </div>
+
+      <div class="premium-video">
+        <video id="invitationVideo"
+               controls
+               playsinline
+               preload="metadata"
+               poster="assets/video-poster.jpg">
+          <source src="assets/invitation-video.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <p id="videoStatus" class="premium-caption">
+        <span class="lang-en">A little glimpse before the celebration begins.</span>
+        <span class="lang-te">వేడుక ప్రారంభానికి ముందు ఒక చిన్న జ్ఞాపకం.</span>
+      </p>
+
+      <div class="premium-actions">
+        <a class="premium-btn" href="assets/invitation-video.mp4" download>
+          <span class="lang-en">DOWNLOAD VIDEO</span>
+          <span class="lang-te">వీడియో డౌన్‌లోడ్</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Live -->
+    <section class="premium-section" id="liveSection">
+      <div class="section-label">
+        <span class="section-number">04</span>
+        <span class="lang-en">JOIN US LIVE</span>
+        <span class="lang-te">లైవ్‌లో మాతో కలవండి</span>
+      </div>
+
+      <p class="live-intro">
+        <span class="lang-en">If you cannot be with us in person, be part of our celebration online.</span>
+        <span class="lang-te">మీరు ప్రత్యక్షంగా హాజరు కాలేకపోయినా, ఆన్‌లైన్‌లో మా వేడుకలో భాగస్వాములు కండి.</span>
+      </p>
+
+      <div class="live-grid">
+        <article class="live-card">
+          <div class="live-icon">💍</div>
+          <h3>
+            <span class="lang-en">Wedding Live</span>
+            <span class="lang-te">వివాహం లైవ్</span>
+          </h3>
+          <p>
+            <span class="lang-en">26 August 2026 · 10:16 PM</span>
+            <span class="lang-te">26 ఆగస్టు 2026 · రాత్రి 10:16</span>
+          </p>
+          <div class="live-status" id="weddingLiveStatus">
+            <span class="dot"></span>
+            <span class="lang-en">LIVE LINK COMING SOON</span>
+            <span class="lang-te">లైవ్ లింక్ త్వరలో అందుబాటులో ఉంటుంది</span>
+          </div>
+          <button class="live-button" id="weddingLiveButton" type="button" disabled>
+            <span class="lang-en">WATCH WEDDING LIVE</span>
+            <span class="lang-te">వివాహ లైవ్ చూడండి</span>
+          </button>
+        </article>
+
+        <article class="live-card">
+          <div class="live-icon">✦</div>
+          <h3>
+            <span class="lang-en">Reception Live</span>
+            <span class="lang-te">రిసెప్షన్ లైవ్</span>
+          </h3>
+          <p>
+            <span class="lang-en">29 August 2026 · 7:00 PM</span>
+            <span class="lang-te">29 ఆగస్టు 2026 · సాయంత్రం 7:00</span>
+          </p>
+          <div class="live-status" id="receptionLiveStatus">
+            <span class="dot"></span>
+            <span class="lang-en">LIVE LINK COMING SOON</span>
+            <span class="lang-te">లైవ్ లింక్ త్వరలో అందుబాటులో ఉంటుంది</span>
+          </div>
+          <button class="live-button" id="receptionLiveButton" type="button" disabled>
+            <span class="lang-en">WATCH RECEPTION LIVE</span>
+            <span class="lang-te">రిసెప్షన్ లైవ్ చూడండి</span>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="premium-section countdown-section">
+      <div class="section-label">
+        <span class="section-number">05</span>
+        <span class="lang-en">COUNTING THE MOMENTS</span>
+        <span class="lang-te">శుభ ముహూర్తానికి కౌంట్‌డౌన్</span>
+      </div>
+
+      <div class="countdown premium-countdown" id="countdown">
+        <div class="time-unit"><strong id="days">--</strong><span>DAYS</span></div>
+        <div class="time-unit"><strong id="hours">--</strong><span>HOURS</span></div>
+        <div class="time-unit"><strong id="minutes">--</strong><span>MINUTES</span></div>
+        <div class="time-unit"><strong id="seconds">--</strong><span>SECONDS</span></div>
+      </div>
+    </section>
+
+    <!-- Venue -->
+    
+    <section class="premium-section venue-section" id="locationSection">
+      <div class="section-label">
+        <span class="section-number">06</span>
+        <span class="lang-en">THE VENUES</span>
+        <span class="lang-te">వేడుకల వేదికలు</span>
+      </div>
+
+      <div class="locations-grid">
+
+        <article class="venue-card">
+          <div class="venue-ornament">💍</div>
+          <div class="venue-type">
+            <span class="lang-en">WEDDING CEREMONY</span>
+            <span class="lang-te">వివాహ మహోత్సవం</span>
+          </div>
+
+          <h2>
+            <span class="lang-en">Sri Durga Malleswara Swamy Varla Devasthanam</span>
+            <span class="lang-te">శ్రీ దుర్గా మల్లేశ్వర స్వామి వార్ల దేవస్థానం</span>
+          </h2>
+
+          <p>
+            <span class="lang-en">Vijayawada</span>
+            <span class="lang-te">విజయవాడ</span>
+          </p>
+
+          <div class="venue-date">
+            <span class="lang-en">26 August 2026 · 10:16 PM</span>
+            <span class="lang-te">26 ఆగస్టు 2026 · రాత్రి 10:16</span>
+          </div>
+
+          <a class="premium-btn primary" target="_blank" rel="noopener"
+             href="https://www.google.com/maps/search/?api=1&query=Sri+Durga+Malleswara+Swamy+Varla+Devasthanam+Vijayawada">
+            <span class="lang-en">OPEN WEDDING LOCATION</span>
+            <span class="lang-te">వివాహ వేదికను చూడండి</span>
+          </a>
+        </article>
+
+        <article class="venue-card reception-venue">
+          <div class="venue-ornament">✨</div>
+          <div class="venue-type">
+            <span class="lang-en">RECEPTION</span>
+            <span class="lang-te">రిసెప్షన్</span>
+          </div>
+
+          <h2>
+            <span class="lang-en">Vasavi Grand, Modern Complex</span>
+            <span class="lang-te">వాసవి గ్రాండ్, మోడ్రన్ కాంప్లెక్స్</span>
+          </h2>
+
+          <p>
+            <span class="lang-en">Chilakaluripet</span>
+            <span class="lang-te">చిలకలూరిపేట</span>
+          </p>
+
+          <div class="venue-date">
+            <span class="lang-en">29 August 2026 · 7:00 PM</span>
+            <span class="lang-te">29 ఆగస్టు 2026 · సాయంత్రం 7:00</span>
+          </div>
+
+          <a class="premium-btn primary" target="_blank" rel="noopener"
+             href="https://www.google.com/maps/search/?api=1&query=Vasavi+Grand+Modern+Complex+Chilakaluripet">
+            <span class="lang-en">OPEN RECEPTION LOCATION</span>
+            <span class="lang-te">రిసెప్షన్ వేదికను చూడండి</span>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+
+    <!-- Share -->
+    <section class="premium-section share-section" id="shareSection">
+      <div class="final-message">
+        <div class="final-symbol">♥</div>
+        <h2>
+          <span class="lang-en">We Can't Wait To Celebrate With You</span>
+          <span class="lang-te">మీతో కలిసి ఈ ఆనందాన్ని పంచుకోవడానికి ఎదురుచూస్తున్నాము</span>
+        </h2>
+        <p>
+          <span class="lang-en">With love, Akash <span class="heartbeat-heart pink-heart" aria-label="love">♥</span> Yamuna</span>
+          <span class="lang-te">ప్రేమతో, ఆకాశ్ <span class="heartbeat-heart pink-heart" aria-label="love">♥</span> యమున</span>
+        </p>
+      </div>
+
+      <div class="premium-actions">
+        <button class="premium-btn primary" id="shareInvitation" type="button">
+          <span class="lang-en">SHARE INVITATION</span>
+          <span class="lang-te">ఆహ్వానం షేర్ చేయండి</span>
+        </button>
+        <a class="premium-btn" id="whatsappShare" target="_blank" rel="noopener" href="#">
+          <span class="lang-en">WHATSAPP</span>
+          <span class="lang-te">వాట్సాప్</span>
+        </a>
+        <button class="premium-btn" id="copyInvitationLink" type="button">
+          <span class="lang-en">COPY LINK</span>
+          <span class="lang-te">లింక్ కాపీ</span>
+        </button>
+      </div>
+    </section>
+
+    <button class="back-top" id="backToCover">
+      ↑
+      <span class="lang-en">Back to invitation cover</span>
+      <span class="lang-te">మొదటి పేజీకి తిరిగి వెళ్ళండి</span>
+    </button>
+
+  </div>
+</section>
+
+
+
+
+
+
+<div class="card-lightbox" id="cardLightbox" aria-hidden="true">
+  <button class="card-lightbox-close" id="closeCardLightbox"
+          type="button" aria-label="Close invitation card">×</button>
+  <img id="lightboxCardImage" src="" alt="Akash and Yamuna wedding invitation card">
+  <div class="card-lightbox-hint">
+    <span class="lang-en">Tap outside or press × to close</span>
+    <span class="lang-te">మూసివేయడానికి బయట ట్యాప్ చేయండి లేదా × నొక్కండి</span>
+  </div>
+</div>
+
+<audio id="weddingMusic" loop preload="auto">
+  <source src="assets/wedding-music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="audio-control" id="musicControl" type="button"
+        aria-label="Play wedding music" title="Wedding music">
+  ♫
+</button>
+
+
+<script>
+(() => {
+  "use strict";
+
+  const root = document.documentElement;
+  const cover = document.getElementById("cover");
+  const invitationPage = document.getElementById("invitationPage");
+
+  /* =========================================================
+     LANGUAGE
+     ========================================================= */
+  function setLanguage(language) {
+    const lang = language === "te" ? "te" : "en";
+    root.dataset.lang = lang;
+
+    try {
+      localStorage.setItem("ak_yamuna_language", lang);
+    } catch (e) {}
+
+    document.querySelectorAll("[data-language]").forEach(button => {
+      button.classList.toggle("active", button.dataset.language === lang);
+    });
+
+    updateCardAsset(lang);
+    updateShareLinks();
+  }
+
+  let savedLanguage = "en";
+  try {
+    savedLanguage = localStorage.getItem("ak_yamuna_language") || "en";
+  } catch (e) {}
+
+  document.querySelectorAll("[data-language]").forEach(button => {
+    button.addEventListener("click", () => {
+      setLanguage(button.dataset.language);
+    });
+  });
+
+  /* =========================================================
+     WEDDING CARD
+     ========================================================= */
+  const cardImage = document.getElementById("weddingCardImage");
+  const cardFallback = document.getElementById("cardFallback");
+  const downloadCard = document.getElementById("downloadCard");
+  const openCard = document.getElementById("openCard");
+
+  function updateCardAsset(language) {
+    if (!cardImage || !downloadCard || !openCard) return;
+
+    const file =
+      language === "te"
+        ? "assets/wedding-card-telugu.jpg"
+        : "assets/wedding-card-english.jpg";
+
+    cardImage.src = file;
+    downloadCard.href = file;
+    openCard.href = file;
+    cardImage.alt =
+      language === "te"
+        ? "ఆకాశ్ మరియు యమున వివాహ ఆహ్వాన పత్రిక"
+        : "Akash and Yamuna wedding invitation";
+  }
+
+  if (cardImage) {
+    cardImage.addEventListener("error", () => {
+      cardImage.style.display = "none";
+      if (cardFallback) cardFallback.style.display = "flex";
+    });
+
+    cardImage.addEventListener("load", () => {
+      cardImage.style.display = "block";
+      if (cardFallback) cardFallback.style.display = "none";
+    });
+  }
+
+  /* =========================================================
+     MUSIC
+     ========================================================= */
+  const weddingMusic = document.getElementById("weddingMusic");
+  const musicControl = document.getElementById("musicControl");
+
+  function setMusicUI(playing) {
+    if (!musicControl) return;
+
+    musicControl.classList.toggle("playing", playing);
+    musicControl.textContent = playing ? "❚❚" : "♫";
+    musicControl.setAttribute(
+      "aria-label",
+      playing ? "Pause wedding music" : "Play wedding music"
+    );
+  }
+
+  async function startWeddingMusic() {
+    if (!weddingMusic) return false;
+
+    try {
+      weddingMusic.volume = 0.72;
+      await weddingMusic.play();
+      setMusicUI(true);
+      return true;
+    } catch (error) {
+      console.log(
+        "Browser prevented music autoplay. Use the music button.",
+        error
+      );
+      setMusicUI(false);
+      return false;
+    }
+  }
+
+  if (weddingMusic) {
+    weddingMusic.addEventListener("play", () => setMusicUI(true));
+    weddingMusic.addEventListener("pause", () => setMusicUI(false));
+    weddingMusic.addEventListener("error", () => {
+      console.log(
+        "Music file could not be loaded. Check assets/wedding-music.mp3"
+      );
+      setMusicUI(false);
+    });
+  }
+
+  if (musicControl) {
+    musicControl.addEventListener("click", async event => {
+      event.stopPropagation();
+
+      if (weddingMusic.paused) {
+        await startWeddingMusic();
+      } else {
+        weddingMusic.pause();
+      }
+    });
+  }
+
+  /* =========================================================
+     OPEN / BACK TO COVER
+     ========================================================= */
+  const openInvitation = document.getElementById("openInvitation");
+  const backToCover = document.getElementById("backToCover");
+
+  if (openInvitation) {
+    openInvitation.addEventListener("click", async () => {
+      // This click is the browser-approved user gesture for audio.
+      await startWeddingMusic();
+
+      cover.classList.add("open");
+
+      window.setTimeout(() => {
+        cover.classList.add("closed");
+        invitationPage.classList.add("visible");
+
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }, 1550);
+    });
+  }
+
+  if (backToCover) {
+    backToCover.addEventListener("click", () => {
+      invitationPage.classList.remove("visible");
+
+      cover.classList.remove("closed");
+      cover.classList.remove("open");
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
+
+  /* =========================================================
+     COUNTDOWN
+     ========================================================= */
+  const weddingTime =
+    new Date("2026-08-26T22:16:00+05:30").getTime();
+
+  function updateCountdown() {
+    const distance = weddingTime - Date.now();
+
+    const daysEl = document.getElementById("days");
+    const hoursEl = document.getElementById("hours");
+    const minutesEl = document.getElementById("minutes");
+    const secondsEl = document.getElementById("seconds");
+
+    if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
+
+    if (distance <= 0) {
+      daysEl.textContent = "0";
+      hoursEl.textContent = "0";
+      minutesEl.textContent = "0";
+      secondsEl.textContent = "0";
+      return;
+    }
+
+    daysEl.textContent = String(
+      Math.floor(distance / 86400000)
+    );
+
+    hoursEl.textContent = String(
+      Math.floor((distance % 86400000) / 3600000)
+    ).padStart(2, "0");
+
+    minutesEl.textContent = String(
+      Math.floor((distance % 3600000) / 60000)
+    ).padStart(2, "0");
+
+    secondsEl.textContent = String(
+      Math.floor((distance % 60000) / 1000)
+    ).padStart(2, "0");
+  }
+
+  updateCountdown();
+  window.setInterval(updateCountdown, 1000);
+
+  /* =========================================================
+     VIDEO
+     ========================================================= */
+  const invitationVideo =
+    document.getElementById("invitationVideo");
+  const videoStatus =
+    document.getElementById("videoStatus");
+
+  if (invitationVideo) {
+    invitationVideo.addEventListener("loadedmetadata", () => {
+      if (!videoStatus) return;
+
+      videoStatus.classList.remove("error");
+      videoStatus.innerHTML =
+        root.dataset.lang === "te"
+          ? "మీ వివాహ వీడియో ప్లే చేయడానికి సిద్ధంగా ఉంది."
+          : "Your wedding video is ready to play.";
+    });
+
+    invitationVideo.addEventListener("error", () => {
+      if (!videoStatus) return;
+
+      videoStatus.classList.add("error");
+      videoStatus.innerHTML =
+        root.dataset.lang === "te"
+          ? "వీడియో ఫైల్ assets/invitation-video.mp4 లో ఉందో చూడండి."
+          : "Please check that assets/invitation-video.mp4 exists.";
+    });
+  }
+
+  /* =========================================================
+     FULLSCREEN WEDDING CARD
+     ========================================================= */
+  const cardViewer =
+    document.querySelector(".card-viewer");
+  const cardLightbox =
+    document.getElementById("cardLightbox");
+  const lightboxCardImage =
+    document.getElementById("lightboxCardImage");
+  const closeCardLightbox =
+    document.getElementById("closeCardLightbox");
+
+  function openCardLightbox() {
+    if (!cardViewer || !cardLightbox || !lightboxCardImage) {
+      return;
+    }
+
+    if (!cardImage || !cardImage.src) return;
+
+    lightboxCardImage.src = cardImage.src;
+    cardLightbox.classList.add("open");
+    cardLightbox.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeCardViewer() {
+    if (!cardLightbox) return;
+
+    cardLightbox.classList.remove("open");
+    cardLightbox.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  if (cardViewer) {
+    cardViewer.addEventListener("click", event => {
+      if (event.target.closest("button")) return;
+      if (event.target.closest("img") || event.target === cardViewer) {
+        openCardLightbox();
+      }
+    });
+  }
+
+  if (closeCardLightbox) {
+    closeCardLightbox.addEventListener(
+      "click",
+      closeCardViewer
+    );
+  }
+
+  if (cardLightbox) {
+    cardLightbox.addEventListener("click", event => {
+      if (event.target === cardLightbox) {
+        closeCardViewer();
+      }
+    });
+  }
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      closeCardViewer();
+    }
+  });
+
+  /* =========================================================
+     SHARE
+     ========================================================= */
+  const shareButton =
+    document.getElementById("shareInvitation");
+  const whatsappButton =
+    document.getElementById("whatsappShare");
+  const copyButton =
+    document.getElementById("copyInvitationLink");
+
+  function shareText() {
+    return root.dataset.lang === "te"
+      ? "Akash ♥ Yamuna వివాహ ఆహ్వానం — 26 ఆగస్టు 2026, రాత్రి 10:16."
+      : "Akash ♥ Yamuna Wedding Invitation — 26 August 2026, 10:16 PM.";
+  }
+
+  function invitationUrl() {
+    return window.location.href.split("#")[0];
+  }
+
+  function updateShareLinks() {
+    if (!whatsappButton) return;
+
+    whatsappButton.href =
+      "https://wa.me/?text=" +
+      encodeURIComponent(
+        shareText() + " " + invitationUrl()
+      );
+  }
+
+  if (shareButton) {
+    shareButton.addEventListener("click", async () => {
+      const url = invitationUrl();
+
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: "Akash ♥ Yamuna Wedding Invitation",
+            text: shareText(),
+            url
+          });
+        } catch (error) {
+          // User cancelled share — nothing to do.
+        }
+      } else {
+        try {
+          await navigator.clipboard.writeText(url);
+          alert(
+            root.dataset.lang === "te"
+              ? "లింక్ కాపీ చేయబడింది."
+              : "Invitation link copied."
+          );
+        } catch (error) {
+          window.prompt(
+            "Copy invitation link:",
+            url
+          );
+        }
+      }
+    });
+  }
+
+  if (copyButton) {
+    copyButton.addEventListener("click", async () => {
+      const url = invitationUrl();
+
+      try {
+        await navigator.clipboard.writeText(url);
+
+        const originalText =
+          root.dataset.lang === "te"
+            ? "లింక్ కాపీ"
+            : "COPY LINK";
+
+        copyButton.textContent =
+          root.dataset.lang === "te"
+            ? "కాపీ అయింది ✓"
+            : "COPIED ✓";
+
+        window.setTimeout(() => {
+          copyButton.textContent = originalText;
+        }, 1800);
+      } catch (error) {
+        window.prompt(
+          "Copy invitation link:",
+          url
+        );
+      }
+    });
+  }
+
+  /* =========================================================
+     LIVE WEDDING / RECEPTION
+     =========================================================
+     Leave these empty until the actual streaming links are ready.
+     ========================================================= */
+  const weddingLiveUrl = "";
+  const receptionLiveUrl = "";
+
+  function setupLiveButton(buttonId, statusId, url) {
+    const button =
+      document.getElementById(buttonId);
+    const status =
+      document.getElementById(statusId);
+
+    if (!button || !status) return;
+
+    if (url && url.trim()) {
+      button.disabled = false;
+      button.classList.add("ready");
+
+      button.addEventListener("click", () => {
+        window.open(
+          url.trim(),
+          "_blank",
+          "noopener,noreferrer"
+        );
+      });
+
+      status.classList.add("ready");
+
+      const en =
+        status.querySelector(".lang-en");
+      const te =
+        status.querySelector(".lang-te");
+
+      if (en) en.textContent = "LIVE LINK AVAILABLE";
+      if (te) te.textContent = "లైవ్ లింక్ అందుబాటులో ఉంది";
+    }
+  }
+
+  setupLiveButton(
+    "weddingLiveButton",
+    "weddingLiveStatus",
+    weddingLiveUrl
+  );
+
+  setupLiveButton(
+    "receptionLiveButton",
+    "receptionLiveStatus",
+    receptionLiveUrl
+  );
+
+  /* =========================================================
+     INITIALISE
+     ========================================================= */
+  setLanguage(savedLanguage === "te" ? "te" : "en");
+
+})();
+</script>
+
+</body>
+</html>
