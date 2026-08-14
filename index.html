@@ -1,0 +1,3145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Akash 💗 Yamuna — Royal Reception Invitation</title>
+  
+  <!-- Meta & OpenGraph for WhatsApp & Social Sharing -->
+  <meta name="description" content="You are cordially invited to the Royal Reception Celebration of Akash & Yamuna on 29 August 2026 at 7:00 PM, Vasavi Grand, Modern Complex, Chilakaluripet." />
+  <meta property="og:title" content="Akash 💗 Yamuna — Royal Reception Invitation" />
+  <meta property="og:description" content="With love, we invite you to celebrate our Reception on 29 August 2026 at Vasavi Grand, Chilakaluripet." />
+  <meta property="og:image" content="assets/wedding-card-english.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#2F0B1E" />
+
+  <!-- Google Fonts: Luxury Display, Cormorant Garamond Editorial Serif, Monogram Script & Telugu Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;1,6..96,400;1,6..96,600&family=Cinzel:wght@400;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700;800&family=Noto+Serif+Telugu:wght@400;500;600;700;800&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ==========================================================
+       ROYAL SOUTH INDIAN TEMPLE THEME & DESIGN TOKENS
+       ========================================================== */
+    :root {
+      --bg-ivory: #FDF9F0;
+      --bg-ivory-light: #FFFDF9;
+      --bg-parchment: #F7EEDC;
+      --bg-card: #FAF4E8;
+      
+      --royal-maroon: #4A0E1C;
+      --deep-maroon: #380814;
+      --plum-950: #1A0410;
+      --plum-900: #2C0A1C;
+      --plum-800: #421230;
+      --plum-muted: #6B3E58;
+      --temple-crimson: #7F1D2C;
+      
+      --gold-royal: #D4AF37;
+      --gold-deep: #B38218;
+      --gold-light: #F7E7C4;
+      --gold-amber: #C98A2E;
+      --gold-glow: rgba(212, 175, 55, 0.35);
+      --gold-border: rgba(212, 175, 55, 0.55);
+      --gold-border-subtle: rgba(212, 175, 55, 0.28);
+      
+      --heart-pink: #E85D7A;
+      --heart-pink-glow: rgba(232, 93, 122, 0.5);
+      
+      --font-display: 'Bodoni Moda', 'Playfair Display', Georgia, serif;
+      --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+      --font-couple: 'Cormorant Garamond', serif;
+      --font-monogram: 'Alex Brush', 'Pinyon Script', 'Great Vibes', cursive;
+      --font-script: 'Great Vibes', cursive;
+      --font-sans: 'Cormorant Garamond', 'Montserrat', Georgia, serif;
+      --font-body: 'Cormorant Garamond', Georgia, serif;
+      --font-ui: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-telugu: 'Noto Serif Telugu', Georgia, serif;
+      
+      --shadow-royal-large: 0 16px 45px rgba(18, 2, 10, 0.35), 0 0 30px rgba(212, 175, 55, 0.15);
+      --shadow-scroll: 0 24px 60px rgba(15, 2, 8, 0.5), 0 0 45px rgba(212, 175, 55, 0.2);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      background-color: #1A0410;
+    }
+
+    body {
+      font-family: var(--font-body), Georgia, serif;
+      color: var(--royal-maroon);
+      background: radial-gradient(circle at 50% 20%, #421230 0%, #28081A 45%, #14020C 100%);
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+      position: relative;
+      font-feature-settings: "liga", "clig", "kern";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body.lang-te {
+      font-family: var(--font-telugu), Georgia, serif;
+      line-height: 1.7;
+    }
+
+    body.lang-te .hero-names,
+    body.lang-te .cover-couple-title,
+    body.lang-te .royal-section-title,
+    body.lang-te .hero-date-large,
+    body.lang-te .cover-datetime,
+    body.lang-te .couple-caption-names,
+    body.lang-te .venue-title {
+      font-family: var(--font-telugu), Georgia, serif;
+      letter-spacing: 0.01em;
+    }
+
+    /* Temple Atmospheric Backdrop with Faint Mandala & Amber Glow */
+    .temple-backdrop {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .temple-mandala-bg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: min(120vh, 1200px);
+      height: min(120vh, 1200px);
+      transform: translate(-50%, -50%);
+      opacity: 0.055;
+      animation: slowMandalaSpin 140s linear infinite;
+    }
+
+    @keyframes slowMandalaSpin {
+      from { transform: translate(-50%, -50%) rotate(0deg); }
+      to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    .temple-ambient-glow {
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(circle at 50% 15%, rgba(212, 175, 55, 0.18) 0%, transparent 60%),
+        radial-gradient(circle at 20% 80%, rgba(201, 138, 46, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(201, 138, 46, 0.12) 0%, transparent 50%);
+    }
+
+    /* Floating Jasmine Petals & Golden Temple Dust Canvas */
+    #petals-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 120;
+    }
+
+    /* Heartbeat Animation for Pink Heart 💗 */
+    .heart-pulse {
+      display: inline-block;
+      color: var(--heart-pink);
+      filter: drop-shadow(0 0 12px var(--heart-pink-glow));
+      animation: royalHeartBeat 1.35s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform-origin: center center;
+    }
+
+    @keyframes royalHeartBeat {
+      0% { transform: scale(1); }
+      14% { transform: scale(1.26); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.18); }
+      70% { transform: scale(1); }
+      100% { transform: scale(1); }
+    }
+
+    /* Diya Flame Flicker */
+    @keyframes flameFlicker {
+      0%, 100% { transform: scale(1) rotate(-1.5deg); opacity: 0.95; filter: drop-shadow(0 0 10px #FF9900) drop-shadow(0 0 20px #FF4500); }
+      50% { transform: scale(1.15, 1.25) rotate(1.5deg); opacity: 1; filter: drop-shadow(0 0 16px #FFD700) drop-shadow(0 0 28px #FF6600); }
+    }
+
+    /* Bell Gentle Sway */
+    @keyframes bellSwayLeft {
+      0%, 100% { transform: rotate(0deg); }
+      35% { transform: rotate(2.5deg); }
+      75% { transform: rotate(-2deg); }
+    }
+
+    @keyframes bellSwayRight {
+      0%, 100% { transform: rotate(0deg); }
+      35% { transform: rotate(-2.5deg); }
+      75% { transform: rotate(2deg); }
+    }
+
+    /* ==========================================================
+       TEMPLE ARCHITECTURAL COLUMNS & BRASS FLANKS (Desktop)
+       ========================================================== */
+    .temple-flank {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      width: clamp(70px, 8vw, 120px);
+      pointer-events: none;
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 18px 8px;
+      opacity: 0.85;
+      transition: opacity 0.3s ease;
+    }
+
+    .temple-flank-left { left: 0; }
+    .temple-flank-right { right: 0; transform: scaleX(-1); }
+
+    .flank-pillar-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 4px;
+      transform: translateX(-50%);
+      background: linear-gradient(180deg, rgba(212, 175, 55, 0.4) 0%, rgba(184, 134, 11, 0.2) 50%, rgba(212, 175, 55, 0.4) 100%);
+      border-radius: 2px;
+    }
+
+    .flank-bell-svg {
+      animation: bellSwayLeft 5.5s infinite ease-in-out;
+      transform-origin: top center;
+      filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
+    }
+
+    .flank-diya-svg {
+      margin-top: auto;
+      filter: drop-shadow(0 0 16px rgba(255, 170, 0, 0.5));
+    }
+
+    .flame-core {
+      transform-origin: 50% 90%;
+      animation: flameFlicker 2s infinite ease-in-out;
+    }
+
+    @media (max-width: 900px) {
+      .temple-flank {
+        display: none;
+      }
+    }
+
+    /* ==========================================================
+       TOP FLOATING NAV (Language Switcher & Music Toggle)
+       ========================================================== */
+    .floating-nav {
+      position: fixed;
+      top: 14px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 clamp(16px, 4vw, 40px);
+      max-width: min(94vw, 860px);
+      margin: 0 auto;
+      z-index: 110;
+      pointer-events: none;
+    }
+
+    .floating-nav > * {
+      pointer-events: auto;
+    }
+
+    .lang-switcher-royal {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(253, 249, 240, 0.95);
+      backdrop-filter: blur(14px);
+      border: 1.5px solid var(--gold-royal);
+      border-radius: 30px;
+      padding: 3px 6px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.35), 0 0 12px rgba(212, 175, 55, 0.25);
+      user-select: none;
+    }
+
+    .lang-btn {
+      background: transparent;
+      border: none;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--royal-maroon);
+      cursor: pointer;
+      border-radius: 20px;
+      transition: all 0.25s ease;
+      font-family: inherit;
+    }
+
+    .lang-btn.active {
+      background: var(--royal-maroon);
+      color: var(--gold-light);
+      box-shadow: 0 2px 10px rgba(84, 17, 33, 0.4);
+    }
+
+    .lang-divider {
+      color: var(--gold-deep);
+      font-size: 0.8rem;
+      margin: 0 2px;
+      opacity: 0.8;
+    }
+
+    .music-pill-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: rgba(253, 249, 240, 0.95);
+      backdrop-filter: blur(14px);
+      border: 1.5px solid var(--gold-royal);
+      border-radius: 30px;
+      padding: 7px 18px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--royal-maroon);
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.35), 0 0 12px rgba(212, 175, 55, 0.25);
+      transition: all 0.25s ease;
+    }
+
+    .music-pill-btn:hover {
+      transform: translateY(-1px);
+      border-color: var(--gold-amber);
+      background: #FFFDF9;
+    }
+
+    .equalizer-bars {
+      display: inline-flex;
+      align-items: flex-end;
+      gap: 2.5px;
+      height: 14px;
+      width: 14px;
+    }
+
+    .eq-bar {
+      width: 2.5px;
+      background: var(--gold-royal);
+      border-radius: 1px;
+      height: 4px;
+      transition: height 0.2s ease;
+    }
+
+    .music-playing .eq-bar:nth-child(1) { animation: eqJump 0.75s infinite ease-in-out; }
+    .music-playing .eq-bar:nth-child(2) { animation: eqJump 0.55s infinite ease-in-out 0.2s; }
+    .music-playing .eq-bar:nth-child(3) { animation: eqJump 0.85s infinite ease-in-out 0.4s; }
+
+    @keyframes eqJump {
+      0%, 100% { height: 3px; }
+      50% { height: 13px; }
+    }
+
+    /* ==========================================================
+       PAGE 1: ROYAL ENTRANCE SCROLL COVER (GRAND DESKTOP SCALE)
+       ========================================================== */
+    #page-1 {
+      position: fixed;
+      inset: 0;
+      z-index: 150;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: clamp(14px, 3vh, 32px);
+      background: radial-gradient(circle at 50% 25%, #461430 0%, #29081A 50%, #14020B 100%);
+      transition: opacity 0.85s cubic-bezier(0.4, 0, 0.2, 1), transform 0.85s cubic-bezier(0.4, 0, 0.2, 1);
+      overflow-y: auto;
+    }
+
+    #page-1.opened {
+      opacity: 0;
+      transform: scale(1.04);
+      pointer-events: none;
+    }
+
+    /* Grand Scroll Container — 48-60% width & 75-85% viewport height on desktop */
+    .royal-scroll-wrapper {
+      position: relative;
+      width: clamp(340px, 54vw, 760px);
+      min-height: min(84vh, 840px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+      z-index: 10;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.7));
+    }
+
+    /* Rolled Gold Rod Ends with Metallic Highlights */
+    .scroll-rod-top, .scroll-rod-bottom {
+      width: 104%;
+      margin-left: -2%;
+      height: clamp(24px, 3.2vh, 32px);
+      background: linear-gradient(180deg, #F9E7BA 0%, #D4AF37 30%, #B8860B 65%, #754E04 90%, #F5E3B3 100%);
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.5), inset 0 2px 4px rgba(255,255,255,0.75);
+      position: relative;
+      z-index: 12;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(8px, 1.5vw, 14px);
+    }
+
+    .scroll-rod-finial {
+      width: clamp(18px, 2.2vh, 24px);
+      height: clamp(18px, 2.2vh, 24px);
+      background: radial-gradient(circle at 35% 35%, #FFFFFF 0%, #F9E7BA 30%, #D4AF37 60%, #7A5506 100%);
+      border-radius: 50%;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.6);
+      border: 1px solid #FFE8A3;
+    }
+
+    .scroll-rod-filigree {
+      flex: 1;
+      height: 6px;
+      background: repeating-linear-gradient(90deg, #541121 0px, #541121 5px, transparent 5px, transparent 10px);
+      opacity: 0.35;
+      margin: 0 clamp(10px, 2vw, 20px);
+    }
+
+    /* Main Parchment Sheet with Textured Handmade Ivory Effect */
+    .royal-parchment-sheet {
+      position: relative;
+      background: 
+        radial-gradient(circle at 50% 25%, #FFFDF9 0%, #FAF2E4 50%, #F1E2C5 100%);
+      box-shadow: var(--shadow-scroll);
+      padding: clamp(34px, 4.8vh, 52px) clamp(22px, 4vw, 48px) clamp(30px, 4vh, 46px);
+      text-align: center;
+      border-left: 2.5px solid rgba(212, 175, 55, 0.6);
+      border-right: 2.5px solid rgba(212, 175, 55, 0.6);
+      z-index: 11;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Embossed Double Gold Frame */
+    .parchment-gold-frame {
+      position: absolute;
+      inset: clamp(10px, 1.8vw, 18px);
+      border: 2px solid var(--gold-royal);
+      pointer-events: none;
+      border-radius: 4px;
+    }
+
+    .parchment-gold-frame::before {
+      content: '';
+      position: absolute;
+      inset: 4px;
+      border: 1px dashed rgba(212, 175, 55, 0.65);
+    }
+
+    /* Corner Arabesque Motifs */
+    .corner-motif {
+      position: absolute;
+      width: clamp(28px, 4vw, 44px);
+      height: clamp(28px, 4vw, 44px);
+      color: var(--gold-deep);
+      pointer-events: none;
+    }
+    .corner-top-left { top: 6px; left: 6px; }
+    .corner-top-right { top: 6px; right: 6px; transform: scaleX(-1); }
+    .corner-bottom-left { bottom: 6px; left: 6px; transform: scaleY(-1); }
+    .corner-bottom-right { bottom: 6px; right: 6px; transform: scale(-1); }
+
+    /* ==========================================================
+       HERO COUPLE NAMES & AY MONOGRAM (REFERENCE MATCH)
+       ========================================================== */
+    .ay-monogram-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: clamp(4px, 0.8vh, 12px) auto clamp(6px, 1.2vh, 14px);
+      user-select: none;
+    }
+
+    .ay-monogram {
+      width: clamp(110px, 18vw, 175px);
+      height: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+      mix-blend-mode: multiply;
+      filter: drop-shadow(0 3px 12px rgba(184, 134, 11, 0.2));
+      transition: transform 0.35s ease;
+    }
+
+    .ay-monogram-container:hover .ay-monogram {
+      transform: scale(1.03);
+    }
+
+    /* Couple Hero Typography - High-End Luxury Editorial Serif (Bodoni Moda) */
+    .cover-couple-title, .hero-names {
+      font-family: var(--font-couple);
+      font-size: clamp(1.85rem, 5.5vw, 3.8rem);
+      font-weight: 500;
+      color: #38081E;
+      letter-spacing: 0.03em;
+      line-height: 1.15;
+      margin: clamp(4px, 0.8vh, 10px) 0 clamp(4px, 0.8vh, 10px);
+      text-shadow: 0 1px 1px rgba(255,255,255,0.85), 0 2px 10px rgba(56, 8, 30, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: clamp(8px, 2vw, 24px);
+      font-feature-settings: "liga", "clig", "calt";
+      text-transform: none;
+    }
+
+    .couple-name-text {
+      font-family: var(--font-couple);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    /* Sub-flourish divider directly below names */
+    .name-sub-flourish {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: clamp(100px, 18vw, 150px);
+      margin: 0 auto clamp(8px, 1.4vh, 16px);
+    }
+
+    /* Cover Typography */
+    .cover-lead-text {
+      font-family: var(--font-serif);
+      font-size: clamp(0.92rem, 1.3vw, 1.12rem);
+      letter-spacing: 0.12em;
+      font-variant: small-caps;
+      font-weight: 600;
+      color: var(--royal-maroon);
+      margin-bottom: clamp(8px, 1.4vh, 14px);
+    }
+
+    .cover-invite-sub {
+      font-family: var(--font-serif);
+      font-size: clamp(1.15rem, 1.8vw, 1.42rem);
+      font-style: italic;
+      color: var(--plum-800);
+      letter-spacing: 0.03em;
+      margin-bottom: clamp(12px, 1.8vh, 18px);
+    }
+
+    /* Filigree Gold Divider */
+    .gold-filigree-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin: clamp(10px, 1.6vh, 18px) auto;
+      width: min(80%, 340px);
+      color: var(--gold-deep);
+      font-size: 1.1rem;
+    }
+
+    .filigree-line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--gold-royal) 50%, transparent 100%);
+    }
+
+    .cover-event-tag {
+      display: inline-block;
+      font-family: var(--font-serif);
+      font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      font-variant: small-caps;
+      color: var(--gold-deep);
+      margin: 4px 0 clamp(4px, 0.8vh, 8px);
+    }
+
+    .cover-datetime {
+      font-family: var(--font-display);
+      font-size: clamp(1.15rem, 1.8vw, 1.48rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      letter-spacing: 0.04em;
+      margin-bottom: clamp(4px, 0.8vh, 8px);
+    }
+
+    .cover-venue {
+      font-family: var(--font-serif);
+      font-size: clamp(1.02rem, 1.4vw, 1.22rem);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--plum-800);
+      line-height: 1.45;
+      margin-bottom: clamp(18px, 2.6vh, 28px);
+    }
+
+    /* Royal Invitation Seal Button (CTA) - Stationery Plaque Style */
+    .btn-royal-seal {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(180deg, #6B1728 0%, #4A0E1C 100%);
+      color: #FFFDF8;
+      border: 1.5px solid var(--gold-royal);
+      border-radius: 4px;
+      padding: clamp(12px, 1.8vh, 16px) clamp(28px, 3.5vw, 42px);
+      font-family: var(--font-serif);
+      font-size: clamp(1.02rem, 1.4vw, 1.2rem);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      font-variant: small-caps;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(47, 11, 30, 0.4), 0 0 16px rgba(212, 175, 55, 0.25);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-royal-seal::before {
+      content: '';
+      position: absolute;
+      inset: 2px;
+      border: 1px dashed rgba(212, 175, 55, 0.5);
+      pointer-events: none;
+      border-radius: 2px;
+    }
+
+    .btn-royal-seal:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(47, 11, 30, 0.55), 0 0 24px rgba(212, 175, 55, 0.45);
+      border-color: #FFF3D4;
+    }
+
+    .cover-audio-hint {
+      margin-top: clamp(10px, 1.5vh, 16px);
+      font-size: clamp(0.85rem, 1.1vw, 0.98rem);
+      color: var(--plum-muted);
+      font-style: italic;
+    }
+
+    /* ==========================================================
+       PAGE 2: MAIN ROYAL INVITATION (GRAND LUXURY STATIONERY)
+       ========================================================== */
+    #page-2 {
+      position: relative;
+      z-index: 20;
+      padding: clamp(70px, 8vh, 88px) clamp(16px, 3.5vw, 36px) clamp(50px, 6vh, 80px);
+      width: 100%;
+      max-width: min(92vw, 760px);
+      margin: 0 auto;
+    }
+
+    .royal-section-card {
+      position: relative;
+      background: 
+        radial-gradient(circle at 50% 15%, #FFFDF9 0%, #FAF4E8 65%, #F4E8D0 100%);
+      border: 1.5px solid var(--gold-border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-royal-large);
+      padding: clamp(32px, 4vw, 48px) clamp(22px, 3.5vw, 42px) clamp(28px, 3.5vw, 40px);
+      margin-bottom: clamp(28px, 4vh, 40px);
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .section-inner-border {
+      position: absolute;
+      inset: clamp(6px, 1vw, 12px);
+      border: 1px dashed rgba(212, 175, 55, 0.45);
+      pointer-events: none;
+      border-radius: calc(var(--radius-md) - 4px);
+    }
+
+    .royal-section-header {
+      margin-bottom: clamp(18px, 2.5vh, 26px);
+      position: relative;
+    }
+
+    .section-ornament-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-deep);
+      margin-bottom: 6px;
+      font-size: 1.25rem;
+    }
+
+    .royal-section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      letter-spacing: 0.05em;
+      margin: 4px 0;
+    }
+
+    .royal-section-subtitle {
+      font-size: clamp(0.96rem, 1.3vw, 1.1rem);
+      color: var(--plum-muted);
+      font-family: var(--font-serif);
+      font-style: italic;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section Details */
+    .hero-reception-badge {
+      display: inline-block;
+      font-family: var(--font-serif);
+      font-size: clamp(0.96rem, 1.3vw, 1.15rem);
+      letter-spacing: 0.12em;
+      font-variant: small-caps;
+      font-weight: 600;
+      color: var(--gold-deep);
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid var(--gold-border-subtle);
+      padding: 5px 20px;
+      border-radius: 4px;
+      margin: clamp(10px, 1.8vh, 16px) 0;
+    }
+
+    .hero-datetime-box {
+      margin: clamp(14px, 2vh, 22px) 0 clamp(10px, 1.5vh, 16px);
+    }
+
+    .hero-date-large {
+      font-family: var(--font-display);
+      font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      letter-spacing: 0.04em;
+    }
+
+    .hero-time-large {
+      font-family: var(--font-serif);
+      font-size: clamp(1.1rem, 1.6vw, 1.3rem);
+      font-weight: 600;
+      font-variant: small-caps;
+      color: var(--gold-deep);
+      letter-spacing: 0.08em;
+      margin-top: 3px;
+    }
+
+    .hero-venue-box {
+      margin: clamp(12px, 1.8vh, 20px) 0 clamp(16px, 2.2vh, 24px);
+    }
+
+    .hero-venue-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+      font-weight: 600;
+      color: var(--plum-900);
+      letter-spacing: 0.04em;
+    }
+
+    .hero-venue-city {
+      font-family: var(--font-serif);
+      font-size: clamp(1rem, 1.4vw, 1.18rem);
+      letter-spacing: 0.08em;
+      font-variant: small-caps;
+      font-weight: 600;
+      color: var(--plum-muted);
+      margin-top: 3px;
+    }
+
+    .hero-blessing-quote {
+      font-family: var(--font-serif);
+      font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+      font-style: italic;
+      color: var(--royal-maroon);
+      line-height: 1.6;
+      max-width: 560px;
+      margin: clamp(14px, 2.2vh, 24px) auto clamp(20px, 2.8vh, 28px);
+    }
+
+    /* Action Buttons - Luxury Stationery Plaques */
+    .btn-royal-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: linear-gradient(180deg, #6B1728 0%, #4A0E1C 100%);
+      color: #FFFDF8;
+      border: 1px solid var(--gold-royal);
+      border-radius: 4px;
+      padding: 11px 24px;
+      font-family: var(--font-serif);
+      font-size: clamp(0.96rem, 1.25vw, 1.08rem);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(47, 11, 30, 0.3);
+      transition: all 0.25s ease;
+    }
+
+    .btn-royal-primary:hover {
+      background: linear-gradient(180deg, #7F1D2C 0%, #541121 100%);
+      transform: translateY(-1.5px);
+      box-shadow: 0 6px 18px rgba(47, 11, 30, 0.4);
+      border-color: #FFE6A3;
+    }
+
+    .btn-royal-secondary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.94);
+      color: var(--royal-maroon);
+      border: 1px solid var(--gold-border);
+      border-radius: 4px;
+      padding: 11px 22px;
+      font-family: var(--font-serif);
+      font-size: clamp(0.96rem, 1.25vw, 1.08rem);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .btn-royal-secondary:hover {
+      background: #FFFFFF;
+      border-color: var(--gold-royal);
+      transform: translateY(-1.5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .hero-btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: clamp(16px, 2.2vh, 24px) 0;
+    }
+
+    /* Countdown Dials - Stationery Parchment Blocks */
+    .countdown-wrapper {
+      margin: clamp(22px, 2.8vh, 32px) auto 6px;
+      padding-top: clamp(18px, 2.2vh, 26px);
+      border-top: 1px solid var(--gold-border-subtle);
+    }
+
+    .countdown-label {
+      display: block;
+      font-family: var(--font-serif);
+      font-size: clamp(0.88rem, 1.2vw, 1rem);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      font-variant: small-caps;
+      color: var(--gold-deep);
+      margin-bottom: 12px;
+    }
+
+    .countdown-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: clamp(8px, 1.8vw, 14px);
+      max-width: 440px;
+      margin: 0 auto;
+    }
+
+    .countdown-dial {
+      background: linear-gradient(180deg, #FFFFFF 0%, #FAF3E6 100%);
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-sm);
+      padding: clamp(8px, 1.4vh, 14px) 6px 8px;
+      box-shadow: 0 4px 12px rgba(47, 11, 30, 0.06);
+    }
+
+    .countdown-num {
+      font-family: var(--font-display);
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      line-height: 1;
+    }
+
+    .countdown-unit {
+      font-family: var(--font-serif);
+      font-size: clamp(0.78rem, 1.1vw, 0.88rem);
+      font-weight: 600;
+      font-variant: small-caps;
+      letter-spacing: 0.06em;
+      color: var(--plum-muted);
+      margin-top: 4px;
+    }
+
+    /* Quick Scroll Navigation Pills */
+    .hero-quick-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: clamp(20px, 2.6vh, 28px);
+      padding-top: clamp(16px, 2vh, 22px);
+      border-top: 1px dashed var(--gold-border-subtle);
+    }
+
+    .spy-pill {
+      font-family: var(--font-serif);
+      font-size: clamp(0.88rem, 1.2vw, 0.98rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--gold-border-subtle);
+      padding: 5px 14px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .spy-pill:hover {
+      background: #FFFFFF;
+      border-color: var(--gold-royal);
+      transform: translateY(-1px);
+    }
+
+    /* ==========================================================
+       SECTION 2: COUPLE PHOTOGRAPH (Real Photo)
+       ========================================================== */
+    .couple-photo-wrapper {
+      position: relative;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    .couple-photo-temple-frame {
+      position: relative;
+      border: 3px solid var(--gold-royal);
+      border-radius: 90px 90px 16px 16px;
+      background: #FFFFFF;
+      padding: 8px;
+      box-shadow: 0 14px 40px rgba(47, 11, 30, 0.28), 0 0 35px rgba(212, 175, 55, 0.3);
+      overflow: hidden;
+    }
+
+    .couple-photo-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 82px 82px 10px 10px;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .couple-photo-temple-frame:hover .couple-photo-img {
+      transform: scale(1.025);
+    }
+
+    .couple-caption-box {
+      margin-top: 18px;
+    }
+
+    .couple-caption-names {
+      font-family: var(--font-couple);
+      font-size: clamp(1.45rem, 2.5vw, 1.95rem);
+      font-weight: 500;
+      color: #38081E;
+      letter-spacing: 0.03em;
+      margin-bottom: 4px;
+    }
+
+    .couple-caption-quote {
+      font-family: var(--font-serif);
+      font-size: clamp(1.08rem, 1.6vw, 1.25rem);
+      font-style: italic;
+      color: var(--plum-muted);
+    }
+
+    /* ==========================================================
+       SECTION 3: WEDDING CARDS VIEWER
+       ========================================================== */
+    .card-tabs {
+      display: inline-flex;
+      background: rgba(212, 175, 55, 0.1);
+      border: 1px solid var(--gold-border);
+      border-radius: 4px;
+      padding: 3px;
+      margin-bottom: 18px;
+    }
+
+    .card-tab-btn {
+      background: transparent;
+      border: none;
+      padding: 7px 18px;
+      font-size: clamp(0.9rem, 1.2vw, 1rem);
+      font-family: var(--font-serif);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      cursor: pointer;
+      border-radius: 3px;
+      transition: all 0.25s ease;
+    }
+
+    .card-tab-btn.active {
+      background: var(--royal-maroon);
+      color: var(--gold-light);
+      box-shadow: 0 2px 8px rgba(84, 17, 33, 0.25);
+    }
+
+    .card-display-container {
+      position: relative;
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      background: #FFFFFF;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      margin-bottom: 18px;
+    }
+
+    .card-preview-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      cursor: zoom-in;
+    }
+
+    .card-action-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    /* ==========================================================
+       SECTION 4: INVITATION VIDEO
+       ========================================================== */
+    .video-temple-frame {
+      position: relative;
+      border: 1.5px solid var(--gold-royal);
+      border-radius: var(--radius-sm);
+      background: #000000;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+
+    .video-element {
+      width: 100%;
+      height: auto;
+      display: block;
+      max-height: 520px;
+    }
+
+    .video-overlay-play {
+      position: absolute;
+      inset: 0;
+      background: rgba(30, 8, 20, 0.55);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      color: #FFFDF8;
+      transition: background 0.3s ease;
+    }
+
+    .video-overlay-play:hover {
+      background: rgba(30, 8, 20, 0.4);
+    }
+
+    .video-play-btn {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: var(--royal-maroon);
+      border: 1.5px solid var(--gold-royal);
+      color: var(--gold-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      padding-left: 4px;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+      margin-bottom: 10px;
+      transition: transform 0.25s ease;
+    }
+
+    .video-overlay-play:hover .video-play-btn {
+      transform: scale(1.1);
+    }
+
+    /* ==========================================================
+       SECTION 5: RECEPTION VENUE (Single Venue Card)
+       ========================================================== */
+    .venue-card-body {
+      padding: 6px 2px 0;
+    }
+
+    .venue-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.2rem, 2vw, 1.48rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+      margin-bottom: 4px;
+    }
+
+    .venue-address {
+      font-family: var(--font-serif);
+      font-size: clamp(1rem, 1.3vw, 1.12rem);
+      color: var(--plum-800);
+      margin-bottom: 18px;
+      line-height: 1.5;
+    }
+
+    .venue-map-embed {
+      width: 100%;
+      height: clamp(260px, 35vh, 360px);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      border: 1px solid var(--gold-border);
+      margin-bottom: 18px;
+    }
+
+    .venue-map-embed iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* ==========================================================
+       SECTION 6: RECEPTION LIVE
+       ========================================================== */
+    .live-status-box {
+      padding: 18px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid var(--gold-border-subtle);
+      border-radius: var(--radius-sm);
+    }
+
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-serif);
+      font-size: 0.92rem;
+      font-weight: 600;
+      font-variant: small-caps;
+      letter-spacing: 0.08em;
+      color: var(--temple-crimson);
+      background: rgba(127, 29, 44, 0.08);
+      padding: 4px 14px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .live-pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--temple-crimson);
+      animation: pulseLive 1.4s infinite;
+    }
+
+    @keyframes pulseLive {
+      0% { transform: scale(0.9); opacity: 0.8; }
+      50% { transform: scale(1.35); opacity: 1; box-shadow: 0 0 10px red; }
+      100% { transform: scale(0.9); opacity: 0.8; }
+    }
+
+    /* ==========================================================
+       SECTION 7 & 8: CALENDAR & SHARING
+       ========================================================== */
+    .calendar-actions-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .share-preview-card {
+      background: #FFFFFF;
+      border: 1px dashed var(--gold-border);
+      border-radius: var(--radius-sm);
+      padding: 16px 20px;
+      font-family: var(--font-serif);
+      font-size: clamp(0.96rem, 1.25vw, 1.08rem);
+      text-align: left;
+      line-height: 1.6;
+      color: var(--plum-900);
+      margin-bottom: 18px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+
+    .btn-whatsapp-share {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #1B8A46;
+      color: #FFFFFF;
+      border: 1px solid #146C37;
+      border-radius: 4px;
+      padding: 11px 24px;
+      font-family: var(--font-serif);
+      font-size: clamp(0.96rem, 1.25vw, 1.08rem);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 3px 10px rgba(27, 138, 70, 0.25);
+      transition: all 0.25s ease;
+    }
+
+    .btn-whatsapp-share:hover {
+      background: #157339;
+      transform: translateY(-1.5px);
+      box-shadow: 0 5px 14px rgba(27, 138, 70, 0.35);
+    }
+
+    /* ==========================================================
+       CLOSING BLESSINGS & FOOTER
+       ========================================================== */
+    .royal-footer-card {
+      text-align: center;
+      padding: clamp(32px, 4.2vh, 46px) 24px clamp(26px, 3.2vh, 38px);
+      position: relative;
+    }
+
+    .blessing-script {
+      font-family: var(--font-script);
+      font-size: clamp(2.2rem, 3.8vw, 3rem);
+      color: var(--gold-deep);
+      margin-bottom: 6px;
+    }
+
+    .blessing-message {
+      font-family: var(--font-serif);
+      font-size: clamp(1.15rem, 1.8vw, 1.38rem);
+      font-style: italic;
+      color: var(--royal-maroon);
+      line-height: 1.6;
+      max-width: 540px;
+      margin: 0 auto 14px;
+    }
+
+    .compliments-tag {
+      font-family: var(--font-serif);
+      font-size: clamp(0.88rem, 1.2vw, 1rem);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      font-variant: small-caps;
+      color: var(--gold-deep);
+    }
+
+    /* ==========================================================
+       DIGITAL BLESSINGS & GUESTBOOK SECTION
+       ========================================================== */
+    .blessings-section-card {
+      margin-top: clamp(28px, 4vh, 40px);
+    }
+
+    .blessing-form {
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid var(--gold-border-subtle);
+      border-radius: var(--radius-sm);
+      padding: clamp(18px, 2.5vw, 26px);
+      margin-bottom: 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+      text-align: left;
+    }
+
+    .blessing-inputs-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .blessing-inputs-row {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+    }
+
+    .blessing-field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .blessing-field-label {
+      font-family: var(--font-serif);
+      font-size: clamp(0.92rem, 1.2vw, 1.02rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+    }
+
+    .blessing-input,
+    .blessing-textarea {
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid var(--gold-border);
+      border-radius: 4px;
+      padding: 10px 14px;
+      font-family: var(--font-serif);
+      font-size: clamp(0.96rem, 1.25vw, 1.05rem);
+      color: var(--plum-900);
+      transition: all 0.25s ease;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    .blessing-input:focus,
+    .blessing-textarea:focus {
+      border-color: var(--gold-royal);
+      box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+    }
+
+    .blessing-textarea {
+      resize: vertical;
+      min-height: 80px;
+      line-height: 1.5;
+    }
+
+    .blessing-quick-tags {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .quick-blessing-label {
+      font-family: var(--font-serif);
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--plum-800);
+    }
+
+    .quick-tag-btn {
+      background: rgba(212, 175, 55, 0.12);
+      border: 1px dashed var(--gold-border);
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-family: var(--font-serif);
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: var(--royal-maroon);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .quick-tag-btn:hover {
+      background: var(--royal-maroon);
+      color: var(--gold-light);
+      border-style: solid;
+      border-color: var(--gold-royal);
+      transform: translateY(-1px);
+    }
+
+    .blessings-board-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin: 28px 0 20px;
+    }
+
+    .blessings-divider-line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-border), transparent);
+    }
+
+    .blessings-count-badge {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      font-weight: 600;
+      font-variant: small-caps;
+      letter-spacing: 0.08em;
+      color: var(--royal-maroon);
+      background: rgba(212, 175, 55, 0.14);
+      padding: 4px 16px;
+      border: 1px solid var(--gold-border);
+      border-radius: 16px;
+    }
+
+    .blessings-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-height: 520px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .blessings-list::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    .blessings-list::-webkit-scrollbar-thumb {
+      background: var(--gold-border);
+      border-radius: 4px;
+    }
+
+    .blessing-card {
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--gold-border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 16px 20px;
+      text-align: left;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+      position: relative;
+      animation: fadeInBlessing 0.4s ease-out;
+    }
+
+    @keyframes fadeInBlessing {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .blessing-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+      padding-bottom: 6px;
+    }
+
+    .blessing-card-author-info {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .blessing-card-name {
+      font-family: var(--font-serif);
+      font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+      font-weight: 600;
+      color: var(--royal-maroon);
+    }
+
+    .blessing-card-relation {
+      font-family: var(--font-serif);
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--gold-deep);
+    }
+
+    .blessing-card-time {
+      font-family: var(--font-serif);
+      font-size: 0.82rem;
+      color: var(--plum-800);
+    }
+
+    .blessing-card-msg {
+      font-family: var(--font-serif);
+      font-size: clamp(0.98rem, 1.25vw, 1.1rem);
+      line-height: 1.55;
+      color: var(--plum-900);
+      margin: 0;
+    }
+
+    .blessings-empty-state {
+      padding: 30px 16px;
+      text-align: center;
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--plum-800);
+    }
+
+    /* Fullscreen Modal & Lightbox */
+    .lightbox-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(18, 2, 10, 0.95);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      backdrop-filter: blur(10px);
+    }
+
+    .lightbox-modal.active {
+      display: flex;
+    }
+
+    .lightbox-img {
+      max-width: 96%;
+      max-height: 92vh;
+      border-radius: 8px;
+      border: 2px solid var(--gold-royal);
+      box-shadow: 0 0 45px rgba(212, 175, 55, 0.45);
+    }
+
+    .lightbox-close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: var(--royal-maroon);
+      border: 1.5px solid var(--gold-royal);
+      color: var(--gold-light);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      font-size: 1.3rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+    }
+
+    /* Floating Action Button */
+    .floating-fab-btn {
+      position: fixed;
+      bottom: 22px;
+      right: 22px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--royal-maroon);
+      border: 1.5px solid var(--gold-royal);
+      color: var(--gold-light);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+      z-index: 90;
+      transition: all 0.25s ease;
+    }
+
+    .floating-fab-btn.visible {
+      display: flex;
+    }
+
+    /* Toast Notification */
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--royal-maroon);
+      color: var(--gold-light);
+      border: 1.5px solid var(--gold-royal);
+      border-radius: 28px;
+      padding: 12px 26px;
+      font-size: 0.92rem;
+      font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      z-index: 250;
+      opacity: 0;
+      transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+      pointer-events: none;
+    }
+
+    .toast-msg.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* Mobile Responsive Optimizations */
+    @media (max-width: 600px) {
+      .royal-scroll-wrapper {
+        width: 92vw;
+        min-height: auto;
+      }
+      .royal-parchment-sheet {
+        padding: 30px 16px 26px;
+      }
+      .royal-section-card {
+        padding: 26px 14px 22px;
+        margin-bottom: 22px;
+      }
+      .cover-couple-title, .hero-names {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Audio Element (Native HTML5 MP3 Only) -->
+  <audio id="weddingMusic" src="assets/wedding-music.mp3" preload="auto" loop></audio>
+
+  <!-- Temple Atmospheric Backdrop -->
+  <div class="temple-backdrop" aria-hidden="true">
+    <div class="temple-ambient-glow"></div>
+    <!-- Sacred Mandala Vector Overlay -->
+    <svg class="temple-mandala-bg" viewBox="0 0 500 500" fill="none" stroke="#D4AF37" stroke-width="1.5">
+      <circle cx="250" cy="250" r="230" stroke-dasharray="6 6"/>
+      <circle cx="250" cy="250" r="190"/>
+      <circle cx="250" cy="250" r="150" stroke-dasharray="4 4"/>
+      <circle cx="250" cy="250" r="100"/>
+      <circle cx="250" cy="250" r="50"/>
+      <path d="M250 20 L250 480 M20 250 L480 250 M87 87 L413 413 M87 413 L413 87"/>
+      <path d="M250 60 Q270 150 350 150 Q270 170 250 250 Q230 170 150 150 Q230 150 250 60 Z"/>
+      <path d="M250 440 Q270 350 350 350 Q270 330 250 250 Q230 330 150 350 Q230 350 250 440 Z"/>
+      <path d="M60 250 Q150 270 150 350 Q170 270 250 250 Q170 230 150 150 Q150 230 60 250 Z"/>
+      <path d="M440 250 Q350 270 350 350 Q330 270 250 250 Q330 230 350 150 Q350 230 440 250 Z"/>
+    </svg>
+  </div>
+
+  <!-- Falling Jasmine Petals & Golden Temple Dust Canvas -->
+  <canvas id="petals-canvas" aria-hidden="true"></canvas>
+
+  <!-- Temple Architectural Flanks with Hanging Brass Bells & Glowing Diyas (Desktop) -->
+  <div class="temple-flank temple-flank-left" aria-hidden="true">
+    <div class="flank-pillar-line"></div>
+    <!-- Hanging Brass Temple Bell -->
+    <svg class="flank-bell-svg" width="76" height="200" viewBox="0 0 76 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38 0 V90" stroke="#D4AF37" stroke-width="3" stroke-dasharray="4 4"/>
+      <path d="M22 90 C22 72 54 72 54 90 L62 140 C64 152 52 158 38 158 C24 158 12 152 14 140 Z" fill="url(#bellGrad)"/>
+      <circle cx="38" cy="168" r="7" fill="#B8860B"/>
+      <defs>
+        <linearGradient id="bellGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#8C6510"/>
+          <stop offset="35%" stop-color="#FCF6BA"/>
+          <stop offset="70%" stop-color="#D4AF37"/>
+          <stop offset="100%" stop-color="#7A5506"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <!-- Brass Kuthuvilakku Lamp with Glowing Diya Flame -->
+    <svg class="flank-diya-svg" width="86" height="230" viewBox="0 0 86 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="flame-core" d="M43 8 C48 24 54 36 43 46 C32 36 38 24 43 8 Z" fill="url(#flameGrad)"/>
+      <path d="M26 46 H60 C60 58 26 58 26 46 Z" fill="#D4AF37"/>
+      <rect x="40" y="58" width="6" height="120" fill="#B8860B"/>
+      <ellipse cx="43" cy="188" rx="34" ry="14" fill="url(#bellGrad)"/>
+      <defs>
+        <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#FFFF99"/>
+          <stop offset="40%" stop-color="#FF9900"/>
+          <stop offset="100%" stop-color="#FF3300"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+
+  <div class="temple-flank temple-flank-right" aria-hidden="true">
+    <div class="flank-pillar-line"></div>
+    <svg class="flank-bell-svg" width="76" height="200" viewBox="0 0 76 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38 0 V90" stroke="#D4AF37" stroke-width="3" stroke-dasharray="4 4"/>
+      <path d="M22 90 C22 72 54 72 54 90 L62 140 C64 152 52 158 38 158 C24 158 12 152 14 140 Z" fill="url(#bellGrad)"/>
+      <circle cx="38" cy="168" r="7" fill="#B8860B"/>
+    </svg>
+    <svg class="flank-diya-svg" width="86" height="230" viewBox="0 0 86 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="flame-core" d="M43 8 C48 24 54 36 43 46 C32 36 38 24 43 8 Z" fill="url(#flameGrad)"/>
+      <path d="M26 46 H60 C60 58 26 58 26 46 Z" fill="#D4AF37"/>
+      <rect x="40" y="58" width="6" height="120" fill="#B8860B"/>
+      <ellipse cx="43" cy="188" rx="34" ry="14" fill="url(#bellGrad)"/>
+    </svg>
+  </div>
+
+  <!-- ========================================================
+       PAGE 1: ROYAL ENTRANCE SCROLL COVER (IMMERSIVE SCALE)
+       ======================================================== -->
+  <section id="page-1" aria-label="Royal Reception Invitation Cover">
+    <div class="royal-scroll-wrapper">
+      
+      <!-- Top Scroll Rod Finials -->
+      <div class="scroll-rod-top">
+        <div class="scroll-rod-finial"></div>
+        <div class="scroll-rod-filigree"></div>
+        <div class="scroll-rod-finial"></div>
+      </div>
+
+      <!-- Main Parchment Sheet -->
+      <div class="royal-parchment-sheet">
+        <div class="parchment-gold-frame"></div>
+        
+        <!-- Corner Motifs -->
+        <svg class="corner-motif corner-top-left" viewBox="0 0 30 30" fill="currentColor">
+          <path d="M2 2 H14 C14 8 8 14 2 14 V2 Z M18 2 H28 V12 C22 12 18 8 18 2 Z M2 18 C8 18 12 22 12 28 H2 V18 Z"/>
+        </svg>
+        <svg class="corner-motif corner-top-right" viewBox="0 0 30 30" fill="currentColor">
+          <path d="M2 2 H14 C14 8 8 14 2 14 V2 Z M18 2 H28 V12 C22 12 18 8 18 2 Z M2 18 C8 18 12 22 12 28 H2 V18 Z"/>
+        </svg>
+        <svg class="corner-motif corner-bottom-left" viewBox="0 0 30 30" fill="currentColor">
+          <path d="M2 2 H14 C14 8 8 14 2 14 V2 Z M18 2 H28 V12 C22 12 18 8 18 2 Z M2 18 C8 18 12 22 12 28 H2 V18 Z"/>
+        </svg>
+        <svg class="corner-motif corner-bottom-right" viewBox="0 0 30 30" fill="currentColor">
+          <path d="M2 2 H14 C14 8 8 14 2 14 V2 Z M18 2 H28 V12 C22 12 18 8 18 2 Z M2 18 C8 18 12 22 12 28 H2 V18 Z"/>
+        </svg>
+
+        <!-- Compact Language Switcher -->
+        <div style="display: flex; justify-content: center; margin-bottom: clamp(8px, 1.2vh, 14px);">
+          <div class="lang-switcher-royal" role="radiogroup" aria-label="Select Language">
+            <button type="button" class="lang-btn" data-lang="te">తెలుగు</button>
+            <span class="lang-divider">•</span>
+            <button type="button" class="lang-btn active" data-lang="en">English</button>
+          </div>
+        </div>
+
+        <!-- AY Monogram Master Asset (Embedded Base64 Data URI) -->
+        <div class="ay-monogram-container" aria-label="Akash and Yamuna Monogram">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMzgwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ29sZFN0ZW0iIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRThDMzc0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjQzg5MjJFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjQUY3QTFFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Q0QUYzNyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdvbGRMZXR0ZXJHcmFkIiB4MT0iMjAlIiB5MT0iMCUiIHgyPSI4MCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzRDU4QyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI0Q0QTAzNCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI0I2N0IxOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iI0M4OTIyRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFMkI3NTUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnb2xkSGVhcnRHcmFkIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZDRTE5QiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iI0Q4QTIzMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iI0E4NzExNCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNDODkyMkUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJmbG93ZXJQaW5rMSIgY3g9IjQwJSIgY3k9IjQwJSIgcj0iNjAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRjBGMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iI0Y3QzREMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI0VBOEZBNyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNENjZEODgiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJmbG93ZXJQaW5rMiIgY3g9IjM1JSIgY3k9IjM1JSIgcj0iNjUlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iI0Y5Q0RENyIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI0VFOTdBRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNEQjcyOEQiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJsZWFmR3JhZCIgY3g9IjMwJSIgY3k9IjMwJSIgcj0iNzAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0U2QzQ3QSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI0M1OTYzRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5QjcwMjMiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CgogICAgPGZpbHRlciBpZD0ic29mdEdsb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICA8ZmVEcm9wU2hhZG93IGR4PSIwIiBkeT0iMS41IiBzdGREZXZpYXRpb249IjIiIGZsb29kLWNvbG9yPSIjOEM1QjA3IiBmbG9vZC1vcGFjaXR5PSIwLjIyIi8+CiAgICA8L2ZpbHRlcj4KICA8L2RlZnM+CgogIDwhLS0gQ2lyY3VsYXIgR29sZCBSaW5nIEFyYyAob3BlbiBhdCBib3R0b20gd2hlcmUgZmxvcmFsIHdyZWF0aCAmIGhlYXJ0IG1lZXQpIC0tPgogIDxwYXRoIGQ9Ik0gMTI1IDIxMCBBIDkyIDkyIDAgMSAxIDI3NSAyMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnb2xkU3RlbSkiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBMZWZ0IEJvdGFuaWNhbCBCcmFuY2ggJiBGb2xpYWdlIC0tPgogIDxnIGNsYXNzPSJsZWZ0LWJyYW5jaCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDwhLS0gTWFpbiBjdXJ2aW5nIHN0ZW0gLS0+CiAgICA8cGF0aCBkPSJNIDE5MCAyOTUgQyAxNTAgMjk1IDExMCAyNzAgOTIgMjI1IEMgODAgMTk1IDgyIDE1NSA5OCAxMjIgQyAxMDQgMTEwIDExMiAxMDAgMTIwIDkyIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZ29sZFN0ZW0pIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBTZWNvbmRhcnkgc3ByaWdzICYgbGVhdmVzIC0tPgogICAgPHBhdGggZD0iTSAxMTUgMTAwIEMgMTA4IDkyIDExMCA4NCAxMTYgODcgQyAxMjIgOTAgMTIxIDk4IDExNSAxMDAgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAxMDQgMTE0IEMgOTUgMTA4IDk4IDk5IDEwNCAxMDIgQyAxMTAgMTA1IDEwOSAxMTIgMTA0IDExNCBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDk0IDEzNCBDIDgzIDEzMCA4NCAxMjAgOTEgMTIzIEMgOTggMTI2IDk3IDEzMyA5NCAxMzQgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSA4NyAxNTYgQyA3NSAxNTQgNzUgMTQ0IDgzIDE0NiBDIDkxIDE0OCA5MCAxNTYgODcgMTU2IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gODMgMTgyIEMgNzAgMTgzIDcwIDE3MiA3OCAxNzMgQyA4NiAxNzQgODUgMTgzIDgzIDE4MiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDg4IDIwOCBDIDc2IDIxNCA3NCAyMDMgODEgMjAxIEMgODggMTk5IDkwIDIwNyA4OCAyMDggWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSA5OCAyMzYgQyA4OCAyNDUgODQgMjM2IDkwIDIzMSBDIDk2IDIyNiAxMDAgMjMzIDk4IDIzNiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDExOCAyNjIgQyAxMDkgMjc0IDEwNCAyNjYgMTEwIDI1OSBDIDExNiAyNTIgMTIxIDI1OCAxMTggMjYyIFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMTQ4IDI4NCBDIDE0MiAyOTUgMTM1IDI4OCAxNDAgMjgxIEMgMTQ1IDI3NCAxNTAgMjc5IDE0OCAyODQgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAxNzIgMjk1IEMgMTY2IDMwNCAxNTkgMjk4IDE2NCAyOTEgQyAxNjkgMjg0IDE3NCAyODkgMTcyIDI5NSBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CgogICAgPCEtLSBMZWZ0IEZsb3JhbCBDbHVzdGVyIChXYXRlcmNvbG9yIEJsb3Nzb21zKSAtLT4KICAgIDwhLS0gRmxvd2VyIDEgKE1haW4gTGVmdCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDgsIDIyMikiPgogICAgICA8IS0tIFBldGFscyAtLT4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMTIgLTE4IC00IC0yNiA2IC0yMCBDIDE0IC0xNSA4IC00IDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsxKSIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIDEyIC0yMCAyNCAtMTIgMjAgLTIgQyAxNiA2IDYgNCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAyMCAtMiAyNCAxMiAxNCAxOCBDIDYgMjIgMiAxMCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyA0IDE4IC04IDI0IC0xNiAxNiBDIC0yMiAxMCAtMTAgMiAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMTggOCAtMjQgLTYgLTE0IC0xNCBDIC02IC0yMCAtMiAtOCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPCEtLSBGbG93ZXIgQ2VudGVyIC0tPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMy41IiBmaWxsPSIjOEMzQTRCIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxLjgiIGZpbGw9IiNGQ0UxOUIiLz4KICAgICAgPCEtLSBUaW55IHBpc3RpbCBkb3RzIC0tPgogICAgICA8Y2lyY2xlIGN4PSItMyIgY3k9Ii0yIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iMiIgY3k9Ii0zIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iMyIgY3k9IjIiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgICA8Y2lyY2xlIGN4PSItMiIgY3k9IjMiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgPC9nPgoKICAgIDwhLS0gRmxvd2VyIDIgKEJ1ZCAvIEFjY2VudCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4NiwgMTk1KSI+CiAgICAgIDxwYXRoIGQ9Ik0gMCAwIEMgLTggLTEyIC0yIC0xOCA1IC0xNCBDIDExIC0xMCA1IC0yIDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsyKSIgb3BhY2l0eT0iMC45Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gMCAwIEMgOCAtMTQgMTYgLTggMTMgLTEgQyAxMCA1IDQgMyAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIC0xMiA1IC0xNiAtNCAtOSAtMTAgQyAtNCAtMTQgLTEgLTUgMCAwIFoiIGZpbGw9InVybCgjZmxvd2VyUGluazIpIiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjIuMiIgZmlsbD0iIzhDM0E0QiIvPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMSIgZmlsbD0iI0ZDRTE5QiIvPgogICAgPC9nPgogIDwvZz4KCiAgPCEtLSBSaWdodCBCb3RhbmljYWwgQnJhbmNoICYgRm9saWFnZSAoU3ltbWV0cmljYWwgUmVmbGVjdGlvbikgLS0+CiAgPGcgY2xhc3M9InJpZ2h0LWJyYW5jaCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDwhLS0gTWFpbiBjdXJ2aW5nIHN0ZW0gLS0+CiAgICA8cGF0aCBkPSJNIDIxMCAyOTUgQyAyNTAgMjk1IDI5MCAyNzAgMzA4IDIyNSBDIDMyMCAxOTUgMzE4IDE1NSAzMDIgMTIyIEMgMjk2IDExMCAyODggMTAwIDI4MCA5MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2dvbGRTdGVtKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gU2Vjb25kYXJ5IHNwcmlncyAmIGxlYXZlcyAtLT4KICAgIDxwYXRoIGQ9Ik0gMjg1IDEwMCBDIDI5MiA5MiAyOTAgODQgMjg0IDg3IEMgMjc4IDkwIDI3OSA5OCAyODUgMTAwIFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMjk2IDExNCBDIDMwNSAxMDggMzAyIDk5IDI5NiAxMDIgQyAyOTAgMTA1IDI5MSAxMTIgMjk2IDExNCBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDMwNiAxMzQgQyAzMTcgMTMwIDMxNiAxMjAgMzA5IDEyMyBDIDMwMiAxMjYgMzAzIDEzMyAzMDYgMTM0IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMzEzIDE1NiBDIDMyNSAxNTQgMzI1IDE0NCAzMTcgMTQ2IEMgMzA5IDE0OCAzMTAgMTU2IDMxMyAxNTYgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAzMTcgMTgyIEMgMzMwIDE4MyAzMzAgMTcyIDMyMiAxNzMgQyAzMTQgMTc0IDMxNSAxODMgMzE3IDE4MiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDMxMiAyMDggQyAzMjQgMjE0IDMyNiAyMDMgMzE5IDIwMSBDIDMxMiAxOTkgMzEwIDIwNyAzMTIgMjA4IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMzAyIDIzNiBDIDMxMiAyNDUgMzE2IDIzNiAzMTAgMjMxIEMgMzA0IDIyNiAzMDAgMjMzIDMwMiAyMzYgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAyODIgMjYyIEMgMjkxIDI3NCAyOTYgMjY2IDI5MCAyNTkgQyAyODQgMjUyIDI3OSAyNTggMjgyIDI2MiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDI1MiAyODQgQyAyNTggMjk1IDI2NSAyODggMjYwIDI4MSBDIDI1NSAyNzQgMjUwIDI3OSAyNTIgMjg0IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMjI4IDI5NSBDIDIzNCAzMDQgMjQxIDI5OCAyMzYgMjkxIEMgMjMxIDI4NCAyMjYgMjg5IDIyOCAyOTUgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgoKICAgIDwhLS0gUmlnaHQgRmxvcmFsIENsdXN0ZXIgKFdhdGVyY29sb3IgQmxvc3NvbXMpIC0tPgogICAgPCEtLSBGbG93ZXIgMSAoTWFpbiBSaWdodCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOTIsIDIyMikiPgogICAgICA8IS0tIFBldGFscyAtLT4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAxMiAtMTggNCAtMjYgLTYgLTIwIEMgLTE0IC0xNSAtOCAtNCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMTIgLTIwIC0yNCAtMTIgLTIwIC0yIEMgLTE2IDYgLTYgNCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMjAgLTIgLTI0IDEyIC0xNCAxOCBDIC02IDIyIC0yIDEwIDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsxKSIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIC00IDE4IDggMjQgMTYgMTYgQyAyMiAxMCAxMCAyIDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsyKSIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIDE4IDggMjQgLTYgMTQgLTE0IEMgNiAtMjAgMiAtOCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPCEtLSBGbG93ZXIgQ2VudGVyIC0tPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMy41IiBmaWxsPSIjOEMzQTRCIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxLjgiIGZpbGw9IiNGQ0UxOUIiLz4KICAgICAgPCEtLSBUaW55IHBpc3RpbCBkb3RzIC0tPgogICAgICA8Y2lyY2xlIGN4PSIzIiBjeT0iLTIiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgICA8Y2lyY2xlIGN4PSItMiIgY3k9Ii0zIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iLTMiIGN5PSIyIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iMiIgY3k9IjMiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgPC9nPgoKICAgIDwhLS0gRmxvd2VyIDIgKEJ1ZCAvIEFjY2VudCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTQsIDE5NSkiPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIDggLTEyIDIgLTE4IC01IC0xNCBDIC0xMSAtMTAgLTUgLTIgMCAwIFoiIGZpbGw9InVybCgjZmxvd2VyUGluazIpIiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtOCAtMTQgLTE2IC04IC0xMyAtMSBDIC0xMCA1IC00IDMgMCAwIFoiIGZpbGw9InVybCgjZmxvd2VyUGluazEpIiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAxMiA1IDE2IC00IDkgLTEwIEMgNCAtMTQgMSAtNSAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOSIvPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMi4yIiBmaWxsPSIjOEMzQTRCIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxIiBmaWxsPSIjRkNFMTlCIi8+CiAgICA8L2c+CiAgPC9nPgoKICA8IS0tIEJvdHRvbSBQb2xpc2hlZCBHb2xkZW4gSGVhcnQgKPCfkpspIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwMCwgMjk4KSIgZmlsdGVyPSJ1cmwoI3NvZnRHbG93KSI+CiAgICA8cGF0aCBkPSJNIDAgMTYgQyAtMTggMyAtMjQgLTExIC0xNiAtMjAgQyAtOSAtMjcgMCAtMTkgMCAtMTIgQyAwIC0xOSA5IC0yNyAxNiAtMjAgQyAyNCAtMTEgMTggMyAwIDE2IFoiIGZpbGw9InVybCgjZ29sZEhlYXJ0R3JhZCkiIHN0cm9rZT0iI0IzNzgxNyIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICAgIDwhLS0gU3BlY3VsYXIgbGlnaHQgaGlnaGxpZ2h0IG9uIGhlYXJ0IGN1cnZlIC0tPgogICAgPHBhdGggZD0iTSAtMTEgLTE3IEMgLTcgLTIyIC0yIC0xNyAtMSAtMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRjVENiIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC44NSIvPgogIDwvZz4KCiAgPCEtLSBDZW50cmFsIE1hc3RlciBDYWxsaWdyYXBoaWMgTGV0dGVycyAiQSIgYW5kICJZIiBtYXRjaGluZyB0aGUgUmVmZXJlbmNlIEltYWdlIC0tPgogIDxnIGNsYXNzPSJtb25vZ3JhbS1heS1sZXR0ZXJzIiBmaWx0ZXI9InVybCgjc29mdEdsb3cpIj4KICAgIDwhLS0gTGV0dGVyICJBIiAtIEVsZWdhbnQgU3BlbmNlcmlhbiAvIENvcHBlcnBsYXRlIEN1cnNpdmUgTGV0dGVyZm9ybSAtLT4KICAgIDwhLS0gSW5pdGlhbCBFbnRyeSBTd2lybCAtLT4KICAgIDxwYXRoIGQ9Ik0gMTQyIDE2NSBDIDEzNSAxNTggMTM2IDE0MiAxNDggMTM1IEMgMTYwIDEyOCAxNzQgMTM1IDE3OCAxNDggQyAxODIgMTYyIDE3MCAxNzggMTUyIDE4NiBDIDE0MyAxOTAgMTM3IDE5NSAxNDAgMjAwIEMgMTQ0IDIwNCAxNTMgMTk4IDE2NCAxODYgQyAxNzYgMTcyIDE4NSAxNTIgMTg4IDEzMiBDIDE5MCAxMTggMTg2IDEwMiAxNzggOTggQyAxNzIgOTUgMTY2IDk4IDE2MyAxMDUgQyAxNTggMTE2IDE2MCAxMzAgMTY3IDE0NiBMIDE3NSAxNjUgQyAxODAgMTc4IDE4NyAxOTQgMTk1IDIwNCBDIDE5OSAyMDkgMjA1IDIwOCAyMDggMjAyIEMgMjEwIDE5OCAyMDggMTkyIDIwNCAxODQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnb2xkTGV0dGVyR3JhZCkiIHN0cm9rZS13aWR0aD0iMy4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIAogICAgPCEtLSBCb2xkIEVsZWdhbnQgUmlnaHQgU3RlbSBvZiAiQSIgLS0+CiAgICA8cGF0aCBkPSJNIDE3NSA5NyBDIDE3OCA5NiAxODIgOTggMTg1IDEwNCBMIDIwNSAxNjYgQyAyMTAgMTgyIDIxNCAxOTYgMjIwIDIwMiBDIDIyNCAyMDYgMjI4IDIwNCAyMzAgMTk5IEMgMjMyIDE5NSAyMjkgMTg4IDIyMyAxNzgiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnb2xkTGV0dGVyR3JhZCkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8IS0tIFNoYWRpbmcgJiBoYWlybGluZSBmb3IgIkEiIC0tPgogICAgPHBhdGggZD0iTSAxNzYgOTggTCAyMDQgMTcwIiBmaWxsPSJub25lIiBzdHJva2U9IiNGQ0UxOUIiIHN0cm9rZS13aWR0aD0iMS44IiBvcGFjaXR5PSIwLjYiLz4KCiAgICA8IS0tIEZsb3dpbmcgQ3Jvc3NiYXIgRmxvdXJpc2ggb2YgIkEiIC0tPgogICAgPHBhdGggZD0iTSAxNTIgMTY1IFEgMTg1IDE1MiAyMTUgMTU4IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZ29sZExldHRlckdyYWQpIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoKICAgIDwhLS0gTGV0dGVyICJZIiAtIEludGVybG9ja2luZyBTY3JpcHQgTGV0dGVyZm9ybSBuZXN0bGVkIHVuZGVyIGFuZCB0byB0aGUgcmlnaHQgb2YgQSAtLT4KICAgIDwhLS0gVXBwZXIgTGVmdCBCcmFuY2ggb2YgWSAtLT4KICAgIDxwYXRoIGQ9Ik0gMjA2IDE0MiBDIDIxMCAxMzYgMjE2IDEzNCAyMjIgMTM2IEMgMjI2IDEzOCAyMjUgMTQ1IDIyMiAxNTMgTCAyMTQgMTcyIEMgMjExIDE3OCAyMTQgMTgyIDIxOSAxODIgQyAyMjYgMTgyIDIzNCAxNzYgMjQyIDE2MiBMIDI1MyAxMzggQyAyNTUgMTMzIDI1OCAxMzEgMjYyIDEzMyBDIDI2NSAxMzUgMjY0IDE0MCAyNjAgMTQ4IEwgMjQzIDE4NiBDIDIzNSAyMDQgMjI3IDIyMCAyMTYgMjI2IEMgMjA1IDIzMiAxOTQgMjI4IDE5MyAyMTggQyAxOTMgMjA4IDIwMiAyMDIgMjEwIDIwMiBDIDIxNyAyMDIgMjIyIDIwNiAyMjUgMjEwIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZ29sZExldHRlckdyYWQpIiBzdHJva2Utd2lkdGg9IjQuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICAKICAgIDwhLS0gRmluZSBoaWdobGlnaHQgb24gWSAtLT4KICAgIDxwYXRoIGQ9Ik0gMjU4IDE0MCBMIDI0MyAxODIgQyAyMzYgMTk4IDIyOCAyMTQgMjE4IDIyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGMkM2IiBzdHJva2Utd2lkdGg9IjEuNiIgb3BhY2l0eT0iMC43Ii8+CiAgPC9nPgo8L3N2Zz4="
+            class="ay-monogram"
+            alt="Akash and Yamuna monogram"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+
+        <h1 class="cover-couple-title">
+          <span class="couple-name-text">Akash</span>
+          <span class="heart-pulse" aria-label="love">💗</span>
+          <span class="couple-name-text">Yamuna</span>
+        </h1>
+
+        <!-- Gold Flourish Divider directly under names -->
+        <div class="name-sub-flourish">
+          <span class="flourish-taper-line"></span>
+          <span class="monogram-gold-heart">💛</span>
+          <span class="flourish-taper-line right"></span>
+        </div>
+
+        <div class="cover-invite-sub" data-i18n="inviteLead">
+          WITH LOVE, WE INVITE YOU
+        </div>
+
+        <!-- Gold Filigree Divider -->
+        <div class="gold-filigree-divider">
+          <span class="filigree-line"></span>
+          <span>✦ ❧ ✦</span>
+          <span class="filigree-line"></span>
+        </div>
+
+        <!-- Event Tag & Details (Strictly Reception Only) -->
+        <div class="cover-event-tag" data-i18n="receptionTag">❧ RECEPTION ❧</div>
+        <div class="cover-datetime" data-i18n="coverDate">29 AUGUST 2026 • 7:00 PM</div>
+        <div class="cover-venue" data-i18n="coverVenue">
+          VASAVI GRAND, MODERN COMPLEX<br />CHILAKALURIPET
+        </div>
+
+        <!-- Open Invitation CTA Button -->
+        <div>
+          <button type="button" id="btn-open-invite" class="btn-royal-seal">
+            <span data-i18n="openInviteBtn">Open Invitation</span>
+          </button>
+        </div>
+
+        <div class="cover-audio-hint" data-i18n="audioHint">
+          Plays auspicious wedding music upon opening
+        </div>
+      </div>
+
+      <!-- Bottom Scroll Rod Finials -->
+      <div class="scroll-rod-bottom">
+        <div class="scroll-rod-finial"></div>
+        <div class="scroll-rod-filigree"></div>
+        <div class="scroll-rod-finial"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PAGE 2: FLOATING CONTROLS (Language + Music)
+       ======================================================== -->
+  <header class="floating-nav" id="floating-nav" style="display: none;">
+    <div class="lang-switcher-royal" role="radiogroup" aria-label="Language Selector">
+      <button type="button" class="lang-btn" data-lang="te">తెలుగు</button>
+      <span class="lang-divider">•</span>
+      <button type="button" class="lang-btn active" data-lang="en">English</button>
+    </div>
+
+    <button type="button" class="music-pill-btn" id="music-toggle-btn" aria-label="Toggle Wedding Music">
+      <span class="equalizer-bars" id="eq-indicator">
+        <span class="eq-bar"></span>
+        <span class="eq-bar"></span>
+        <span class="eq-bar"></span>
+      </span>
+      <span id="music-btn-text">Music On</span>
+    </button>
+  </header>
+
+  <!-- ========================================================
+       PAGE 2: MAIN ROYAL INVITATION EXPERIENCE
+       ======================================================== -->
+  <main id="page-2">
+
+    <!-- 1. HERO RECEPTION SCROLL CARD -->
+    <section class="royal-section-card" id="reception-hero" aria-label="Reception Invitation">
+      <div class="section-inner-border"></div>
+
+      <!-- AY Monogram Master Asset (Embedded Base64 Data URI) -->
+        <div class="ay-monogram-container" aria-label="Akash and Yamuna Monogram">
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgMzgwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZ29sZFN0ZW0iIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRThDMzc0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjQzg5MjJFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNzAlIiBzdG9wLWNvbG9yPSIjQUY3QTFFIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI0Q0QUYzNyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdvbGRMZXR0ZXJHcmFkIiB4MT0iMjAlIiB5MT0iMCUiIHgyPSI4MCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0YzRDU4QyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iI0Q0QTAzNCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI0I2N0IxOCIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iI0M4OTIyRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNFMkI3NTUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJnb2xkSGVhcnRHcmFkIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZDRTE5QiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iI0Q4QTIzMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iI0E4NzExNCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNDODkyMkUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJmbG93ZXJQaW5rMSIgY3g9IjQwJSIgY3k9IjQwJSIgcj0iNjAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRjBGMyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iI0Y3QzREMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI0VBOEZBNyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNENjZEODgiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJmbG93ZXJQaW5rMiIgY3g9IjM1JSIgY3k9IjM1JSIgcj0iNjUlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0ZGRkZGRiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iI0Y5Q0RENyIvPgogICAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI0VFOTdBRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNEQjcyOEQiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJsZWFmR3JhZCIgY3g9IjMwJSIgY3k9IjMwJSIgcj0iNzAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0U2QzQ3QSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI0M1OTYzRSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5QjcwMjMiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CgogICAgPGZpbHRlciBpZD0ic29mdEdsb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICA8ZmVEcm9wU2hhZG93IGR4PSIwIiBkeT0iMS41IiBzdGREZXZpYXRpb249IjIiIGZsb29kLWNvbG9yPSIjOEM1QjA3IiBmbG9vZC1vcGFjaXR5PSIwLjIyIi8+CiAgICA8L2ZpbHRlcj4KICA8L2RlZnM+CgogIDwhLS0gQ2lyY3VsYXIgR29sZCBSaW5nIEFyYyAob3BlbiBhdCBib3R0b20gd2hlcmUgZmxvcmFsIHdyZWF0aCAmIGhlYXJ0IG1lZXQpIC0tPgogIDxwYXRoIGQ9Ik0gMTI1IDIxMCBBIDkyIDkyIDAgMSAxIDI3NSAyMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnb2xkU3RlbSkiIHN0cm9rZS13aWR0aD0iMi4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBMZWZ0IEJvdGFuaWNhbCBCcmFuY2ggJiBGb2xpYWdlIC0tPgogIDxnIGNsYXNzPSJsZWZ0LWJyYW5jaCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDwhLS0gTWFpbiBjdXJ2aW5nIHN0ZW0gLS0+CiAgICA8cGF0aCBkPSJNIDE5MCAyOTUgQyAxNTAgMjk1IDExMCAyNzAgOTIgMjI1IEMgODAgMTk1IDgyIDE1NSA5OCAxMjIgQyAxMDQgMTEwIDExMiAxMDAgMTIwIDkyIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZ29sZFN0ZW0pIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBTZWNvbmRhcnkgc3ByaWdzICYgbGVhdmVzIC0tPgogICAgPHBhdGggZD0iTSAxMTUgMTAwIEMgMTA4IDkyIDExMCA4NCAxMTYgODcgQyAxMjIgOTAgMTIxIDk4IDExNSAxMDAgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAxMDQgMTE0IEMgOTUgMTA4IDk4IDk5IDEwNCAxMDIgQyAxMTAgMTA1IDEwOSAxMTIgMTA0IDExNCBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDk0IDEzNCBDIDgzIDEzMCA4NCAxMjAgOTEgMTIzIEMgOTggMTI2IDk3IDEzMyA5NCAxMzQgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSA4NyAxNTYgQyA3NSAxNTQgNzUgMTQ0IDgzIDE0NiBDIDkxIDE0OCA5MCAxNTYgODcgMTU2IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gODMgMTgyIEMgNzAgMTgzIDcwIDE3MiA3OCAxNzMgQyA4NiAxNzQgODUgMTgzIDgzIDE4MiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDg4IDIwOCBDIDc2IDIxNCA3NCAyMDMgODEgMjAxIEMgODggMTk5IDkwIDIwNyA4OCAyMDggWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSA5OCAyMzYgQyA4OCAyNDUgODQgMjM2IDkwIDIzMSBDIDk2IDIyNiAxMDAgMjMzIDk4IDIzNiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDExOCAyNjIgQyAxMDkgMjc0IDEwNCAyNjYgMTEwIDI1OSBDIDExNiAyNTIgMTIxIDI1OCAxMTggMjYyIFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMTQ4IDI4NCBDIDE0MiAyOTUgMTM1IDI4OCAxNDAgMjgxIEMgMTQ1IDI3NCAxNTAgMjc5IDE0OCAyODQgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAxNzIgMjk1IEMgMTY2IDMwNCAxNTkgMjk4IDE2NCAyOTEgQyAxNjkgMjg0IDE3NCAyODkgMTcyIDI5NSBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CgogICAgPCEtLSBMZWZ0IEZsb3JhbCBDbHVzdGVyIChXYXRlcmNvbG9yIEJsb3Nzb21zKSAtLT4KICAgIDwhLS0gRmxvd2VyIDEgKE1haW4gTGVmdCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDgsIDIyMikiPgogICAgICA8IS0tIFBldGFscyAtLT4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMTIgLTE4IC00IC0yNiA2IC0yMCBDIDE0IC0xNSA4IC00IDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsxKSIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIDEyIC0yMCAyNCAtMTIgMjAgLTIgQyAxNiA2IDYgNCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAyMCAtMiAyNCAxMiAxNCAxOCBDIDYgMjIgMiAxMCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyA0IDE4IC04IDI0IC0xNiAxNiBDIC0yMiAxMCAtMTAgMiAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMTggOCAtMjQgLTYgLTE0IC0xNCBDIC02IC0yMCAtMiAtOCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPCEtLSBGbG93ZXIgQ2VudGVyIC0tPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMy41IiBmaWxsPSIjOEMzQTRCIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxLjgiIGZpbGw9IiNGQ0UxOUIiLz4KICAgICAgPCEtLSBUaW55IHBpc3RpbCBkb3RzIC0tPgogICAgICA8Y2lyY2xlIGN4PSItMyIgY3k9Ii0yIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iMiIgY3k9Ii0zIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iMyIgY3k9IjIiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgICA8Y2lyY2xlIGN4PSItMiIgY3k9IjMiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgPC9nPgoKICAgIDwhLS0gRmxvd2VyIDIgKEJ1ZCAvIEFjY2VudCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4NiwgMTk1KSI+CiAgICAgIDxwYXRoIGQ9Ik0gMCAwIEMgLTggLTEyIC0yIC0xOCA1IC0xNCBDIDExIC0xMCA1IC0yIDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsyKSIgb3BhY2l0eT0iMC45Ii8+CiAgICAgIDxwYXRoIGQ9Ik0gMCAwIEMgOCAtMTQgMTYgLTggMTMgLTEgQyAxMCA1IDQgMyAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIC0xMiA1IC0xNiAtNCAtOSAtMTAgQyAtNCAtMTQgLTEgLTUgMCAwIFoiIGZpbGw9InVybCgjZmxvd2VyUGluazIpIiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPGNpcmNsZSBjeD0iMCIgY3k9IjAiIHI9IjIuMiIgZmlsbD0iIzhDM0E0QiIvPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMSIgZmlsbD0iI0ZDRTE5QiIvPgogICAgPC9nPgogIDwvZz4KCiAgPCEtLSBSaWdodCBCb3RhbmljYWwgQnJhbmNoICYgRm9saWFnZSAoU3ltbWV0cmljYWwgUmVmbGVjdGlvbikgLS0+CiAgPGcgY2xhc3M9InJpZ2h0LWJyYW5jaCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDwhLS0gTWFpbiBjdXJ2aW5nIHN0ZW0gLS0+CiAgICA8cGF0aCBkPSJNIDIxMCAyOTUgQyAyNTAgMjk1IDI5MCAyNzAgMzA4IDIyNSBDIDMyMCAxOTUgMzE4IDE1NSAzMDIgMTIyIEMgMjk2IDExMCAyODggMTAwIDI4MCA5MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2dvbGRTdGVtKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gU2Vjb25kYXJ5IHNwcmlncyAmIGxlYXZlcyAtLT4KICAgIDxwYXRoIGQ9Ik0gMjg1IDEwMCBDIDI5MiA5MiAyOTAgODQgMjg0IDg3IEMgMjc4IDkwIDI3OSA5OCAyODUgMTAwIFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMjk2IDExNCBDIDMwNSAxMDggMzAyIDk5IDI5NiAxMDIgQyAyOTAgMTA1IDI5MSAxMTIgMjk2IDExNCBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDMwNiAxMzQgQyAzMTcgMTMwIDMxNiAxMjAgMzA5IDEyMyBDIDMwMiAxMjYgMzAzIDEzMyAzMDYgMTM0IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMzEzIDE1NiBDIDMyNSAxNTQgMzI1IDE0NCAzMTcgMTQ2IEMgMzA5IDE0OCAzMTAgMTU2IDMxMyAxNTYgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAzMTcgMTgyIEMgMzMwIDE4MyAzMzAgMTcyIDMyMiAxNzMgQyAzMTQgMTc0IDMxNSAxODMgMzE3IDE4MiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDMxMiAyMDggQyAzMjQgMjE0IDMyNiAyMDMgMzE5IDIwMSBDIDMxMiAxOTkgMzEwIDIwNyAzMTIgMjA4IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMzAyIDIzNiBDIDMxMiAyNDUgMzE2IDIzNiAzMTAgMjMxIEMgMzA0IDIyNiAzMDAgMjMzIDMwMiAyMzYgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgogICAgPHBhdGggZD0iTSAyODIgMjYyIEMgMjkxIDI3NCAyOTYgMjY2IDI5MCAyNTkgQyAyODQgMjUyIDI3OSAyNTggMjgyIDI2MiBaIiBmaWxsPSJ1cmwoI2xlYWZHcmFkKSIgc3Ryb2tlPSJub25lIi8+CiAgICA8cGF0aCBkPSJNIDI1MiAyODQgQyAyNTggMjk1IDI2NSAyODggMjYwIDI4MSBDIDI1NSAyNzQgMjUwIDI3OSAyNTIgMjg0IFoiIGZpbGw9InVybCgjbGVhZkdyYWQpIiBzdHJva2U9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0gMjI4IDI5NSBDIDIzNCAzMDQgMjQxIDI5OCAyMzYgMjkxIEMgMjMxIDI4NCAyMjYgMjg5IDIyOCAyOTUgWiIgZmlsbD0idXJsKCNsZWFmR3JhZCkiIHN0cm9rZT0ibm9uZSIvPgoKICAgIDwhLS0gUmlnaHQgRmxvcmFsIENsdXN0ZXIgKFdhdGVyY29sb3IgQmxvc3NvbXMpIC0tPgogICAgPCEtLSBGbG93ZXIgMSAoTWFpbiBSaWdodCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOTIsIDIyMikiPgogICAgICA8IS0tIFBldGFscyAtLT4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAxMiAtMTggNCAtMjYgLTYgLTIwIEMgLTE0IC0xNSAtOCAtNCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMTIgLTIwIC0yNCAtMTIgLTIwIC0yIEMgLTE2IDYgLTYgNCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtMjAgLTIgLTI0IDEyIC0xNCAxOCBDIC02IDIyIC0yIDEwIDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsxKSIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIC00IDE4IDggMjQgMTYgMTYgQyAyMiAxMCAxMCAyIDAgMCBaIiBmaWxsPSJ1cmwoI2Zsb3dlclBpbmsyKSIgb3BhY2l0eT0iMC45NSIvPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIDE4IDggMjQgLTYgMTQgLTE0IEMgNiAtMjAgMiAtOCAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMSkiIG9wYWNpdHk9IjAuOTUiLz4KICAgICAgPCEtLSBGbG93ZXIgQ2VudGVyIC0tPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMy41IiBmaWxsPSIjOEMzQTRCIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxLjgiIGZpbGw9IiNGQ0UxOUIiLz4KICAgICAgPCEtLSBUaW55IHBpc3RpbCBkb3RzIC0tPgogICAgICA8Y2lyY2xlIGN4PSIzIiBjeT0iLTIiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgICA8Y2lyY2xlIGN4PSItMiIgY3k9Ii0zIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iLTMiIGN5PSIyIiByPSIwLjgiIGZpbGw9IiNENEFGMzciLz4KICAgICAgPGNpcmNsZSBjeD0iMiIgY3k9IjMiIHI9IjAuOCIgZmlsbD0iI0Q0QUYzNyIvPgogICAgPC9nPgoKICAgIDwhLS0gRmxvd2VyIDIgKEJ1ZCAvIEFjY2VudCkgLS0+CiAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTQsIDE5NSkiPgogICAgICA8cGF0aCBkPSJNIDAgMCBDIDggLTEyIDIgLTE4IC01IC0xNCBDIC0xMSAtMTAgLTUgLTIgMCAwIFoiIGZpbGw9InVybCgjZmxvd2VyUGluazIpIiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAtOCAtMTQgLTE2IC04IC0xMyAtMSBDIC0xMCA1IC00IDMgMCAwIFoiIGZpbGw9InVybCgjZmxvd2VyUGluazEpIiBvcGFjaXR5PSIwLjkiLz4KICAgICAgPHBhdGggZD0iTSAwIDAgQyAxMiA1IDE2IC00IDkgLTEwIEMgNCAtMTQgMSAtNSAwIDAgWiIgZmlsbD0idXJsKCNmbG93ZXJQaW5rMikiIG9wYWNpdHk9IjAuOSIvPgogICAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iMi4yIiBmaWxsPSIjOEMzQTRCIi8+CiAgICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIxIiBmaWxsPSIjRkNFMTlCIi8+CiAgICA8L2c+CiAgPC9nPgoKICA8IS0tIEJvdHRvbSBQb2xpc2hlZCBHb2xkZW4gSGVhcnQgKPCfkpspIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwMCwgMjk4KSIgZmlsdGVyPSJ1cmwoI3NvZnRHbG93KSI+CiAgICA8cGF0aCBkPSJNIDAgMTYgQyAtMTggMyAtMjQgLTExIC0xNiAtMjAgQyAtOSAtMjcgMCAtMTkgMCAtMTIgQyAwIC0xOSA5IC0yNyAxNiAtMjAgQyAyNCAtMTEgMTggMyAwIDE2IFoiIGZpbGw9InVybCgjZ29sZEhlYXJ0R3JhZCkiIHN0cm9rZT0iI0IzNzgxNyIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICAgIDwhLS0gU3BlY3VsYXIgbGlnaHQgaGlnaGxpZ2h0IG9uIGhlYXJ0IGN1cnZlIC0tPgogICAgPHBhdGggZD0iTSAtMTEgLTE3IEMgLTcgLTIyIC0yIC0xNyAtMSAtMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRjVENiIgc3Ryb2tlLXdpZHRoPSIxLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iMC44NSIvPgogIDwvZz4KCiAgPCEtLSBDZW50cmFsIE1hc3RlciBDYWxsaWdyYXBoaWMgTGV0dGVycyAiQSIgYW5kICJZIiBtYXRjaGluZyB0aGUgUmVmZXJlbmNlIEltYWdlIC0tPgogIDxnIGNsYXNzPSJtb25vZ3JhbS1heS1sZXR0ZXJzIiBmaWx0ZXI9InVybCgjc29mdEdsb3cpIj4KICAgIDwhLS0gTGV0dGVyICJBIiAtIEVsZWdhbnQgU3BlbmNlcmlhbiAvIENvcHBlcnBsYXRlIEN1cnNpdmUgTGV0dGVyZm9ybSAtLT4KICAgIDwhLS0gSW5pdGlhbCBFbnRyeSBTd2lybCAtLT4KICAgIDxwYXRoIGQ9Ik0gMTQyIDE2NSBDIDEzNSAxNTggMTM2IDE0MiAxNDggMTM1IEMgMTYwIDEyOCAxNzQgMTM1IDE3OCAxNDggQyAxODIgMTYyIDE3MCAxNzggMTUyIDE4NiBDIDE0MyAxOTAgMTM3IDE5NSAxNDAgMjAwIEMgMTQ0IDIwNCAxNTMgMTk4IDE2NCAxODYgQyAxNzYgMTcyIDE4NSAxNTIgMTg4IDEzMiBDIDE5MCAxMTggMTg2IDEwMiAxNzggOTggQyAxNzIgOTUgMTY2IDk4IDE2MyAxMDUgQyAxNTggMTE2IDE2MCAxMzAgMTY3IDE0NiBMIDE3NSAxNjUgQyAxODAgMTc4IDE4NyAxOTQgMTk1IDIwNCBDIDE5OSAyMDkgMjA1IDIwOCAyMDggMjAyIEMgMjEwIDE5OCAyMDggMTkyIDIwNCAxODQiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnb2xkTGV0dGVyR3JhZCkiIHN0cm9rZS13aWR0aD0iMy4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICAgIAogICAgPCEtLSBCb2xkIEVsZWdhbnQgUmlnaHQgU3RlbSBvZiAiQSIgLS0+CiAgICA8cGF0aCBkPSJNIDE3NSA5NyBDIDE3OCA5NiAxODIgOTggMTg1IDEwNCBMIDIwNSAxNjYgQyAyMTAgMTgyIDIxNCAxOTYgMjIwIDIwMiBDIDIyNCAyMDYgMjI4IDIwNCAyMzAgMTk5IEMgMjMyIDE5NSAyMjkgMTg4IDIyMyAxNzgiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNnb2xkTGV0dGVyR3JhZCkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgICA8IS0tIFNoYWRpbmcgJiBoYWlybGluZSBmb3IgIkEiIC0tPgogICAgPHBhdGggZD0iTSAxNzYgOTggTCAyMDQgMTcwIiBmaWxsPSJub25lIiBzdHJva2U9IiNGQ0UxOUIiIHN0cm9rZS13aWR0aD0iMS44IiBvcGFjaXR5PSIwLjYiLz4KCiAgICA8IS0tIEZsb3dpbmcgQ3Jvc3NiYXIgRmxvdXJpc2ggb2YgIkEiIC0tPgogICAgPHBhdGggZD0iTSAxNTIgMTY1IFEgMTg1IDE1MiAyMTUgMTU4IiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZ29sZExldHRlckdyYWQpIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoKICAgIDwhLS0gTGV0dGVyICJZIiAtIEludGVybG9ja2luZyBTY3JpcHQgTGV0dGVyZm9ybSBuZXN0bGVkIHVuZGVyIGFuZCB0byB0aGUgcmlnaHQgb2YgQSAtLT4KICAgIDwhLS0gVXBwZXIgTGVmdCBCcmFuY2ggb2YgWSAtLT4KICAgIDxwYXRoIGQ9Ik0gMjA2IDE0MiBDIDIxMCAxMzYgMjE2IDEzNCAyMjIgMTM2IEMgMjI2IDEzOCAyMjUgMTQ1IDIyMiAxNTMgTCAyMTQgMTcyIEMgMjExIDE3OCAyMTQgMTgyIDIxOSAxODIgQyAyMjYgMTgyIDIzNCAxNzYgMjQyIDE2MiBMIDI1MyAxMzggQyAyNTUgMTMzIDI1OCAxMzEgMjYyIDEzMyBDIDI2NSAxMzUgMjY0IDE0MCAyNjAgMTQ4IEwgMjQzIDE4NiBDIDIzNSAyMDQgMjI3IDIyMCAyMTYgMjI2IEMgMjA1IDIzMiAxOTQgMjI4IDE5MyAyMTggQyAxOTMgMjA4IDIwMiAyMDIgMjEwIDIwMiBDIDIxNyAyMDIgMjIyIDIwNiAyMjUgMjEwIiBmaWxsPSJub25lIiBzdHJva2U9InVybCgjZ29sZExldHRlckdyYWQpIiBzdHJva2Utd2lkdGg9IjQuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgICAKICAgIDwhLS0gRmluZSBoaWdobGlnaHQgb24gWSAtLT4KICAgIDxwYXRoIGQ9Ik0gMjU4IDE0MCBMIDI0MyAxODIgQyAyMzYgMTk4IDIyOCAyMTQgMjE4IDIyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGMkM2IiBzdHJva2Utd2lkdGg9IjEuNiIgb3BhY2l0eT0iMC43Ii8+CiAgPC9nPgo8L3N2Zz4="
+            class="ay-monogram"
+            alt="Akash and Yamuna monogram"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+
+      <div class="cover-lead-text" data-i18n="familyLead">TOGETHER WITH THEIR FAMILIES</div>
+
+      <h2 class="hero-names">
+        <span class="couple-name-text">Akash</span>
+        <span class="heart-pulse" aria-label="love">💗</span>
+        <span class="couple-name-text">Yamuna</span>
+      </h2>
+
+      <!-- Gold Flourish Divider directly under names -->
+      <div class="name-sub-flourish">
+        <span class="flourish-taper-line"></span>
+        <span class="monogram-gold-heart">💛</span>
+        <span class="flourish-taper-line right"></span>
+      </div>
+
+      <div class="hero-reception-badge" data-i18n="receptionPill">
+        RECEPTION CELEBRATION
+      </div>
+
+      <div class="hero-datetime-box">
+        <div class="hero-date-large" data-i18n="heroDate">29 AUGUST 2026</div>
+        <div class="hero-time-large" data-i18n="heroTime">7:00 PM ONWARDS</div>
+      </div>
+
+      <div class="hero-venue-box">
+        <div class="hero-venue-title" data-i18n="heroVenueName">VASAVI GRAND, MODERN COMPLEX</div>
+        <div class="hero-venue-city" data-i18n="heroVenueCity">CHILAKALURIPET</div>
+      </div>
+
+      <p class="hero-blessing-quote" data-i18n="heroBlessing">
+        "With immense joy, we invite you to celebrate our reception and bless our new beginning."
+      </p>
+
+      <div class="hero-btn-group">
+        <a href="https://www.google.com/maps/search/?api=1&query=Vasavi+Grand+Modern+Complex+Chilakaluripet" target="_blank" rel="noopener noreferrer" class="btn-royal-primary">
+          <span data-i18n="openLocationBtn">Open Venue Location</span>
+        </a>
+        <a href="#calendar-section" class="btn-royal-secondary">
+          <span data-i18n="saveDateBtn">Save The Date</span>
+        </a>
+      </div>
+
+      <!-- Live Reception Countdown (29 August 2026 19:00 IST) -->
+      <div class="countdown-wrapper">
+        <span class="countdown-label" data-i18n="countdownLabel">CELEBRATION BEGINS IN</span>
+        <div class="countdown-grid">
+          <div class="countdown-dial">
+            <div class="countdown-num" id="cd-days">00</div>
+            <div class="countdown-unit" data-i18n="unitDays">Days</div>
+          </div>
+          <div class="countdown-dial">
+            <div class="countdown-num" id="cd-hours">00</div>
+            <div class="countdown-unit" data-i18n="unitHours">Hours</div>
+          </div>
+          <div class="countdown-dial">
+            <div class="countdown-num" id="cd-mins">00</div>
+            <div class="countdown-unit" data-i18n="unitMins">Mins</div>
+          </div>
+          <div class="countdown-dial">
+            <div class="countdown-num" id="cd-secs">00</div>
+            <div class="countdown-unit" data-i18n="unitSecs">Secs</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Section Explore Navigation -->
+      <div class="hero-quick-nav" role="navigation" aria-label="Invitation Sections">
+        <a href="#couple-section" class="spy-pill" data-i18n="navCouple">Couple</a>
+        <a href="#card-section" class="spy-pill" data-i18n="navCard">Card</a>
+        <a href="#video-section" class="spy-pill" data-i18n="navVideo">Video</a>
+        <a href="#venue-section" class="spy-pill" data-i18n="navVenue">Venue</a>
+        <a href="#live-section" class="spy-pill" data-i18n="navLive">Live</a>
+        <a href="#calendar-section" class="spy-pill" data-i18n="navCalendar">Calendar</a>
+        <a href="#share-section" class="spy-pill" data-i18n="navShare">Share</a>
+        <a href="#blessings-section" class="spy-pill" data-i18n="navBlessings">Blessings</a>
+      </div>
+    </section>
+
+    <!-- 2. COUPLE PHOTOGRAPH (Real Photo) -->
+    <section class="royal-section-card" id="couple-section" aria-label="Akash and Yamuna Couple Photograph">
+      <div class="section-inner-border"></div>
+      
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="coupleSectionTitle">AKASH &amp; YAMUNA</h3>
+        <p class="royal-section-subtitle" data-i18n="coupleSectionSub">Celebrating love, laughter &amp; a lifetime of togetherness</p>
+      </div>
+
+      <div class="couple-photo-wrapper">
+        <div class="couple-photo-temple-frame">
+          <img 
+            id="couple-photo-img" 
+            src="assets/couple-photo.jpg" 
+            alt="Akash and Yamuna" 
+            class="couple-photo-img" 
+            onerror="if (this.src.indexOf('couple-photo.png') === -1) { this.src='assets/couple-photo.png'; } else if (this.src.indexOf('image.png') === -1) { this.src='image.png'; }"
+          />
+        </div>
+
+        <div class="couple-caption-box">
+          <h4 class="couple-caption-names" data-i18n="coupleNames">Akash <span class="heart-pulse">💗</span> Yamuna</h4>
+          <p class="couple-caption-quote" data-i18n="coupleQuote">"Together is our favorite place to be"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. RECEPTION INVITATION CARD VIEWER -->
+    <section class="royal-section-card" id="card-section" aria-label="Reception Invitation Card">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="cardSectionTitle">RECEPTION INVITATION CARD</h3>
+        <p class="royal-section-subtitle" data-i18n="cardSectionSub">View or download our traditional invitation card</p>
+      </div>
+
+      <div class="card-tabs" role="tablist">
+        <button type="button" class="card-tab-btn" id="tab-card-te">తెలుగు ఆహ్వాన పత్రం</button>
+        <button type="button" class="card-tab-btn active" id="tab-card-en">English Card</button>
+      </div>
+
+      <div class="card-display-container">
+        <img id="card-img-en" src="assets/wedding-card-english.jpg" alt="Akash & Yamuna Reception English Invitation" class="card-preview-img" />
+        <img id="card-img-te" src="assets/wedding-card-telugu.jpg" alt="Akash & Yamuna Reception Telugu Invitation" class="card-preview-img" style="display: none;" />
+      </div>
+
+      <div class="card-action-bar">
+        <button type="button" id="btn-zoom-card" class="btn-royal-secondary">
+          <span data-i18n="zoomCardBtn">View Fullscreen</span>
+        </button>
+        <a id="btn-download-card" href="assets/wedding-card-english.jpg" download="Akash-Yamuna-Reception-Invitation.jpg" class="btn-royal-primary">
+          <span data-i18n="downloadCardBtn">Download Card</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 4. INVITATION VIDEO -->
+    <section class="royal-section-card" id="video-section" aria-label="Invitation Video">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="videoSectionTitle">INVITATION VIDEO</h3>
+        <p class="royal-section-subtitle" data-i18n="videoSectionSub">Watch our digital video invitation</p>
+      </div>
+
+      <div class="video-temple-frame">
+        <video id="invitationVideo" class="video-element" playsinline controls poster="assets/video-poster.jpg" preload="metadata">
+          <source src="assets/invitation-video.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+        <div id="video-overlay" class="video-overlay-play">
+          <div class="video-play-btn">▶</div>
+          <span style="font-weight: 600; letter-spacing: 0.08em; font-size: 0.92rem; font-family: var(--font-serif);" data-i18n="playVideoTxt">Tap to Play Video</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. RECEPTION LOCATION (SINGLE VENUE CARD) -->
+    <section class="royal-section-card" id="venue-section" aria-label="Reception Venue">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="venueSectionTitle">RECEPTION VENUE</h3>
+        <p class="royal-section-subtitle" data-i18n="venueSectionSub">Join us at Vasavi Grand, Chilakaluripet</p>
+      </div>
+
+      <div class="venue-card-body">
+        <h4 class="venue-title" data-i18n="venueCardName">VASAVI GRAND, MODERN COMPLEX</h4>
+        <p class="venue-address" data-i18n="venueCardAddress">
+          Modern Complex, Main Road, Chilakaluripet, Andhra Pradesh 522616
+        </p>
+
+        <div class="venue-map-embed">
+          <iframe 
+            title="Vasavi Grand Chilakaluripet Map"
+            src="https://maps.google.com/maps?q=Vasavi+Grand+Modern+Complex+Chilakaluripet&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            loading="lazy" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="hero-btn-group" style="margin-bottom: 0;">
+          <a href="https://www.google.com/maps/search/?api=1&query=Vasavi+Grand+Modern+Complex+Chilakaluripet" target="_blank" rel="noopener noreferrer" class="btn-royal-primary">
+            <span data-i18n="openMapBtn">Google Maps</span>
+          </a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Vasavi+Grand+Modern+Complex+Chilakaluripet" target="_blank" rel="noopener noreferrer" class="btn-royal-secondary">
+            <span data-i18n="getDirectionsBtn">Get Directions</span>
+          </a>
+          <a href="https://maps.apple.com/?q=Vasavi+Grand+Modern+Complex+Chilakaluripet" target="_blank" rel="noopener noreferrer" class="btn-royal-secondary">
+            <span data-i18n="openAppleMapBtn">Apple Maps</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. RECEPTION LIVE -->
+    <section class="royal-section-card" id="live-section" aria-label="Reception Live Broadcast">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="liveSectionTitle">RECEPTION LIVE</h3>
+        <p class="royal-section-subtitle" data-i18n="liveSectionSub">Live broadcast for well-wishers joining virtually</p>
+      </div>
+
+      <div class="live-status-box">
+        <div class="live-badge">
+          <span class="live-pulse-dot"></span>
+          <span data-i18n="liveBadgeText">BROADCAST</span>
+        </div>
+        <p style="font-size: 0.96rem; font-family: var(--font-serif); color: var(--plum-800); margin-bottom: 14px;" data-i18n="liveNoteText">
+          The reception live broadcast will start on 29 August 2026 at 7:00 PM IST.
+        </p>
+        <div id="live-action-container">
+          <!-- Dynamic CTA inserted via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CALENDAR / SAVE THE DATE -->
+    <section class="royal-section-card" id="calendar-section" aria-label="Save Date to Calendar">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="calSectionTitle">SAVE THE DATE</h3>
+        <p class="royal-section-subtitle" data-i18n="calSectionSub">Add the reception to your personal calendar</p>
+      </div>
+
+      <div class="calendar-actions-grid">
+        <button type="button" id="btn-cal-google" class="btn-royal-primary">
+          <span>Google Calendar</span>
+        </button>
+        <button type="button" id="btn-remind-me" class="btn-royal-secondary">
+          <span data-i18n="remindMeBtn">Remind Me</span>
+        </button>
+        <button type="button" id="btn-cal-ical" class="btn-royal-secondary">
+          <span>Apple / Outlook iCal</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 8. SHARING & FORWARD -->
+    <section class="royal-section-card" id="share-section" aria-label="Share Invitation">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="shareSectionTitle">SHARE INVITATION</h3>
+        <p class="royal-section-subtitle" data-i18n="shareSectionSub">Forward this joyful news to friends & family</p>
+      </div>
+
+      <div class="share-preview-card">
+        <p><strong>You’re Cordially Invited!</strong></p>
+        <p><strong>AKASH &amp; YAMUNA</strong></p>
+        <p style="margin: 4px 0;"><em>Reception Celebration</em></p>
+        <p>29 August 2026 • 7:00 PM</p>
+        <p>Vasavi Grand, Modern Complex, Chilakaluripet</p>
+        <p style="margin-top: 6px;"><em>https://tinyurl.com/3s9xk4ky</em></p>
+      </div>
+
+      <div class="card-action-bar">
+        <button type="button" id="btn-native-share" class="btn-royal-primary">
+          <span data-i18n="shareNativeBtn">Share Invitation</span>
+        </button>
+        <button type="button" id="btn-whatsapp" class="btn-whatsapp-share">
+          <span data-i18n="shareWhatsappBtn">Share via WhatsApp</span>
+        </button>
+        <button type="button" id="btn-copy-url" class="btn-royal-secondary">
+          <span data-i18n="copyUrlBtn">Copy Link</span>
+        </button>
+        <button type="button" id="btn-copy-link" class="btn-royal-secondary">
+          <span data-i18n="copyLinkBtn">Copy Invite Text</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- CLOSING BLESSINGS & FOOTER -->
+    <footer class="royal-section-card royal-footer-card" aria-label="Blessings and Regards">
+      <div class="section-inner-border"></div>
+      <div class="blessing-script">With Best Compliments</div>
+      <p class="blessing-message" data-i18n="blessingText">
+        Your gracious presence and hearty blessings are requested on this auspicious occasion as we begin our new journey of togetherness.
+      </p>
+      <div class="compliments-tag" data-i18n="complimentsTag">
+        NEAR &amp; DEAR • FAMILY &amp; FRIENDS
+      </div>
+    </footer>
+
+    <!-- 9. DIGITAL BLESSINGS & GUESTBOOK -->
+    <section class="royal-section-card blessings-section-card" id="blessings-section" aria-label="Digital Blessings & Guestbook">
+      <div class="section-inner-border"></div>
+
+      <div class="royal-section-header">
+        <div class="section-ornament-icon">❧ ❦ ❧</div>
+        <h3 class="royal-section-title" data-i18n="blessingsSectionTitle">DIGITAL BLESSINGS</h3>
+        <p class="royal-section-subtitle" data-i18n="blessingsSectionSub">Shower your warm wishes &amp; blessings upon Akash &amp; Yamuna</p>
+      </div>
+
+      <!-- Blessing Submission Form -->
+      <form id="blessing-form" class="blessing-form" novalidate>
+        <div class="blessing-inputs-row">
+          <div class="blessing-field-group">
+            <label for="blessing-guest-name" class="blessing-field-label" data-i18n="blessingNameLabel">Your Name</label>
+            <input 
+              type="text" 
+              id="blessing-guest-name" 
+              class="blessing-input" 
+              placeholder="e.g. Suresh Kumar" 
+              data-i18n-placeholder="blessingNamePlaceholder"
+              maxlength="50" 
+              required 
+            />
+          </div>
+          <div class="blessing-field-group">
+            <label for="blessing-guest-relation" class="blessing-field-label" data-i18n="blessingRelationLabel">City / Relation (Optional)</label>
+            <input 
+              type="text" 
+              id="blessing-guest-relation" 
+              class="blessing-input" 
+              placeholder="e.g. Hyderabad • Family Friend" 
+              data-i18n-placeholder="blessingRelationPlaceholder"
+              maxlength="50" 
+            />
+          </div>
+        </div>
+
+        <div class="blessing-field-group" style="margin-top: 14px;">
+          <label for="blessing-guest-msg" class="blessing-field-label" data-i18n="blessingMsgLabel">Your Blessing / Message</label>
+          <textarea 
+            id="blessing-guest-msg" 
+            class="blessing-textarea" 
+            rows="3" 
+            placeholder="Write your heartfelt blessing and wishes for the lovely couple..." 
+            data-i18n-placeholder="blessingMsgPlaceholder"
+            maxlength="350" 
+            required
+          ></textarea>
+        </div>
+
+        <!-- Quick Blessings Chips -->
+        <div class="blessing-quick-tags" aria-label="Quick Blessing Suggestions">
+          <span class="quick-blessing-label" data-i18n="quickBlessingLabel">Quick Blessings:</span>
+          <button type="button" class="quick-tag-btn" data-msg="Wishing you both a lifetime of immense joy, good health, and unconditional love! ❧">Joy &amp; Love</button>
+          <button type="button" class="quick-tag-btn" data-msg="May Lord Venkateswara shower eternal grace and happiness on your new journey together! ❧">Divine Grace</button>
+          <button type="button" class="quick-tag-btn" data-msg="Hearty congratulations Akash &amp; Yamuna! Wishing you a blessed marital life! ❧">Congratulations</button>
+        </div>
+
+        <div style="text-align: center; margin-top: 18px;">
+          <button type="submit" id="btn-submit-blessing" class="btn-royal-primary" style="min-width: 220px;">
+            <span data-i18n="sendBlessingBtn">Send Blessing</span>
+          </button>
+        </div>
+      </form>
+
+      <!-- Blessings Board Header -->
+      <div class="blessings-board-header">
+        <div class="blessings-divider-line"></div>
+        <div class="blessings-count-badge">
+          <span id="blessings-count-num">3</span> <span data-i18n="blessingsCountSuffix">Blessings</span>
+        </div>
+        <div class="blessings-divider-line"></div>
+      </div>
+
+      <!-- Refined Blessings List -->
+      <div id="blessings-list" class="blessings-list" role="feed" aria-label="Guest blessings list">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Fullscreen Card Lightbox Modal -->
+  <div id="card-lightbox" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Card Fullscreen Preview">
+    <button type="button" id="btn-close-lightbox" class="lightbox-close-btn" aria-label="Close Preview">✕</button>
+    <img id="lightbox-img" class="lightbox-img" src="" alt="Full size Invitation Card" />
+  </div>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" id="back-to-top-btn" class="floating-fab-btn" aria-label="Back to Top" title="Back to Top">
+    <span>↑</span>
+  </button>
+
+  <!-- Toast Notification -->
+  <div id="toast-msg" class="toast-msg" role="status" aria-live="polite">Copied to clipboard!</div>
+
+  <!-- ========================================================
+       SINGLE JAVASCRIPT MASTER ENGINE
+       ======================================================== -->
+  <script>
+    (function () {
+      "use strict";
+
+      /* ----------------------------------------------------
+         1. STATE & CONFIGURATION
+         ---------------------------------------------------- */
+      const receptionLiveUrl = ""; // Leave empty for "COMING SOON"
+      const receptionDateStr = "2026-08-29T19:00:00+05:30";
+      const shareUrl = "https://tinyurl.com/3s9xk4ky";
+
+      let currentLang = "en";
+      let activeCardTab = "en";
+      let isMusicPlaying = false;
+      let wasPlayingBeforeVideo = false;
+
+      /* ----------------------------------------------------
+         2. BILINGUAL TRANSLATIONS (Strictly Reception Only)
+         ---------------------------------------------------- */
+      const translations = {
+        en: {
+          familyLead: "TOGETHER WITH THEIR FAMILIES",
+          inviteLead: "WITH LOVE, WE INVITE YOU",
+          receptionTag: "❧ RECEPTION ❧",
+          coverDate: "29 AUGUST 2026 • 7:00 PM",
+          coverVenue: "VASAVI GRAND, MODERN COMPLEX\nCHILAKALURIPET",
+          openInviteBtn: "OPEN INVITATION 💌",
+          audioHint: "🎵 Plays auspicious wedding music upon opening",
+          receptionPill: "✨ RECEPTION CELEBRATION ✨",
+          heroDate: "29 AUGUST 2026",
+          heroTime: "7:00 PM ONWARDS",
+          heroVenueName: "VASAVI GRAND, MODERN COMPLEX",
+          heroVenueCity: "CHILAKALURIPET",
+          heroBlessing: '"With immense joy, we invite you to celebrate our reception and bless our new beginning."',
+          openLocationBtn: "Open Venue Location",
+          saveDateBtn: "Save The Date",
+          countdownLabel: "Celebration Begins In",
+          unitDays: "Days",
+          unitHours: "Hours",
+          unitMins: "Mins",
+          unitSecs: "Secs",
+          coupleSectionTitle: "AKASH & YAMUNA",
+          coupleSectionSub: "Celebrating love, laughter & a lifetime of togetherness",
+          coupleNames: "Akash 💗 Yamuna",
+          coupleQuote: '"Together is our favorite place to be"',
+          cardSectionTitle: "RECEPTION INVITATION CARD",
+          cardSectionSub: "View or download our traditional invitation card",
+          zoomCardBtn: "View Fullscreen",
+          downloadCardBtn: "Download Card",
+          videoSectionTitle: "INVITATION VIDEO",
+          videoSectionSub: "Watch our digital video invitation",
+          playVideoTxt: "Tap to Play Video",
+          venueSectionTitle: "RECEPTION VENUE",
+          venueSectionSub: "Join us at Vasavi Grand, Chilakaluripet",
+          venueCardName: "VASAVI GRAND, MODERN COMPLEX",
+          venueCardAddress: "Modern Complex, Main Road, Chilakaluripet, Andhra Pradesh 522616",
+          openMapBtn: "Google Maps",
+          openAppleMapBtn: "Apple Maps",
+          liveSectionTitle: "RECEPTION LIVE",
+          liveSectionSub: "Live broadcast for well-wishers joining virtually",
+          liveBadgeText: "BROADCAST",
+          liveNoteText: "The reception live broadcast will start on 29 August 2026 at 7:00 PM IST.",
+          liveComingSoon: "COMING SOON",
+          liveWatchBtn: "Watch Reception Live",
+          calSectionTitle: "SAVE THE DATE",
+          calSectionSub: "Add the reception to your personal calendar",
+          shareSectionTitle: "SHARE INVITATION",
+          shareSectionSub: "Forward this joyful news to friends & family",
+          shareNativeBtn: "Share Invitation",
+          shareWhatsappBtn: "Share via WhatsApp",
+          copyUrlBtn: "Copy Link",
+          copyLinkBtn: "Copy Invite Text",
+          remindMeBtn: "Remind Me",
+          getDirectionsBtn: "Get Directions",
+          blessingText: "Your gracious presence and hearty blessings are requested on this auspicious occasion as we begin our new journey of togetherness.",
+          complimentsTag: "NEAR & DEAR • FAMILY & FRIENDS",
+          musicOn: "Music On",
+          musicOff: "Music Off",
+          toastCopied: "Invitation text copied to clipboard!",
+          toastUrlCopied: "Invitation link copied!",
+          navCouple: "Couple",
+          navCard: "Card",
+          navVideo: "Video",
+          navVenue: "Venue",
+          navLive: "Live",
+          navCalendar: "Calendar",
+          navShare: "Share",
+          navBlessings: "Blessings",
+          blessingsSectionTitle: "DIGITAL BLESSINGS",
+          blessingsSectionSub: "Shower your warm wishes &amp; blessings upon Akash &amp; Yamuna",
+          blessingNameLabel: "Your Name",
+          blessingNamePlaceholder: "e.g. Suresh Kumar",
+          blessingRelationLabel: "City / Relation (Optional)",
+          blessingRelationPlaceholder: "e.g. Hyderabad • Family Friend",
+          blessingMsgLabel: "Your Blessing / Message",
+          blessingMsgPlaceholder: "Write your heartfelt blessing and wishes for the lovely couple...",
+          quickBlessingLabel: "Quick Blessings:",
+          sendBlessingBtn: "Send Blessing ❧",
+          blessingsCountSuffix: "Blessings",
+          blessingSentToast: "Thank you! Your heartfelt blessing has been shared. 🌸",
+          blessingRequiredWarn: "Please enter your name and a short blessing."
+        },
+        te: {
+          familyLead: "సకుటుంబసపరివార సమేతంగా",
+          inviteLead: "ప్రేమతో మిమ్మల్ని ఆహ్వానిస్తున్నాము",
+          receptionTag: "❧ రిసెప్షన్ ❧",
+          coverDate: "29 ఆగస్టు 2026 • సాయంత్రం 7:00",
+          coverVenue: "వాసవి గ్రాండ్, మోడ్రన్ కాంప్లెక్స్\nచిలకలూరిపేట",
+          openInviteBtn: "ఆహ్వానాన్ని తెరవండి",
+          audioHint: "🎵 తెరవగానే మంగళ వాయిద్యాల సంగీతం ప్లే అవుతుంది",
+          receptionPill: "రిసెప్షన్ వేడుక",
+          heroDate: "29 ఆగస్టు 2026",
+          heroTime: "సాయంత్రం 7:00 గంటల నుండి",
+          heroVenueName: "వాసవి గ్రాండ్, మోడ్రన్ కాంప్లెక్స్",
+          heroVenueCity: "చిలకలూరిపేట",
+          heroBlessing: '"మా నూతన దాంపత్య జీవిత ప్రారంభంలో మీ ఆశీస్సులు మాతో ఉండాలని మనసారా కోరుకుంటున్నాము."',
+          openLocationBtn: "వేదిక వివరాలు",
+          saveDateBtn: "క్యాలెండర్‌లో జోడించండి",
+          countdownLabel: "రిసెప్షన్ ప్రారంభానికి సమయం",
+          unitDays: "రోజులు",
+          unitHours: "గంటలు",
+          unitMins: "నిమిషాలు",
+          unitSecs: "సెకన్లు",
+          coupleSectionTitle: "ఆకాష్ & యమున",
+          coupleSectionSub: "ఒకరికొకరు తోడుగా... సరికొత్త ప్రయాణం",
+          coupleNames: "ఆకాష్ 💗 యమున",
+          coupleQuote: '"మా అందమైన ప్రయాణంలో మీ ఆశీస్సులు మాకు అమూల్యం"',
+          cardSectionTitle: "రిసెప్షన్ ఆహ్వాన పత్రం",
+          cardSectionSub: "మా ఆహ్వాన పత్రికను వీక్షించండి లేదా డౌన్‌లోడ్ చేసుకోండి",
+          zoomCardBtn: "పూర్తి పరిమాణంలో చూడండి",
+          downloadCardBtn: "డౌన్‌లోడ్ చేసుకోండి",
+          videoSectionTitle: "ఆహ్వాన వీడియో",
+          videoSectionSub: "మా డిజిటల్ వీడియో ఆహ్వానాన్ని వీక్షించండి",
+          playVideoTxt: "వీడియో ప్లే చేయండి",
+          venueSectionTitle: "రిసెప్షన్ వేదిక",
+          venueSectionSub: "వాసవి గ్రాండ్, చిలకలూరిపేట వద్ద మాతో కలవండి",
+          venueCardName: "వాసవి గ్రాండ్, మోడ్రన్ కాంప్లెక్స్",
+          venueCardAddress: "మోడ్రన్ కాంప్లెక్స్, మెయిన్ రోడ్, చిలకలూరిపేట, ఆంధ్రప్రదేశ్ 522616",
+          openMapBtn: "గూగుల్ మ్యాప్స్",
+          openAppleMapBtn: "యాపిల్ మ్యాప్స్",
+          liveSectionTitle: "రిసెప్షన్ లైవ్",
+          liveSectionSub: "ప్రత్యక్ష ప్రసారం ద్వారా రిసెప్షన్ వేడుకను వీక్షించండి",
+          liveBadgeText: "ప్రత్యక్ష ప్రసారం",
+          liveNoteText: "రిసెప్షన్ ప్రత్యక్ష ప్రసారం 29 ఆగస్టు 2026 సాయంత్రం 7:00 గంటలకు ప్రారంభమవుతుంది.",
+          liveComingSoon: "త్వరలో ప్రారంభం",
+          liveWatchBtn: "రిసెప్షన్ లైవ్ చూడండి",
+          calSectionTitle: "తేదీని భద్రపరచండి",
+          calSectionSub: "మీ క్యాలెండర్‌లో రిసెప్షన్ తేదీని జోడించండి",
+          shareSectionTitle: "ఆహ్వానాన్ని పంచుకోండి",
+          shareSectionSub: "ఈ సంతోషకరమైన వార్తను బంధుమిత్రులకు తెలియజేయండి",
+          shareNativeBtn: "ఆహ్వానాన్ని షేర్ చేయండి",
+          shareWhatsappBtn: "వాట్సాప్ ద్వారా పంపండి",
+          copyUrlBtn: "లింక్ కాపీ చేయండి",
+          copyLinkBtn: "టెక్స్ట్‌ను కాపీ చేయండి",
+          remindMeBtn: "గుర్తుచేయి",
+          getDirectionsBtn: "దారిని చూపించండి",
+          blessingText: "నూతన జీవన ప్రయాణాన్ని ప్రారంభిస్తున్న ఈ శుభవేళ మీ పవిత్ర ఆశీస్సులు, శుభాకాంక్షలు మాకు ఎంతో అమూల్యం.",
+          complimentsTag: "ఆత్మీయులు • బంధుమిత్రులు",
+          musicOn: "సంగీతం ఆన్",
+          musicOff: "సంగీతం ఆఫ్",
+          toastCopied: "ఆహ్వాన వివరాలు కాపీ చేయబడ్డాయి!",
+          toastUrlCopied: "ఆహ్వాన లింక్ కాపీ చేయబడింది!",
+          navCouple: "వధూవరులు",
+          navCard: "ఆహ్వాన పత్రం",
+          navVideo: "వీడియో",
+          navVenue: "వేదిక",
+          navLive: "లైవ్",
+          navCalendar: "క్యాలెండర్",
+          navShare: "షేర్",
+          navBlessings: "ఆశీస్సులు",
+          blessingsSectionTitle: "ఆశీస్సులు & శుభాకాంక్షలు",
+          blessingsSectionSub: "ఆకాష్ & యమునలకు మీ పవిత్ర ఆశీస్సులు, శుభాకాంక్షలు అందించండి",
+          blessingNameLabel: "మీ పేరు",
+          blessingNamePlaceholder: "ఉదా: సురేష్ కుమార్",
+          blessingRelationLabel: "ఊరు / బంధుత్వం (ఐచ్ఛికం)",
+          blessingRelationPlaceholder: "ఉదా: హైదరాబాద్ • ఆత్మీయులు",
+          blessingMsgLabel: "మీ ఆశీర్వచనం / శుభాకాంక్షలు",
+          blessingMsgPlaceholder: "వధూవరులకు మీ హృదయపూర్వక ఆశీస్సులు మరియు శుభాకాంక్షలను రాయండి...",
+          quickBlessingLabel: "త్వరిత ఆశీస్సులు:",
+          sendBlessingBtn: "ఆశీస్సులు పంపండి ❧",
+          blessingsCountSuffix: "ఆశీర్వాదాలు",
+          blessingSentToast: "ధన్యవాదాలు! మీ ఆశీస్సులు విజయవంతంగా నమోదయ్యాయి. 🌸",
+          blessingRequiredWarn: "దయచేసి మీ పేరు మరియు ఆశీర్వాద సందేశాన్ని పూరించండి."
+        }
+      };
+
+      /* ----------------------------------------------------
+         3. LANGUAGE SWITCHER
+         ---------------------------------------------------- */
+      function setLanguage(lang) {
+        if (!translations[lang]) return;
+        currentLang = lang;
+
+        document.body.classList.remove("lang-en", "lang-te");
+        document.body.classList.add("lang-" + lang);
+
+        document.querySelectorAll(".lang-btn").forEach(function (btn) {
+          const btnLang = btn.getAttribute("data-lang");
+          if (btnLang === lang) {
+            btn.classList.add("active");
+          } else {
+            btn.classList.remove("active");
+          }
+        });
+
+        document.querySelectorAll("[data-i18n]").forEach(function (el) {
+          const key = el.getAttribute("data-i18n");
+          if (translations[lang][key]) {
+            if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
+              el.value = translations[lang][key];
+            } else {
+              el.innerHTML = translations[lang][key].replace(/\n/g, "<br />");
+            }
+          }
+        });
+
+        document.querySelectorAll("[data-i18n-placeholder]").forEach(function (el) {
+          const key = el.getAttribute("data-i18n-placeholder");
+          if (translations[lang][key]) {
+            el.placeholder = translations[lang][key];
+          }
+        });
+
+        switchCardTab(lang);
+        updateLiveSectionUI();
+        updateMusicButtonUI();
+      }
+
+      /* ----------------------------------------------------
+         4. MUSIC CONTROLLER (Single Native Audio)
+         ---------------------------------------------------- */
+      function updateMusicButtonUI() {
+        const btnText = document.getElementById("music-btn-text");
+        const btn = document.getElementById("music-toggle-btn");
+        if (!btnText || !btn) return;
+
+        if (isMusicPlaying) {
+          btnText.textContent = translations[currentLang].musicOn;
+          btn.classList.add("music-playing");
+        } else {
+          btnText.textContent = translations[currentLang].musicOff;
+          btn.classList.remove("music-playing");
+        }
+      }
+
+      function startMusic() {
+        const audio = document.getElementById("weddingMusic");
+        if (audio) {
+          audio.volume = 0.75;
+          const playPromise = audio.play();
+          if (playPromise !== undefined) {
+            playPromise
+              .then(function () {
+                isMusicPlaying = true;
+                updateMusicButtonUI();
+              })
+              .catch(function () {
+                isMusicPlaying = false;
+                updateMusicButtonUI();
+              });
+          }
+        }
+      }
+
+      function toggleMusic() {
+        const audio = document.getElementById("weddingMusic");
+        if (!audio) return;
+
+        if (isMusicPlaying) {
+          audio.pause();
+          isMusicPlaying = false;
+        } else {
+          audio.volume = 0.75;
+          audio.play().then(function () {
+            isMusicPlaying = true;
+            updateMusicButtonUI();
+          }).catch(function () {
+            isMusicPlaying = false;
+          });
+        }
+        updateMusicButtonUI();
+      }
+
+      /* ----------------------------------------------------
+         5. OPEN INVITATION (Cover Entrance)
+         ---------------------------------------------------- */
+      function openInvitation() {
+        const page1 = document.getElementById("page-1");
+        const floatingNav = document.getElementById("floating-nav");
+
+        if (page1) {
+          page1.classList.add("opened");
+          setTimeout(function () {
+            page1.style.display = "none";
+            document.body.style.overflow = "auto";
+          }, 850);
+        }
+
+        if (floatingNav) {
+          floatingNav.style.display = "flex";
+        }
+
+        document.body.style.overflow = "auto";
+        startMusic();
+      }
+
+      /* ----------------------------------------------------
+         6. WEDDING CARD VIEWER & LIGHTBOX
+         ---------------------------------------------------- */
+      function switchCardTab(tabLang) {
+        activeCardTab = tabLang;
+        const imgEn = document.getElementById("card-img-en");
+        const imgTe = document.getElementById("card-img-te");
+        const tabEn = document.getElementById("tab-card-en");
+        const tabTe = document.getElementById("tab-card-te");
+        const downloadBtn = document.getElementById("btn-download-card");
+
+        if (tabEn) tabEn.classList.toggle("active", tabLang === "en");
+        if (tabTe) tabTe.classList.toggle("active", tabLang === "te");
+
+        if (tabLang === "te") {
+          if (imgEn) imgEn.style.display = "none";
+          if (imgTe) imgTe.style.display = "block";
+          if (downloadBtn) {
+            downloadBtn.href = "assets/wedding-card-telugu.jpg";
+            downloadBtn.download = "Akash-Yamuna-Reception-Invitation-Telugu.jpg";
+          }
+        } else {
+          if (imgTe) imgTe.style.display = "none";
+          if (imgEn) imgEn.style.display = "block";
+          if (downloadBtn) {
+            downloadBtn.href = "assets/wedding-card-english.jpg";
+            downloadBtn.download = "Akash-Yamuna-Reception-Invitation-English.jpg";
+          }
+        }
+      }
+
+      function openLightbox(src) {
+        const modal = document.getElementById("card-lightbox");
+        const modalImg = document.getElementById("lightbox-img");
+        if (!modal || !modalImg) return;
+
+        modalImg.src = src;
+        modal.classList.add("active");
+      }
+
+      function closeLightbox() {
+        const modal = document.getElementById("card-lightbox");
+        if (modal) modal.classList.remove("active");
+      }
+
+      /* ----------------------------------------------------
+         7. INVITATION VIDEO CONTROLLER
+         ---------------------------------------------------- */
+      function initVideoPlayer() {
+        const video = document.getElementById("invitationVideo");
+        const overlay = document.getElementById("video-overlay");
+        if (!video || !overlay) return;
+
+        overlay.addEventListener("click", function () {
+          overlay.style.display = "none";
+          const audio = document.getElementById("weddingMusic");
+          if (audio && isMusicPlaying && !audio.paused) {
+            wasPlayingBeforeVideo = true;
+            audio.pause();
+            isMusicPlaying = false;
+            updateMusicButtonUI();
+          } else {
+            wasPlayingBeforeVideo = false;
+          }
+          video.play().catch(function () {});
+        });
+
+        video.addEventListener("play", function () {
+          overlay.style.display = "none";
+          const audio = document.getElementById("weddingMusic");
+          if (audio && isMusicPlaying && !audio.paused) {
+            wasPlayingBeforeVideo = true;
+            audio.pause();
+            isMusicPlaying = false;
+            updateMusicButtonUI();
+          }
+        });
+
+        video.addEventListener("pause", function () {
+          if (wasPlayingBeforeVideo) {
+            const audio = document.getElementById("weddingMusic");
+            if (audio) {
+              audio.volume = 0.75;
+              audio.play().then(function () {
+                isMusicPlaying = true;
+                updateMusicButtonUI();
+              }).catch(function () {});
+            }
+          }
+        });
+
+        video.addEventListener("ended", function () {
+          if (wasPlayingBeforeVideo) {
+            const audio = document.getElementById("weddingMusic");
+            if (audio) {
+              audio.volume = 0.75;
+              audio.play().then(function () {
+                isMusicPlaying = true;
+                updateMusicButtonUI();
+              }).catch(function () {});
+            }
+          }
+        });
+      }
+
+      /* ----------------------------------------------------
+         8. COUNTDOWN ENGINE (2026-08-29T19:00:00+05:30)
+         ---------------------------------------------------- */
+      function updateCountdown() {
+        const targetDate = new Date(receptionDateStr).getTime();
+        const now = new Date().getTime();
+        const difference = targetDate - now;
+
+        const daysEl = document.getElementById("cd-days");
+        const hoursEl = document.getElementById("cd-hours");
+        const minsEl = document.getElementById("cd-mins");
+        const secsEl = document.getElementById("cd-secs");
+
+        if (!daysEl || !hoursEl || !minsEl || !secsEl) return;
+
+        if (difference <= 0) {
+          daysEl.textContent = "00";
+          hoursEl.textContent = "00";
+          minsEl.textContent = "00";
+          secsEl.textContent = "00";
+          return;
+        }
+
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const mins = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const secs = Math.floor((difference % (1000 * 60)) / 1000);
+
+        daysEl.textContent = days < 10 ? "0" + days : days;
+        hoursEl.textContent = hours < 10 ? "0" + hours : hours;
+        minsEl.textContent = mins < 10 ? "0" + mins : mins;
+        secsEl.textContent = secs < 10 ? "0" + secs : secs;
+      }
+
+      /* ----------------------------------------------------
+         9. RECEPTION LIVE SECTION
+         ---------------------------------------------------- */
+      function updateLiveSectionUI() {
+        const container = document.getElementById("live-action-container");
+        if (!container) return;
+
+        if (receptionLiveUrl && receptionLiveUrl.trim() !== "") {
+          container.innerHTML = 
+            '<a href="' + receptionLiveUrl + '" target="_blank" rel="noopener noreferrer" class="btn-royal-primary">' +
+              '<span>' + translations[currentLang].liveWatchBtn + '</span>' +
+            '</a>';
+        } else {
+          container.innerHTML = 
+            '<button type="button" class="btn-royal-secondary" style="cursor: default; opacity: 0.9;">' +
+              '<span>' + translations[currentLang].liveComingSoon + '</span>' +
+            '</button>';
+        }
+      }
+
+      /* ----------------------------------------------------
+         10. CALENDAR INTEGRATION
+         ---------------------------------------------------- */
+      function openGoogleCalendar() {
+        const title = encodeURIComponent("Akash 💗 Yamuna — Royal Reception Celebration");
+        const details = encodeURIComponent("You are cordially invited to the Royal Reception Celebration of Akash & Yamuna.\nDigital Invite: " + shareUrl);
+        const location = encodeURIComponent("Vasavi Grand, Modern Complex, Chilakaluripet, Andhra Pradesh 522616");
+        // 2026-08-29 19:00 IST (UTC+5:30) is 2026-08-29 13:30 UTC
+        const dates = "20260829T133000Z/20260829T173000Z";
+        const url = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + title + "&dates=" + dates + "&details=" + details + "&location=" + location;
+        window.open(url, "_blank");
+      }
+
+      function downloadICalFile() {
+        const icsData = 
+          "BEGIN:VCALENDAR\r\n" +
+          "VERSION:2.0\r\n" +
+          "PRODID:-//Akash Yamuna Royal Reception//EN\r\n" +
+          "BEGIN:VEVENT\r\n" +
+          "UID:reception-akash-yamuna-20260829\r\n" +
+          "DTSTAMP:20260814T000000Z\r\n" +
+          "DTSTART:20260829T133000Z\r\n" +
+          "DTEND:20260829T173000Z\r\n" +
+          "SUMMARY:Akash & Yamuna Reception Celebration\r\n" +
+          "DESCRIPTION:Reception Celebration of Akash & Yamuna at Vasavi Grand, Chilakaluripet.\\nDigital Invite: " + shareUrl + "\r\n" +
+          "LOCATION:Vasavi Grand, Modern Complex, Chilakaluripet, Andhra Pradesh 522616\r\n" +
+          "STATUS:CONFIRMED\r\n" +
+          "END:VEVENT\r\n" +
+          "END:VCALENDAR";
+
+        const blob = new Blob([icsData], { type: "text/calendar;charset=utf-8" });
+        const link = document.createElement("a");
+        link.href = window.URL.createObjectURL(blob);
+        link.setAttribute("download", "Akash-Yamuna-Reception.ics");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+
+      /* ----------------------------------------------------
+         11. SHARING & TOAST
+         ---------------------------------------------------- */
+      function getShareMessage() {
+        if (currentLang === "te") {
+          return "🌸 ఆహ్వానం!\n\nఆకాష్ 💗 యమున\n\n✨ రిసెప్షన్ వేడుక\n📅 29 ఆగస్టు 2026\n🕖 సాయంత్రం 7:00\n\n📍 వాసవి గ్రాండ్, మోడ్రన్ కాంప్లెక్స్\nచిలకలూరిపేట\n\n💌 డిజిటల్ ఆహ్వానం:\n" + shareUrl + "\n\n🙏 సకుటుంబసపరివార సమేతంగా మిమ్మల్ని ఆహ్వానిస్తున్నాము,\nఆకాష్ 💗 యమున";
+        }
+        return "🌸 You’re Invited!\n\nAKASH 💗 YAMUNA\n\n✨ Reception Celebration\n📅 29 August 2026\n🕖 7:00 PM\n\n📍 Vasavi Grand, Modern Complex\nChilakaluripet\n\n💌 Digital Invitation:\n" + shareUrl + "\n\n🙏 With love,\nAkash 💗 Yamuna";
+      }
+
+      function showToast(msg) {
+        const toast = document.getElementById("toast-msg");
+        if (!toast) return;
+        toast.textContent = msg || translations[currentLang].toastCopied;
+        toast.classList.add("show");
+        setTimeout(function () {
+          toast.classList.remove("show");
+        }, 2800);
+      }
+
+      function shareOnWhatsApp() {
+        const msg = encodeURIComponent(getShareMessage());
+        const waUrl = "https://api.whatsapp.com/send?text=" + msg;
+        window.open(waUrl, "_blank");
+      }
+
+      function copyOnlyUrl() {
+        const msg = translations[currentLang].toastUrlCopied;
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(shareUrl).then(function () {
+            showToast(msg);
+          }).catch(function () {
+            fallbackCopy(shareUrl, msg);
+          });
+        } else {
+          fallbackCopy(shareUrl, msg);
+        }
+      }
+
+      function handleNativeShare() {
+        const shareTitle = currentLang === "te" ? "ఆకాష్ 💗 యమున — రిసెప్షన్ ఆహ్వానం" : "Akash 💗 Yamuna — Royal Reception Invitation";
+        const shareText = getShareMessage();
+        if (navigator.share) {
+          navigator.share({
+            title: shareTitle,
+            text: shareText,
+            url: shareUrl
+          }).catch(function (err) {
+            if (err && err.name !== "AbortError") {
+              copyOnlyUrl();
+            }
+          });
+        } else {
+          copyOnlyUrl();
+        }
+      }
+
+      function copyShareText() {
+        const text = getShareMessage();
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(function () {
+            showToast();
+          }).catch(function () {
+            fallbackCopy(text);
+          });
+        } else {
+          fallbackCopy(text);
+        }
+      }
+
+      function fallbackCopy(text, customMsg) {
+        const textArea = document.createElement("textarea");
+        textArea.value = text;
+        textArea.style.position = "fixed";
+        textArea.style.opacity = "0";
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+          document.execCommand("copy");
+          showToast(customMsg || translations[currentLang].toastCopied);
+        } catch (e) {}
+        document.body.removeChild(textArea);
+      }
+
+      /* ----------------------------------------------------
+         12. FLOATING JASMINE PETALS & GOLD DUST CANVAS
+         ---------------------------------------------------- */
+      function initPetalsCanvas() {
+        const canvas = document.getElementById("petals-canvas");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        if (!ctx) return;
+
+        let width = (canvas.width = window.innerWidth);
+        let height = (canvas.height = window.innerHeight);
+
+        window.addEventListener("resize", function () {
+          width = canvas.width = window.innerWidth;
+          height = canvas.height = window.innerHeight;
+        });
+
+        const petalColors = [
+          "rgba(255, 253, 245, 0.7)", // Fragrant Jasmine White
+          "rgba(255, 111, 145, 0.5)", // Soft Pink Blossom
+          "rgba(212, 175, 55, 0.45)", // Golden Temple Dust
+          "rgba(255, 170, 0, 0.4)"    // Marigold Gold
+        ];
+
+        const petalsCount = window.innerWidth < 600 ? 20 : 34;
+        const petals = [];
+
+        for (let i = 0; i < petalsCount; i++) {
+          petals.push({
+            x: Math.random() * width,
+            y: Math.random() * height,
+            radiusX: Math.random() * 5 + 3,
+            radiusY: Math.random() * 9 + 5,
+            speedY: Math.random() * 0.85 + 0.4,
+            speedX: Math.random() * 0.6 - 0.3,
+            rotation: Math.random() * Math.PI * 2,
+            rotationSpeed: Math.random() * 0.02 - 0.01,
+            color: petalColors[Math.floor(Math.random() * petalColors.length)]
+          });
+        }
+
+        function renderPetals() {
+          ctx.clearRect(0, 0, width, height);
+
+          for (let i = 0; i < petals.length; i++) {
+            const p = petals[i];
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rotation);
+            ctx.fillStyle = p.color;
+
+            ctx.beginPath();
+            ctx.ellipse(0, 0, p.radiusX, p.radiusY, 0, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+
+            p.y += p.speedY;
+            p.x += Math.sin(p.y * 0.006) * 0.5 + p.speedX;
+            p.rotation += p.rotationSpeed;
+
+            if (p.y > height + 20) {
+              p.y = -20;
+              p.x = Math.random() * width;
+            }
+            if (p.x > width + 20) p.x = -20;
+            if (p.x < -20) p.x = width + 20;
+          }
+
+          requestAnimationFrame(renderPetals);
+        }
+
+        renderPetals();
+      }
+
+      /* ----------------------------------------------------
+         13. BACK TO TOP
+         ---------------------------------------------------- */
+      function updateBackToTop() {
+        const btn = document.getElementById("back-to-top-btn");
+        if (!btn) return;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        if (scrollTop > 450) {
+          btn.classList.add("visible");
+        } else {
+          btn.classList.remove("visible");
+        }
+      }
+
+      /* ----------------------------------------------------
+         14. DIGITAL BLESSINGS & GUESTBOOK CONTROLLER
+         ---------------------------------------------------- */
+      const BLESSINGS_STORAGE_KEY = "akash_yamuna_digital_blessings";
+
+      const defaultBlessingsData = [
+        {
+          id: "blessing-1",
+          name: "Venkateswara Rao & Family",
+          relation: "Guntur • Family",
+          message: "May the divine grace of Sri Venkateswara Swamy shower lifelong happiness, health, prosperity and an unbreakable bond of love on Akash and Yamuna! Hearty Congratulations!",
+          timestamp: "14 Aug 2026, 10:30 AM"
+        },
+        {
+          id: "blessing-2",
+          name: "Dr. Srinivas & Lakshmi",
+          relation: "Hyderabad • Well-Wishers",
+          message: "Wishing dearest Akash and Yamuna a vibrant, joyful and blessed married life ahead. Looking forward to celebrating with you at Vasavi Grand!",
+          timestamp: "14 Aug 2026, 09:15 AM"
+        },
+        {
+          id: "blessing-3",
+          name: "Ramesh & Friends",
+          relation: "Bangalore • Friends",
+          message: "Huge congratulations to the wonderful couple Akash & Yamuna! May your marital journey be filled with sweetest moments, endless laughter, and mutual respect!",
+          timestamp: "13 Aug 2026, 06:40 PM"
+        }
+      ];
+
+      function escapeHtml(str) {
+        if (!str) return "";
+        const div = document.createElement("div");
+        div.textContent = str;
+        return div.innerHTML;
+      }
+
+      function getStoredBlessings() {
+        try {
+          const raw = localStorage.getItem(BLESSINGS_STORAGE_KEY);
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+              return parsed;
+            }
+          }
+        } catch (e) {
+          console.warn("Could not read blessings from localStorage", e);
+        }
+        return defaultBlessingsData;
+      }
+
+      function saveStoredBlessings(blessings) {
+        try {
+          localStorage.setItem(BLESSINGS_STORAGE_KEY, JSON.stringify(blessings));
+        } catch (e) {
+          console.warn("Could not save blessings to localStorage", e);
+        }
+      }
+
+      function renderBlessingsList() {
+        const container = document.getElementById("blessings-list");
+        const countNumEl = document.getElementById("blessings-count-num");
+        if (!container) return;
+
+        const blessings = getStoredBlessings();
+        if (countNumEl) {
+          countNumEl.textContent = blessings.length;
+        }
+
+        if (blessings.length === 0) {
+          container.innerHTML = '<div class="blessings-empty-state">Be the first to shower your blessings on Akash &amp; Yamuna! ❧</div>';
+          return;
+        }
+
+        container.innerHTML = blessings.map(function (item) {
+          const safeName = escapeHtml(item.name || "Well-Wisher");
+          const safeRelation = item.relation ? `<span class="blessing-card-relation">• ${escapeHtml(item.relation)}</span>` : "";
+          const safeTime = escapeHtml(item.timestamp || "");
+          const safeMessage = escapeHtml(item.message || "");
+
+          return `
+            <article class="blessing-card" aria-label="Blessing from ${safeName}">
+              <header class="blessing-card-header">
+                <div class="blessing-card-author-info">
+                  <span class="blessing-card-name">${safeName}</span>
+                  ${safeRelation}
+                </div>
+                <time class="blessing-card-time">${safeTime}</time>
+              </header>
+              <p class="blessing-card-msg">${safeMessage}</p>
+            </article>
+          `;
+        }).join("");
+      }
+
+      function handleBlessingSubmit(e) {
+        e.preventDefault();
+        const nameInput = document.getElementById("blessing-guest-name");
+        const relationInput = document.getElementById("blessing-guest-relation");
+        const msgInput = document.getElementById("blessing-guest-msg");
+
+        if (!nameInput || !msgInput) return;
+
+        const nameVal = nameInput.value.trim();
+        const relationVal = relationInput ? relationInput.value.trim() : "";
+        const msgVal = msgInput.value.trim();
+
+        if (!nameVal || !msgVal) {
+          const warnText = (translations[currentLang] && translations[currentLang].blessingRequiredWarn) || "Please enter your name and a short blessing.";
+          showToast(warnText);
+          if (!nameVal) nameInput.focus();
+          else msgInput.focus();
+          return;
+        }
+
+        const now = new Date();
+        const dateOptions = { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" };
+        const formattedTimestamp = now.toLocaleDateString("en-GB", dateOptions);
+
+        const newBlessing = {
+          id: "blessing-" + Date.now(),
+          name: nameVal,
+          relation: relationVal,
+          message: msgVal,
+          timestamp: formattedTimestamp
+        };
+
+        const currentBlessings = getStoredBlessings();
+        currentBlessings.unshift(newBlessing);
+        saveStoredBlessings(currentBlessings);
+
+        renderBlessingsList();
+
+        // Reset fields
+        nameInput.value = "";
+        if (relationInput) relationInput.value = "";
+        msgInput.value = "";
+
+        const successToast = (translations[currentLang] && translations[currentLang].blessingSentToast) || "Thank you! Your heartfelt blessing has been shared. 🌸";
+        showToast(successToast);
+
+        // Smooth scroll to top of blessings list
+        const blessingsSection = document.getElementById("blessings-section");
+        if (blessingsSection) {
+          const listEl = document.getElementById("blessings-list");
+          if (listEl) {
+            listEl.scrollTop = 0;
+          }
+        }
+      }
+
+      function initBlessingsController() {
+        renderBlessingsList();
+
+        const form = document.getElementById("blessing-form");
+        if (form) {
+          form.addEventListener("submit", handleBlessingSubmit);
+        }
+
+        // Quick blessing tag buttons
+        const tagButtons = document.querySelectorAll(".quick-tag-btn");
+        const msgTextarea = document.getElementById("blessing-guest-msg");
+        tagButtons.forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            const textToAppend = this.getAttribute("data-msg");
+            if (msgTextarea && textToAppend) {
+              msgTextarea.value = textToAppend;
+              msgTextarea.focus();
+            }
+          });
+        });
+      }
+
+      /* ----------------------------------------------------
+         15. INITIALIZATION & SINGLE EVENT LISTENER REGISTRATION
+         ---------------------------------------------------- */
+      document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", updateBackToTop, { passive: true });
+
+        // Language Switchers
+        document.querySelectorAll(".lang-btn").forEach(function (btn) {
+          btn.addEventListener("click", function () {
+            const lang = this.getAttribute("data-lang");
+            setLanguage(lang);
+          });
+        });
+
+        // Open Button
+        const openBtn = document.getElementById("btn-open-invite");
+        if (openBtn) openBtn.addEventListener("click", openInvitation);
+
+        // Music Toggle
+        const musicBtn = document.getElementById("music-toggle-btn");
+        if (musicBtn) musicBtn.addEventListener("click", toggleMusic);
+
+        // Card Tabs
+        const tabEn = document.getElementById("tab-card-en");
+        if (tabEn) tabEn.addEventListener("click", function () { switchCardTab("en"); });
+
+        const tabTe = document.getElementById("tab-card-te");
+        if (tabTe) tabTe.addEventListener("click", function () { switchCardTab("te"); });
+
+        // Card Images Zoom
+        const imgEn = document.getElementById("card-img-en");
+        if (imgEn) imgEn.addEventListener("click", function () { openLightbox(this.src); });
+
+        const imgTe = document.getElementById("card-img-te");
+        if (imgTe) imgTe.addEventListener("click", function () { openLightbox(this.src); });
+
+        const zoomBtn = document.getElementById("btn-zoom-card");
+        if (zoomBtn) {
+          zoomBtn.addEventListener("click", function () {
+            const currentImg = activeCardTab === "te" ? imgTe : imgEn;
+            if (currentImg && currentImg.src) openLightbox(currentImg.src);
+          });
+        }
+
+        // Lightbox Close
+        const closeLightboxBtn = document.getElementById("btn-close-lightbox");
+        if (closeLightboxBtn) closeLightboxBtn.addEventListener("click", closeLightbox);
+
+        const lightboxModal = document.getElementById("card-lightbox");
+        if (lightboxModal) {
+          lightboxModal.addEventListener("click", function (e) {
+            if (e.target === lightboxModal) closeLightbox();
+          });
+        }
+
+        // Calendar
+        const calGoogleBtn = document.getElementById("btn-cal-google");
+        if (calGoogleBtn) calGoogleBtn.addEventListener("click", openGoogleCalendar);
+
+        const remindMeBtn = document.getElementById("btn-remind-me");
+        if (remindMeBtn) remindMeBtn.addEventListener("click", openGoogleCalendar);
+
+        const calIcalBtn = document.getElementById("btn-cal-ical");
+        if (calIcalBtn) calIcalBtn.addEventListener("click", downloadICalFile);
+
+        // Share & Copy
+        const nativeShareBtn = document.getElementById("btn-native-share");
+        if (nativeShareBtn) nativeShareBtn.addEventListener("click", handleNativeShare);
+
+        const waBtn = document.getElementById("btn-whatsapp");
+        if (waBtn) waBtn.addEventListener("click", shareOnWhatsApp);
+
+        const copyUrlBtn = document.getElementById("btn-copy-url");
+        if (copyUrlBtn) copyUrlBtn.addEventListener("click", copyOnlyUrl);
+
+        const copyBtn = document.getElementById("btn-copy-link");
+        if (copyBtn) copyBtn.addEventListener("click", copyShareText);
+
+        // Back to top
+        const backToTopBtn = document.getElementById("back-to-top-btn");
+        if (backToTopBtn) {
+          backToTopBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          });
+        }
+
+        // Initialize Core Components
+        initVideoPlayer();
+        initPetalsCanvas();
+        initBlessingsController();
+        updateLiveSectionUI();
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+      });
+
+    })();
+  </script>
+</body>
+</html>
