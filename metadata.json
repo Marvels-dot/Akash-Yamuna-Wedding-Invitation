@@ -1,0 +1,7 @@
+{
+  "name": "Akash & Yamuna Reception Invitation",
+  "description": "A luxury digital reception invitation for Akash and Yamuna styled with the Geometric Balance luxury aesthetic, bilingual Telugu and English support, interactive countdown, wedding card viewer, video invitation, venue navigation, and calendar reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
